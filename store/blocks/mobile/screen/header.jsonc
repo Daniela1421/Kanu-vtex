@@ -1,0 +1,30 @@
+{
+    // "header": {
+    // "title": "Header", 
+    // "blocks": [
+    //     "header-layout.mobile"
+    // ]
+    // }, 
+    // "header.full": {
+    // "title": "Header", 
+    // "blocks": [
+    //     "header-layout.mobile"
+    // ]
+    // }, 
+    // "header-layout.mobile": {
+    // "title": "Header mobile",
+    // "children": [
+    //     "header-row#header__top"
+    // ]
+    // }, 
+    // "header-row#header__top": {
+    // "children": [
+    //     "rich-text#test"
+    // ]
+    // }
+    // "rich-text#test": {
+    // "props": {
+    //     "text": "Esto es un texto prueba"
+    // }
+    // }
+}
