@@ -1,0 +1,10 @@
+{
+    "logo#desktop__header--logo": {
+        "title": "Logo", 
+        "props": {
+            "url": "assets/img/header__logo-kanu.png", 
+            "width": 150, 
+            "href": "/"
+        }
+    }
+}

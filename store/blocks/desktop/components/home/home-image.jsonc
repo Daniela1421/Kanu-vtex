@@ -3,9 +3,9 @@
         "title": "Imagen de home1", 
         "props": {
             "src": "assets/img/home__flexlayout-1.png", 
-            "maxWidth": 600, 
+            // "maxWidth": 600, 
             "title": "Promocion 1", 
-            "blockClass": "home__image", 
+            "blockClass": "home__image1", 
             "link": {
                 "url": "https://www.google.com", 
                 "newTab": true, 
@@ -17,9 +17,9 @@
         "title": "Imagen 2 de home", 
         "props": {
             "src": "assets/img/home__flexlayout-2.jpg", 
-            "maxWidth": 600, 
+            // "maxWidth": 600, 
             "title": "Promocion 2", 
-            "blockClass": "home__image", 
+            "blockClass": "home__image2", 
             "link": {
                 "url": "https://www.google.com", 
                 "newTab": true, 

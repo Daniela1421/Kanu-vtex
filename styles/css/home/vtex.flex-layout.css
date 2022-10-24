@@ -1,0 +1,54 @@
+/************ Secccion de busqueda ***********/
+.flexRow--desktop__home--section--search {
+    background-color: #f8971d;
+    padding: 1.5em 1em;
+    margin: 0 10em 10px 10em; 
+}
+
+.flexRowContent--desktop__home--section--search{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 1.5em 1em;
+    justify-content: space-between;
+}
+
+.paragraph--home__section--search-msg {
+    color: #fff;
+    font-size: 30px;
+}
+
+/************ Banner de promociones *********/
+
+.flexRow--home__section--one {
+    margin: 0 10em 0 10em
+}
+
+/* .imageElement--home__image1{
+    padding-right: 10px;
+} */
+
+/* .imageElement--home__image2{
+    padding-left: 10px;
+} */
+
+/*********** Servicios ************/
+
+.flexRow--home__section--two {
+    margin: 0 10em 0 10em
+}
+
+.flexCol--section__services2--container-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.flexRow--home__section--services2 {
+    margin: 0 10em 0 10em
+}
+
+.imageElement--section__services2 {
+    width: 2em;
+    height: 2em;
+}

@@ -1,0 +1,14 @@
+.sliderLayoutContainer--home_slider{
+    max-width: 100%;
+    margin: 0 auto 10px;
+}
+.paginationDotsContainer--home_slider{
+    padding-bottom: 7px;
+}
+
+/* .paginationDotsContainer--isActive{
+    background-color: black;
+} */
+.bg-emphasis {
+    background-color: black;
+}

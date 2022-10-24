@@ -1,30 +1,30 @@
-{
-    // "header": {
-    // "title": "Header", 
-    // "blocks": [
-    //     "header-layout.mobile"
-    // ]
-    // }, 
-    // "header.full": {
-    // "title": "Header", 
-    // "blocks": [
-    //     "header-layout.mobile"
-    // ]
-    // }, 
-    // "header-layout.mobile": {
-    // "title": "Header mobile",
-    // "children": [
-    //     "header-row#header__top"
-    // ]
-    // }, 
-    // "header-row#header__top": {
-    // "children": [
-    //     "rich-text#test"
-    // ]
-    // }
-    // "rich-text#test": {
-    // "props": {
-    //     "text": "Esto es un texto prueba"
-    // }
-    // }
+{ 
+    "header-layout.mobile": {
+        "title": "Header mobile",
+        "children": [
+            "header-row#mobile__header--top", 
+            "header-row#mobile__header--middle"
+        ]
+    },
+    "header-row#mobile__header--top": {
+        "title": "Header superior", 
+        "children": [
+            "logo#mobile__header--logo",
+            "header-spacer",
+            "login#mobile__header--login",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "header__top"
+        }
+    },
+    "header-row#mobile__header--middle": {
+        "title": "Header medio",
+        "children": [
+            "drawer#mobile__header--menu"
+        ], 
+        "props": {
+            "blockClass": "header__middle"
+        }
+    }
 }
