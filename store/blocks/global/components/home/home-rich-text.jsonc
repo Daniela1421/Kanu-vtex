@@ -1,0 +1,26 @@
+{
+  "rich-text#global__home--title-categories": {
+    "title": "Titulo de categorias", 
+    "props": {
+        "blockClass": "home__title", 
+        "text": "NAVEGAR POR CATEGORÍA", 
+        "textPosition": "CENTER"
+    }
+  }, 
+  "rich-text#global__home--title-products": {
+    "title": "Titulo de productos", 
+    "props": {
+        "blockClass": "home__title", 
+        "text": "PRODUCTOS RECOMENDADOS", 
+        "textPosition": "CENTER"
+    }
+  },
+  "rich-text#global__home--title-services": {
+    "title": "Titulo de servicios ", 
+    "props": {
+        "blockClass": "home__title", 
+        "text": "SERVICIOS", 
+        "textPosition": "CENTER"
+    }
+  }
+}

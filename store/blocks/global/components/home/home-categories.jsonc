@@ -1,0 +1,240 @@
+{
+  "flex-layout.row#global__home--categories": {
+      "title": "Seccion de categorias", 
+      "children": [
+          "flex-layout.col#home__categories--item1",
+          "flex-layout.col#home__categories--item2"
+      ], 
+      "props": {
+          "blockClass": "home__categories", 
+          "colSizing": "auto"
+      }
+  }, 
+    "flex-layout.col#home__categories--item1": {
+        "title": "Tipo de categoria", 
+        "children": [
+            "rich-text#home__categories--seccion1", 
+            "flex-layout.col#home__categories--seccion1"
+        ], 
+        "props": { "blockClass": "home__categories--item1"}
+    },
+      "rich-text#home__categories--seccion1": {
+          "title": "Categoria seccion 1", 
+          "props": {
+              "blockClass": "home__categories--seccion", 
+              "text": "Tipo de mascota", 
+              "textPosition": "CENTER"
+          }
+      }, 
+      "flex-layout.col#home__categories--seccion1": {
+          "title": "Division de categorias", 
+          "children": [
+              "flex-layout.col#home__categories--seccion1-item1",
+              "flex-layout.col#home__categories--seccion1-item2", 
+              "flex-layout.col#home__categories--seccion1-item3",
+              "flex-layout.col#home__categories--seccion1-item4",
+              "flex-layout.col#home__categories--seccion1-item5"
+          ], 
+          "props": {
+              "blockClass": "home__categories--seccion1"
+          }
+      },
+          "flex-layout.col#home__categories--seccion1-item1": {
+              "title": "Categoria seccion 1 item", 
+              "children": [
+                  "image#categories__seccion1--item2", 
+                  "rich-text#categories__seccion1--item1"
+              ]
+          },
+            "image#categories__seccion1--item2": {
+                "title": "Categoria img",
+                "props": {
+                    "blockClass":"categories__seccion1--item2",
+                    "src": "assets/img/home-categories.png"
+                }
+            }, 
+            "rich-text#categories__seccion1--item1": {
+                "title": "Categoria texto1",
+                "props": {
+                    "blockClass": "categories__seccion1--item",
+                    "text": "Perro grande"
+                }
+            },
+          "flex-layout.col#home__categories--seccion1-item2": {
+              "title": "Categoria seccion 1 item", 
+              "children": [
+                  "image#categories__seccion1--item2", 
+                  "rich-text#categories__seccion1--item2-text"
+              ]
+          }, 
+            "rich-text#categories__seccion1--item2-text": {
+                "title": "Categoria texto2",
+                "props": {
+                    "blockClass": "categories__seccion1--item",
+                    "text": "Perro mediano"
+                }
+            },
+          "flex-layout.col#home__categories--seccion1-item3": {
+              "title": "Categoria seccion 1 item", 
+              "children": [
+                  "image#categories__seccion1--item2", 
+                  "rich-text#categories__seccion1--item3"
+              ]
+          },
+            "rich-text#categories__seccion1--item3": {
+                "title": "Categoria texto3",
+                "props": {
+                    "blockClass": "categories__seccion1--item",
+                    "text": "Perro pequeño"
+                }
+            },
+          "flex-layout.col#home__categories--seccion1-item4": {
+              "title": "Categoria seccion 1 item", 
+              "children": [
+                  "image#categories__seccion1--item2", 
+                  "rich-text#categories__seccion1--item4"
+              ]
+          },
+            "rich-text#categories__seccion1--item4": {
+                "title": "Categoria texto4",
+                "props": {
+                    "blockClass": "categories__seccion1--item",
+                    "text": "Gato adulto"
+                }
+            },
+          "flex-layout.col#home__categories--seccion1-item5": {
+              "title": "Categoria seccion 1 item", 
+              "children": [
+                  "image#categories__seccion1--item2", 
+                  "rich-text#categories__seccion1--item5"
+              ]
+          },
+            "rich-text#categories__seccion1--item5": {
+                "title": "Categoria texto5",
+                "props": {
+                    "blockClass": "categories__seccion1--item",
+                    "text": "Gato joven"
+                }
+            },
+    "flex-layout.col#home__categories--item2": {
+        "title": "Tipo de categoria", 
+        "children": [
+            "rich-text#home__categories--seccion2", 
+            "flex-layout.col#home__categories--seccion2"
+        ], 
+        "props": { "blockClass": "home__categories--item2"}
+    },
+        "rich-text#home__categories--seccion2": {
+            "title": "Categoria seccion 2", 
+            "props": {
+                "blockClass": "home__categories--seccion", 
+                "text": "Tipo de producto", 
+                "textPosition": "CENTER"
+            }
+        }, 
+        "flex-layout.col#home__categories--seccion2": {
+            "title": "Division de categorias",
+            "children": [
+                "flex-layout.col#home__categories--seccion2-item1", 
+                "flex-layout.col#home__categories--seccion2-item2",
+                "flex-layout.col#home__categories--seccion2-item3",
+                "flex-layout.col#home__categories--seccion2-item4",
+                "flex-layout.col#home__categories--seccion2-item5",
+                "flex-layout.col#home__categories--seccion2-item6"
+            ], 
+            "props": {
+                "blockClass": "home__categories--seccion2"
+            }
+        }, 
+            "flex-layout.col#home__categories--seccion2-item1": {
+                "title": "Categoria seccion 2 item", 
+                "children": [
+                    "image#categories__seccion2--item", 
+                    "rich-text#categories__seccion2--item1"
+                ]
+            }, 
+              "image#categories__seccion2--item": {
+                  "title": "Categoria img",
+                  "props": {
+                      "blockClass":"categories__seccion1--item2",
+                      "src": "assets/img/home-categorie2.png"
+                  }
+              }, 
+              "rich-text#categories__seccion2--item1": {
+                  "title": "Categoria seccion2 texto1",
+                  "props": {
+                      "blockClass": "categories__seccion1--item",
+                      "text": "Alimento"
+                  }
+              },
+            "flex-layout.col#home__categories--seccion2-item2": {
+                "title": "Categoria seccion 2 item", 
+                "children": [
+                    "image#categories__seccion2--item", 
+                    "rich-text#categories__seccion2--item2"
+                ]
+            },
+              "rich-text#categories__seccion2--item2":{
+                  "title": "Categoria seccion2 texto2",
+                  "props": {
+                      "blockClass": "categories__seccion1--item",
+                      "text": "Snacks"
+                  }
+              },
+            "flex-layout.col#home__categories--seccion2-item3": {
+                "title": "Categoria seccion 2 item", 
+                "children": [
+                    "image#categories__seccion2--item", 
+                    "rich-text#categories__seccion2--item3"
+                ]
+            },
+              "rich-text#categories__seccion2--item3": {
+                  "title": "Categoria seccion2 texto3",
+                  "props": {
+                      "blockClass": "categories__seccion1--item",
+                      "text": "Medicamentos"
+                  }
+              },
+            "flex-layout.col#home__categories--seccion2-item4": {
+                "title": "Categoria seccion 2 item", 
+                "children": [
+                    "image#categories__seccion2--item", 
+                    "rich-text#categories__seccion2--item4"
+                ]
+            },
+              "rich-text#categories__seccion2--item4": {
+                  "title": "Categoria seccion2 texto4",
+                  "props": {
+                      "blockClass": "categories__seccion1--item",
+                      "text": "Juguetes"
+                  }
+              },
+            "flex-layout.col#home__categories--seccion2-item5": {
+                "title": "Categoria seccion 2 item", 
+                "children": [
+                    "image#categories__seccion2--item", 
+                    "rich-text#categories__seccion2--item5"
+                ]
+            },
+              "rich-text#categories__seccion2--item5": {
+                  "title": "Categoria seccion2 texto5",
+                  "props": {
+                      "blockClass": "categories__seccion1--item",
+                      "text": "Belleza"
+                  }
+              },
+            "flex-layout.col#home__categories--seccion2-item6": {
+                "title": "Categoria seccion 2 item", 
+                "children": [
+                    "image#categories__seccion2--item", 
+                    "rich-text#categories__seccion2--item6"
+                ]
+            },
+              "rich-text#categories__seccion2--item6": {
+                  "title": "Categoria seccion2 texto6",
+                  "props": {
+                      "blockClass": "categories__seccion1--item",
+                      "text": "Accesorios"
+                  }
+              }
+}

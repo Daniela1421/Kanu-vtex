@@ -10,6 +10,7 @@
     "title": "Header superior", 
     "children": [
       "logo#desktop__header--logo",
+      "search-bar#mobile__header--search",
       "header-spacer",
       "login#desktop__header--login",
       "minicart.v2"

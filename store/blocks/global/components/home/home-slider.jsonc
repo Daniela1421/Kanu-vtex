@@ -1,7 +1,7 @@
 {
-  "list-context.image-list#home__slider--list":{
+  "list-context.image-list#global__home--slider-list":{
     "title":"lista de imágenes",
-    "children": ["slider-layout#home_slider--list"],
+    "children": ["slider-layout#home__slider--list"],
     "props": {
       // "preload":true,
       "images":[
@@ -24,7 +24,7 @@
       ]
     }
   },
-  "slider-layout#home_slider--list":{
+  "slider-layout#home__slider--list":{
     "title":"slider con lista",
     "props": {
       "itemsPerPage": {

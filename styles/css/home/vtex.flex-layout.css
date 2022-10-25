@@ -8,33 +8,20 @@
 .flexRowContent--desktop__home--section--search{
     border: 1px solid #fff;
     border-radius: 10px;
-    padding: 1.5em 1em;
+    padding: 2em 0 0 2em;
     justify-content: space-between;
-}
-
-.paragraph--home__section--search-msg {
-    color: #fff;
-    font-size: 30px;
 }
 
 /************ Banner de promociones *********/
 
 .flexRow--home__section--one {
-    margin: 0 10em 0 10em
+    margin: 0 10rem 0 10rem;
 }
-
-/* .imageElement--home__image1{
-    padding-right: 10px;
-} */
-
-/* .imageElement--home__image2{
-    padding-left: 10px;
-} */
 
 /*********** Servicios ************/
 
 .flexRow--home__section--two {
-    margin: 0 10em 0 10em
+    margin: 0 6em 0 9em;
 }
 
 .flexCol--section__services2--container-items {
@@ -48,7 +35,33 @@
     margin: 0 10em 0 10em
 }
 
-.imageElement--section__services2 {
+/* .imageElement--section__services2 {
     width: 2em;
     height: 2em;
+} */
+
+.flexColChild--section--search-img{
+    width: 20em;
 }
+
+/********** Categories **********/
+
+.flexCol--home__categories--seccion1,
+.flexCol--home__categories--seccion2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexRowContent--home__categories{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+    margin: 5px 10em; 
+    width: 81.5%;
+}
+ /* .flexCol--home__categories--item1{
+    padding-right: 3em;
+    border-right: 1px solid #dfdfdf;
+ } */

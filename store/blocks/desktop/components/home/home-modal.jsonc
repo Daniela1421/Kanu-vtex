@@ -1,5 +1,5 @@
 {
-    "modal-trigger#home__modal--children": {
+    "modal-trigger#desktop__home--modal-children": {
         "children": [
             "rich-text#home__modal--trigger", 
             "modal-layout#home__modal--layout"
@@ -20,7 +20,7 @@
             "text": "# Términos y condiciones \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut mauris quis erat interdum auctor a quis nulla. Nullam hendrerit scelerisque dignissim. Sed vel facilisis magna. Nam arcu orci, finibus eget justo ac, luctus varius massa. Morbi tincidunt nibh dignissim, luctus augue non, sollicitudin tellus. Mauris pulvinar justo at auctor volutpat. Sed sed tempus sem, ut venenatis augue."
         }
     }, 
-    "modal-trigger#home__modal--event": {
+    "modal-trigger#desktop__home--modal-event": {
         "children": [
             "modal-layout#home__modal--event"
         ], 
@@ -32,12 +32,18 @@
     "modal-layout#home__modal--event": {
         "children": [
             "modal-header#home__modal--event",
-            "image#home__services-2"
+            "image#home__modal--pageView"
         ]
     },
     "modal-header#home__modal--event": {
         "props": {
             "showCloseButton": true
+        }
+    }, 
+    "image#home__modal--pageView": {
+        "title": "Modal de apertura de pagina", 
+        "props": {
+            "src": "assets/img/home__modal--pageView.png"
         }
     }
 }
