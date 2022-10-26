@@ -37,13 +37,14 @@
       "submenu.accordion#department__one": {
         "children": [
           "menu#department__one"
-        ]
+        ], 
+        "props": { "blockClass": "department__one"}
       },
       "menu#department__one": {
         "children": [
           "menu-item#category__one", 
           "menu-item#category__two"
-        ], 
+        ],
         "props": {
           "orientation": "vertical"
         }
@@ -59,8 +60,63 @@
             "tagTitle": "Tipo de alimento", 
             "text": "Tipo de alimento"
           }
-        }
+        }, 
+        "blocks": [
+          "submenu.accordion#category__one"
+        ]
       }, 
+        "submenu.accordion#category__one": {
+          "children": ["menu#category__one"]
+        },
+          "menu#category__one": {
+            "children": [
+              "menu-item#category__one--subcategory-one",
+              "menu-item#category__one--subcategory-two",
+              "menu-item#category__one--subcategory-three"
+            ], 
+            "props": {
+              "orientation": "vertical"
+            }
+          },
+          "menu-item#category__one--subcategory-one": {
+            "props": {
+              "id": "Subcategory-one", 
+              "type": "custom",
+              "itemProps": {
+                "type": "external", 
+                "href": "/", 
+                "noFollow": true, 
+                "tagTitle": "Húmedo", 
+                "text": "Húmedo"
+              }
+            }
+          },
+          "menu-item#category__one--subcategory-two": {
+            "props": {
+              "id": "Subcategory-one", 
+              "type": "custom",
+              "itemProps": {
+                "type": "external", 
+                "href": "/", 
+                "noFollow": true, 
+                "tagTitle": "Seco", 
+                "text": "Seco"
+              }
+            }
+          },
+          "menu-item#category__one--subcategory-three": {
+            "props": {
+              "id": "Subcategory-one", 
+              "type": "custom",
+              "itemProps": {
+                "type": "external", 
+                "href": "/", 
+                "noFollow": true, 
+                "tagTitle": "Medicado", 
+                "text": "Medicado"
+              }
+            }
+          },
       "menu-item#category__two": {
         "props": {
           "id": "category-one", 
@@ -72,8 +128,49 @@
             "tagTitle": "Alimento medicado", 
             "text": "Alimento medicado"
           }
-        }
-      },
+        },
+        "blocks": [
+          "submenu.accordion#category__two"
+        ]
+      }, 
+        "submenu.accordion#category__two": {
+          "children": ["menu#category__two"]
+        },
+          "menu#category__two": {
+            "children": [
+              "menu-item#category__two--subcategory-one",
+              "menu-item#category__two--subcategory-two"
+            ], 
+            "props": {
+              "orientation": "vertical"
+            }
+          },
+          "menu-item#category__two--subcategory-one": {
+            "props": {
+              "id": "Subcategory-one", 
+              "type": "custom",
+              "itemProps": {
+                "type": "external", 
+                "href": "/", 
+                "noFollow": true, 
+                "tagTitle": "Húmedo", 
+                "text": "Húmedo"
+              }
+            }
+          },
+          "menu-item#category__two--subcategory-two":{
+            "props": {
+              "id": "Subcategory-one", 
+              "type": "custom",
+              "itemProps": {
+                "type": "external", 
+                "href": "/", 
+                "noFollow": true, 
+                "tagTitle": "Seco", 
+                "text": "Seco"
+              }
+            }
+          },
       "menu-item#department__two": {
         "props": {
           "id": "department-two", 

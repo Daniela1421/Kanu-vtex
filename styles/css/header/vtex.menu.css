@@ -1,0 +1,24 @@
+/* .submenuAccordion--department__one{
+    z-index: 999; 
+   
+} */
+
+.menuContainerNav--desktop__header--menu{
+  background-color: #fff;
+  position: absolute;
+  top: 64px;
+  left: 15em;
+  z-index: 2;
+  /* line-height: 50px;  */
+  box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+}
+
+.styledLinkContainer{
+  margin: 0;
+  padding: 1em;
+  /* font-size: 0.5em; */
+}
+
+/* .menuContainer--desktop__header--menu{
+  width: 10em;
+} */
