@@ -1,0 +1,14 @@
+/************** Header mobile ************/
+
+.flexRowContent--mobile__header--middle-animals{
+    display: flex;
+    flex-direction: row; 
+}
+
+   
+.flexRow--mobile__header--middle-animals{
+    width: 30%;
+}
+
+
+/********* Header desktop *************/

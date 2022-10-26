@@ -2,30 +2,57 @@
     "header-layout.mobile": {
         "title": "Header mobile",
         "children": [
-            "header-row#mobile__header--top", 
-            "header-row#mobile__header--middle"
+            "header-row#header__top",
+            "header-row#mobile__header--middle", 
+            "header-row#mobile__header--bottom"
         ]
     },
-    "header-row#mobile__header--top": {
-        "title": "Header superior", 
+    "header-row#mobile__header--middle": {
+        "title": "Header middle", 
         "children": [
             "logo#mobile__header--logo",
-            "header-spacer",
+            "flex-layout.row#mobile__header--middle-animals",
             "login#mobile__header--login",
-            "minicart.v2"
+            "minicart.v2",
+            "drawer#mobile__header--menu"
         ],
         "props": {
-            "blockClass": "header__top"
+            "blockClass": "mobile__header--middle"
         }
     },
-    "header-row#mobile__header--middle": {
+    "flex-layout.row#mobile__header--middle-animals": {
+        "title": "animals menu section", 
+        "children": [
+            "image#mobile__header--menu-dog", 
+            "image#mobile__header--menu-cat" 
+        ],
+        "props": {
+            "blockClass":"mobile__header--middle-animals", 
+            "horizontalAlign": "center"
+        }
+    },
+        "image#mobile__header--menu-dog": {
+            "title": "Cat image - Mobile menu",
+            "props": {
+              "blockClass": "mobile__header--menu-dog",
+              "src": "assets/img/header__menu--mobile-dog.png"
+            }
+        }, 
+        "image#mobile__header--menu-cat": {
+            "title": "Dog image - Mobile menu",
+            "props": {
+              "blockClass": "mobile__header--menu-cat",
+              "src": "assets/img/header__menu--mobile-cat.png"
+            }
+        },
+    "header-row#mobile__header--bottom": {
         "title": "Header medio",
         "children": [
-            "drawer#mobile__header--menu", 
+            
             "search-bar#mobile__header--search"
         ], 
         "props": {
-            "blockClass": "header__middle"
+            "blockClass": "header__bottom"
         }
     },
     "search-bar#mobile__header--search":{

@@ -1,7 +1,24 @@
-.headerRowContainer--header__top{
+/************ Header mobile******************/
+
+.headerRowContainer--mobile__header--middle{
     background-color: #F8971D;
+    display: flex;
+    justify-content: space-evenly;
+}
+.headerRowContentContainer--mobile__header--middle{
+    padding: 0%;
 }
 
+.headerRowContainer--header__bottom{
+    width: 100%;
+}
+
+/************ Header desktop *****************/
+
+.headerRowContainer--desktop__header--1{
+    min-height: 10px;
+    justify-content: center;
+}
 .headerRowContentContainer--desktop__header--middle{
     /* display: flex; 
     flex-direction: column;

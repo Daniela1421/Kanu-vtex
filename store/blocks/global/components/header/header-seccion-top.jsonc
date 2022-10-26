@@ -1,0 +1,17 @@
+{
+    "header-row#header__top": {
+        "title": "Header 1",
+        "children": [
+          "rich-text#desktop__header"
+        ], 
+        "props": { "blockClass": "desktop__header--1"}
+      },
+      "rich-text#desktop__header": {
+        "title": "Header top1", 
+        "props": {
+          "blockClass": "desktop__header--time-delivery",
+          "text": "Tiempos de entrega: Medellín y Bogotá el mismo día, para pedidos en días hábiles hasta las 5:00 p.m. El resto del país hasta 3 días hábiles*.",
+          "textAlignment": "CENTER"
+        }
+      }
+}

@@ -2,6 +2,7 @@
   "header-layout.desktop": {
     "title": "Header desktop",
     "children": [
+      "header-row#header__top",
       "header-row#desktop__header--top", 
       "header-row#desktop__header--middle"
     ],
@@ -25,18 +26,29 @@
   "header-row#desktop__header--middle": {
     "title": "Header medio",
     "children": [
-      "flex-layout.row#desktop__header--menu"
-      // "menu#desktop__header--menu"
+      // "flex-layout.row#desktop__header--menu"
+      "menu#desktop__header--menu"
     ], 
     "props": {
       "blockClass": "desktop__header--middle"
     }
   },
+  // "header-row#desktop__header--middle": {
+  //   "title": "Header medio",
+  //   "children": [
+  //     "flex-layout.row#desktop__header--menu"
+  //     // "menu#desktop__header--menu"
+  //   ], 
+  //   "props": {
+  //     "blockClass": "desktop__header--middle"
+  //   }
+  // },
   "flex-layout.row#desktop__header--menu": {
     "title": "menu para escritorio", 
     "children": [
-      "flex-layout.col#header__menu--animals",
-      "menu#desktop__header--menu"
+      "flex-layout.col#header__menu--animals"
+      // "menu#desktop__header--menu"
+      
     ], 
     "props": {
       "blockClass": "desktop__header--menu",
@@ -92,7 +104,7 @@
     "image#header__menu--cat": {
       "title": "Menu gato img",
       "props": {
-        "blockClass": "header__menu--animals",
+        "blockClass": "header__menu--animals2",
         "src": "assets/img/header__menu-cat.png"
         // "width": "5%"
       }
@@ -105,15 +117,23 @@
         "textPosition": "CENTER"
       }
     },
+  "link.product#desktop__header--menu-offers": {
+    "props": {
+      "href": "https://www.google.com",
+      "label": "More details >"
+    }
+  },
   "menu#desktop__header--menu": {
     "children": [
+      "flex-layout.row#desktop__header--menu",
       "menu-item#department__one",
       "menu-item#department__two", 
       "menu-item#department__three", 
       "menu-item#department__four",
       "menu-item#department__five", 
       "menu-item#department__six", 
-      "menu-item#department__seven"
+      "menu-item#department__seven", 
+      "link.product#desktop__header--menu-offers"
     ], 
     "props": {
       "blockClass": "desktop__header--menu"

@@ -35,11 +35,6 @@
     margin: 0 10em 0 10em
 }
 
-/* .imageElement--section__services2 {
-    width: 2em;
-    height: 2em;
-} */
-
 .flexColChild--section--search-img{
     width: 20em;
 }
@@ -68,24 +63,28 @@
 
 
 /******** Menu de animales ******/
-
-.flexRowContent--desktop__header--menu{
-    /* background: #f7f7f7;
+/********************************************* contener de menu animales****************/
+/* .flexRowContent--desktop__header--menu{
+    background: #f7f7f7;
     border: 1px solid #050505;
     padding: 0 14px;
     height: 40px;
-    border-radius: 10px; */
-    width: 27em;
+    border-radius: 10px;
+    width: 27.5em;
     height: 3.2em;
-}
+} */
 
 .flexRowContent--desktop__header--menu{
     /* display: flex;
     flex-direction: row; */
     align-items: center;
     justify-content: space-between;
-    z-index: 2;
+    z-index: 10;
     background-color: #fff;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+    width: 15em;
+    /* position: absolute;
+    top: 64px; */
 }
 
 .flexCol--header__menu--animals{
@@ -93,11 +92,15 @@
     align-items: center;
     background: #f7f7f7;
     border: 1px solid #050505;
-    margin: 0.8em 0 0.8em 2.5em;
-    padding: 0 14px; 
-    /* height: auto; */
+    margin: 0.8em 0 0.8em 2em;
+    padding: 2px 14px; 
+    height: auto;
     border-radius: 10px;
-    /* width: 100em; */
+    width: 11em;
+}
+
+.flexColChild--header__menu--animals{
+    padding-right: 0.5em;
 }
 
 .flexRow--desktop__header--menu{

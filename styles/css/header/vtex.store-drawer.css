@@ -1,0 +1,11 @@
+.menuIcon, 
+.closeIcon {
+    color: #fff;;
+}
+
+.closeIconContainer{
+    /* position: absolute;
+    right: 25px;
+    top: -44px; */
+    background: #f8971d;
+}
