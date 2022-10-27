@@ -1,12 +1,9 @@
-/* .submenuAccordion--department__one{
-    z-index: 999; 
-   
-} */
-/**********************************************aca esta el menu con estilo******************/
+/*********** Desktop menu ************/
+
 .menuContainerNav--desktop__header--menu{
   background-color: #fff;
   position: absolute;
-  top: 5.35em;
+  top: 4.8em;
   /* left: 15em; */
   z-index: 2;
   /* line-height: 50px;  */
@@ -14,14 +11,34 @@
   width: 100%;
   height: auto;
 }
+.menuContainer--desktop__header--menu{
+  margin: 0 10em 0 6.5em;
+}
+
+.menuItem--department-main{
+  line-height: 25px; 
+}
 
 .styledLinkContainer{
   margin: 0;
   padding: 1em;
-  /* font-size: 0.5em; */
 }
-/* 
-.menuContainer--desktop__header--menu{
-  width: 80%;
-  margin: 0%;
-} */
+.styledLinkContent{
+  font-family: "RobotoSlab";
+  font-weight: 400;
+  font-size: 0.90rem;
+}
+
+.menuItem--department-main:hover{
+  background: #f7f7f7;
+  color: #000;
+  border-bottom: 2px solid #f8971d;
+}
+
+.styledLinkContent--department-main{
+  font-family: "RobotoSlab";
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #050505;
+}
+

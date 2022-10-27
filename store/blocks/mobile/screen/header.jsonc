@@ -1,62 +1,10 @@
 { 
-    "header-layout.mobile": {
-        "title": "Header mobile",
-        "children": [
-            "header-row#header__top",
-            "header-row#mobile__header--middle", 
-            "header-row#mobile__header--bottom"
-        ]
-    },
-    "header-row#mobile__header--middle": {
-        "title": "Header middle", 
-        "children": [
-            "logo#mobile__header--logo",
-            "flex-layout.row#mobile__header--middle-animals",
-            "login#mobile__header--login",
-            "minicart.v2",
-            "drawer#mobile__header--menu"
-        ],
-        "props": {
-            "blockClass": "mobile__header--middle"
-        }
-    },
-    "flex-layout.row#mobile__header--middle-animals": {
-        "title": "animals menu section", 
-        "children": [
-            "image#mobile__header--menu-dog", 
-            "image#mobile__header--menu-cat" 
-        ],
-        "props": {
-            "blockClass":"mobile__header--middle-animals", 
-            "horizontalAlign": "center"
-        }
-    },
-        "image#mobile__header--menu-dog": {
-            "title": "Cat image - Mobile menu",
-            "props": {
-              "blockClass": "mobile__header--menu-dog",
-              "src": "assets/img/header__menu--mobile-dog.png"
-            }
-        }, 
-        "image#mobile__header--menu-cat": {
-            "title": "Dog image - Mobile menu",
-            "props": {
-              "blockClass": "mobile__header--menu-cat",
-              "src": "assets/img/header__menu--mobile-cat.png"
-            }
-        },
-    "header-row#mobile__header--bottom": {
-        "title": "Header medio",
-        "children": [
-            
-            "search-bar#mobile__header--search"
-        ], 
-        "props": {
-            "blockClass": "header__bottom"
-        }
-    },
-    "search-bar#mobile__header--search":{
-        // "blocks": ["autocomplete-result-list.v2"], 
-        "props": {"openAutocompleteOnFocus": true}
-    }
+  "header-layout.mobile": {
+    "title": "Header mobile",
+    "children": [
+        "header-row#header__top",
+        "header-row#mobile__header--middle", 
+        "header-row#mobile__header--bottom"
+    ]
+  }
 }

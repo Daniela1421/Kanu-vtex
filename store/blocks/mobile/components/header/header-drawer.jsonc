@@ -20,15 +20,23 @@
       },
       "menu-item#department__one": {
         "props": {
+          "blockClass": "department-main",
           "id": "department-one", 
           "type": "custom",
+          "onMountBehavior": "open", 
           "itemProps": {
             "type": "external", 
             "href": "https://www.google.com/",
             "noFollow": true,
             "tagTitle": "ALIMENTO",
-            "text": "ALIMENTO" 
+            "text": "ALIMENTO"
           }
+          // "iconProps": {
+          //   "size": 0,
+          //   "viewBox": "0"
+          //   // "activeClassName": "rebel-pink",
+          //   // "mutedClassName": "c-action-primary"
+          // }
         },
         "blocks": [
           "submenu.accordion#department__one"
@@ -173,6 +181,7 @@
           },
       "menu-item#department__two": {
         "props": {
+          "blockClass": "department-main",
           "id": "department-two", 
           "type": "custom", 
           "itemProps": {
@@ -186,6 +195,7 @@
       }, 
       "menu-item#department__three": {
         "props": {
+          "blockClass": "department-main",
           "id": "department-three", 
           "type": "custom", 
           "itemProps": {
@@ -199,6 +209,7 @@
       }, 
       "menu-item#department__four": {
         "props": {
+          "blockClass": "department-main",
           "id": "department-four", 
           "type": "custom", 
           "itemProps": {
@@ -212,6 +223,7 @@
       },
       "menu-item#department__five": {
         "props": {
+          "blockClass": "department-main",
           "id": "department-five", 
           "type": "custom", 
           "itemProps": {
@@ -225,6 +237,7 @@
       }, 
       "menu-item#department__six": {
         "props": {
+          "blockClass": "department-main",
           "id": "department-six", 
           "type": "custom", 
           "itemProps": {
@@ -238,6 +251,7 @@
       }, 
       "menu-item#department__seven": {
         "props": {
+          "blockClass": "department-main",
           "id": "department-seven", 
           "type": "custom", 
           "itemProps": {

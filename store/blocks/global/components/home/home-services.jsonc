@@ -55,24 +55,30 @@
       },
         "rich-text#service-1": {
           "props": {
-            "text": "SERVICIOS SEDES KANÚ PET"
+            "blockClass": "section__services1",
+            "text": "SERVICIOS SEDES KANÚ PET", 
+            "textAlignment": "CENTER"
           }
         },
         "rich-text#service-2": {
           "props": {
+            "blockClass": "section__services1",
             "text": "ESCRÍBENOS A NUESTRO\n WHATSAPP",
             "textAlignment": "CENTER"
           }
         },
         "rich-text#service-3": {
           "props": {
+            "blockClass": "section__services1",
             "text": "LOCALIZA TU SEDE MÁS\n CERCANA",
             "textAlignment": "CENTER"
           }
         },
         "rich-text#service-4": {
           "props": {
-            "text": "PRODUCTOS PARA TI"
+            "blockClass": "section__services1",
+            "text": "PRODUCTOS PARA TI",
+            "textAlignment": "CENTER"
           }
         },
     "flex-layout.row#global__home--section-services2": {
@@ -108,6 +114,7 @@
         "rich-text#section__services2-msg1" : {
           "title": "Informacion de envio gratis", 
           "props": {
+            "blockClass": "section__services2-text",
             "text": "Envío gratis\n Por compras superiores a $65.000", 
             "textAlignment": "CENTER"
           }
@@ -132,6 +139,7 @@
         "rich-text#section__services2-msg2" : {
           "title": "Informacion de devoluciones", 
           "props": {
+            "blockClass": "section__services2-text",
             "text": "Devoluciones gratis\n 30 días para devolver el pedido gratis", 
             "textAlignment": "CENTER"
           }
@@ -156,6 +164,7 @@
         "rich-text#section__services2-msg3" : {
           "title": "Informacion de pago contraentrega", 
           "props": {
+            "blockClass": "section__services2-text",
             "text": "Pago contra entrega\n Pide online y paga en casa", 
             "textAlignment": "CENTER"
           }
@@ -180,6 +189,7 @@
         "rich-text#section__services2-msg4" : {
           "title": "Informacion de tiempo de entrega", 
           "props": {
+            "blockClass": "section__services2-text",
             "text": "Entrega en 3 días hábiles\n aprox. En temporada de promociones\n puede variar",
             "textAlignment": "CENTER"
           }

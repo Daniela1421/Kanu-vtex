@@ -1,3 +1,7 @@
 .profileIcon {
     color: #fff;
 }
+
+.label{
+    display: none;
+}

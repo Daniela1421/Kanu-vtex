@@ -1,0 +1,31 @@
+{
+  "overlay-trigger#desktop__header--pqrs": {
+    "children": [
+      "rich-text#desktop__header--pqr",
+      "overlay-layout"    
+    ], 
+    "props": {"trigger": "hover"}
+  }, 
+  "rich-text#desktop__header--pqr": {
+    "title": "PQRS Header",
+    "props": {
+      "text": "PQRS",
+      "blockClass": "desktop__header--pqr"
+    }
+  },
+  "overlay-layout": {
+    "props": {
+      "placement": "bottom"
+    },
+    "children": [
+      "rich-text#header__pqr--question"
+    ]
+  },
+  "rich-text#header__pqr--question": {
+    "title": "PQRS question",
+    "props": {
+      "blockClass": "header__pqr--question",
+      "text": "Resuelve tus preguntas"
+    }
+  }
+}

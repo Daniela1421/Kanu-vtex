@@ -15,36 +15,22 @@
 
 /************ Header desktop *****************/
 
-.headerRowContainer--desktop__header--1{
+.headerRowContainer--desktop__header--middle{
+    background-color: #F8971D;
+    padding-left: 7em;
+}
+
+.headerRowContainer--header__top{
     min-height: 10px;
     justify-content: center;
+    margin: 0 10em
 }
-.headerRowContentContainer--desktop__header--middle{
-    /* display: flex; 
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between; */
+.headerRowContentContainer--desktop__header--bottom{
     background-color: #fff;
-    /* line-height: 50px; */
     box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
 } 
-/* 
-.headerRowContainer--desktop__header--middle{
-    background-color: #fff;
-    box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
-} */
 
-.headerRowBackground--desktop__header--middle{
+.headerRowBackground--desktop__header--bottom{
     background-color: #fff;
     box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
 }
-/* .headerStickyRow--desktop__header--middle{
-    padding: 0 10em 0 10em;
-} */
-
-/* .headerRowContainer--desktop__header--middle{
-    display: flex; 
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-} */
