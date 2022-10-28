@@ -17,13 +17,13 @@
 
 .headerRowContainer--desktop__header--middle{
     background-color: #F8971D;
-    padding-left: 7em;
+    padding: 0.5em 0 0.4em 7em;
 }
 
 .headerRowContainer--header__top{
     min-height: 10px;
     justify-content: center;
-    margin: 0 10em
+    /* margin: 0 10em */
 }
 .headerRowContentContainer--desktop__header--bottom{
     background-color: #fff;

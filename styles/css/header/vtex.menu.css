@@ -3,7 +3,7 @@
 .menuContainerNav--desktop__header--menu{
   background-color: #fff;
   position: absolute;
-  top: 4.8em;
+  top: 0;
   /* left: 15em; */
   z-index: 2;
   /* line-height: 50px;  */
@@ -30,15 +30,23 @@
 }
 
 .menuItem--department-main:hover{
+  cursor: pointer;
   background: #f7f7f7;
   color: #000;
   border-bottom: 2px solid #f8971d;
 }
 
 .styledLinkContent--department-main{
-  font-family: "RobotoSlab";
-  font-weight: 400;
   font-size: 0.75rem;
   color: #050505;
+  margin: 0; 
+}
+
+/* .styledLink--department-main{
+  width: max-content;
+} */
+
+.accordionIcon--department-main{
+  display: none; 
 }
 

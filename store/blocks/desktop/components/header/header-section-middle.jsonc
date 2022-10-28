@@ -5,11 +5,13 @@
       "logo#desktop__header--logo",
       "search-bar#desktop__header--search",
       "overlay-trigger#desktop__header--pqrs",
+      "icon#desktop__header--icon-repurchase",
       "login#desktop__header--login",
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "desktop__header--middle"
+      "blockClass": "desktop__header--middle",
+      "sticky": true
     }
   },
   "logo#desktop__header--logo": {
@@ -25,6 +27,16 @@
     "props": {
         "containerMode": "overlay",
         "openAutocompleteOnFocus": true
+    }
+  },
+    // "autocomplete-result-list.v2": {
+    //   "blocks": ["product-summary"]
+    // },
+
+  "icon#desktop__header--icon-repurchase": {
+    "props": {
+      "id": "header-repurchase", 
+      "size": 20
     }
   },
   "login#desktop__header--login": {

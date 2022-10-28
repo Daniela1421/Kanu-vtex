@@ -23,20 +23,18 @@
           "blockClass": "department-main",
           "id": "department-one", 
           "type": "custom",
-          "onMountBehavior": "open", 
           "itemProps": {
             "type": "external", 
             "href": "https://www.google.com/",
             "noFollow": true,
             "tagTitle": "ALIMENTO",
             "text": "ALIMENTO"
+          },
+          "iconProps": {
+            "size": 0,
+            "viewBox": 0, 
+            "isActive": "false"
           }
-          // "iconProps": {
-          //   "size": 0,
-          //   "viewBox": "0"
-          //   // "activeClassName": "rebel-pink",
-          //   // "mutedClassName": "c-action-primary"
-          // }
         },
         "blocks": [
           "submenu.accordion#department__one"
@@ -191,7 +189,10 @@
             "tagTitle": "SNACKS",
             "text": "SNACKS" 
           }
-        }
+        }, 
+        "blocks": [
+          "submenu.accordion#department__one"
+        ]
       }, 
       "menu-item#department__three": {
         "props": {
@@ -205,7 +206,10 @@
             "tagTitle": "BELLEZA E HIGIENE",
             "text":"BELLEZA E HIGIENE" 
           }
-        }
+        }, 
+        "blocks": [
+          "submenu.accordion#department__one"
+        ]
       }, 
       "menu-item#department__four": {
         "props": {
@@ -219,7 +223,10 @@
             "tagTitle": "COMPLEMENTOS Y ACCESORIOS",
             "text":"COMPLEMENTOS Y ACCESORIOS"   
           }
-        }
+        }, 
+        "blocks": [
+          "submenu.accordion#department__one"
+        ]
       },
       "menu-item#department__five": {
         "props": {
@@ -233,7 +240,10 @@
             "tagTitle": "JUGUETES",
             "text":"JUGUETES" 
           }
-        }
+        }, 
+        "blocks": [
+          "submenu.accordion#department__one"
+        ]
       }, 
       "menu-item#department__six": {
         "props": {
@@ -247,7 +257,10 @@
             "tagTitle": "MEDICAMENTOS",
             "text":"MEDICAMENTOS" 
           }
-        }
+        }, 
+        "blocks": [
+          "submenu.accordion#department__one"
+        ]
       }, 
       "menu-item#department__seven": {
         "props": {
@@ -261,6 +274,9 @@
             "tagTitle": "PARA TI",
             "text":"PARA TI" 
           }
-        }
+        }, 
+        "blocks": [
+          "submenu.accordion#department__one"
+        ]
       }
 }

@@ -4,7 +4,10 @@
     "children": [
       "rich-text#desktop__header"
     ], 
-    "props": { "blockClass": "header__top"}
+    "props": { 
+      "blockClass": "header__top",
+      "sticky": true
+    }
   },
   "rich-text#desktop__header": {
     "title": "Header top1", 

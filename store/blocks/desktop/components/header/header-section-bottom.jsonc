@@ -5,7 +5,8 @@
       "menu#desktop__header--menu"
     ], 
     "props": {
-      "blockClass": "desktop__header--bottom"
+      "blockClass": "desktop__header--bottom",
+      "sticky": true
     }
   },
     "menu#desktop__header--menu": {

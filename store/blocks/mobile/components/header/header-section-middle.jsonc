@@ -9,7 +9,8 @@
         "drawer#mobile__header--menu"
     ],
     "props": {
-        "blockClass": "mobile__header--middle"
+        "blockClass": "mobile__header--middle",
+        "sticky": true
     }
   },
   "logo#mobile__header--logo": {
