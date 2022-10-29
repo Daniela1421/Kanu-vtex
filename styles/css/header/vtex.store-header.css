@@ -34,3 +34,12 @@
     background-color: #fff;
     box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
 }
+
+@media (min-with: 1024px) {
+    :global(.vtex-store-components-3-x-searchBarContainer){
+        padding: 5px 20px;
+        width: 100%;
+        background-color: #F8971D !important;
+    }
+ 
+}

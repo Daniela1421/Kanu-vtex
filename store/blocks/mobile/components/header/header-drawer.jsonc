@@ -21,7 +21,8 @@
       "menu-item#department__one": {
         "props": {
           "blockClass": "department-main",
-          "id": "department-one", 
+          "id": "department-one",
+          "onMountBehavior": "true", 
           "type": "custom",
           "itemProps": {
             "type": "external", 
@@ -29,12 +30,12 @@
             "noFollow": true,
             "tagTitle": "ALIMENTO",
             "text": "ALIMENTO"
-          },
-          "iconProps": {
-            "size": 0,
-            "viewBox": 0, 
-            "isActive": "false"
           }
+          // "iconProps": {
+          //   "size": 0,
+          //   "viewBox": 0, 
+          //   "isActive": "false"
+          // }
         },
         "blocks": [
           "submenu.accordion#department__one"

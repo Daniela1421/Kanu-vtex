@@ -1,8 +1,3 @@
-/* .imageElement--home__image1{
-    background-color: blue;
-    padding-right: 10px;
-} */
-
 .imageElement--home__image2 {
     padding-left: 10px;
 }
@@ -33,15 +28,21 @@
     padding: 0%;
 }
 
-.searchBarContainer{
-    /* background-color: #f2f2f2; */
-    padding: 5px 20px;
-    width: 100%;
-}
-
 .searchBarIcon--search{
     content: "\e99e";
     font-family: kanu-icons;
     font-size: 20px;
     color: #f8971d;
 }
+
+.searchBarContainer{
+    background-color: #f2f2f2; 
+    padding: 5px 20px;
+    width: 100%;
+}
+
+:global(.vtex-input-prefix__group){
+    border: none;
+}
+
+

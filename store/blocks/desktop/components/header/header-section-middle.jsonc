@@ -3,7 +3,7 @@
     "title": "Header superior", 
     "children": [
       "logo#desktop__header--logo",
-      "search-bar#desktop__header--search",
+      "search-bar#header--search",
       "overlay-trigger#desktop__header--pqrs",
       "icon#desktop__header--icon-repurchase",
       "login#desktop__header--login",
@@ -22,17 +22,6 @@
         "href": "/"
     }
   },
-  "search-bar#desktop__header--search":{
-    // "blocks": ["autocomplete-result-list.v2"], 
-    "props": {
-        "containerMode": "overlay",
-        "openAutocompleteOnFocus": true
-    }
-  },
-    // "autocomplete-result-list.v2": {
-    //   "blocks": ["product-summary"]
-    // },
-
   "icon#desktop__header--icon-repurchase": {
     "props": {
       "id": "header-repurchase", 
