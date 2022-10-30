@@ -1,0 +1,107 @@
+{
+  "header-row#desktop__header--bottom": {
+    "title": "Header medio",
+    "children": [
+      "menu#desktop__header--menu"
+    ], 
+    "props": {
+      "blockClass": "desktop__header--bottom",
+      "sticky": true
+    }
+  },
+    "menu#desktop__header--menu": {
+      "children": [
+        "flex-layout.row#desktop__header--menu",
+        "menu-item#department__one",
+        "menu-item#department__two", 
+        "menu-item#department__three", 
+        "menu-item#department__four",
+        "menu-item#department__five", 
+        "menu-item#department__six", 
+        "menu-item#department__seven", 
+        "link.product#desktop__header--menu-offers"
+      ], 
+      "props": {
+        "blockClass": "desktop__header--menu"
+      }
+    }, 
+    "flex-layout.row#desktop__header--menu": {
+      "title": "menu para escritorio", 
+      "children": [
+        "flex-layout.col#header__menu--animals"
+      ], 
+      "props": {
+        "blockClass": "desktop__header--menu",
+        "colsizing": "auto",
+        "horizontalAlign": "around"
+      }
+    },
+    "flex-layout.col#header__menu--animals": {
+      "title": "Menu de animales",
+      "children": [
+        "flex-layout.col#header__menu--animals1", 
+        "flex-layout.col#header__menu--animals2"
+      ], 
+      "props": {"blockClass": "header__menu--animals"}
+    },
+    "flex-layout.col#header__menu--animals1": {
+      "title": "Menu perro",
+      "children": [
+        "image#header__menu--dog", 
+        "rich-text#header__menu--text-dog"
+      ], 
+      "props": {
+        // "horizontalAlign": "center"
+        "blockClass": "header__menu--animals1"
+      }
+    }, 
+      "image#header__menu--dog": {
+        "title": "Menu perro img",
+        "props": {
+          "blockClass": "header__menu--animals",
+          "src": "assets/img/header__menu-dog.png"
+          // "width": "15%"
+        }
+      }, 
+      "rich-text#header__menu--text-dog": {
+        "title": "Menu perro texto",
+        "props": {
+          "blockClass": "header__menu--text",
+          "text": "PERROS",
+          "textPosition": "CENTER"
+        }
+      },
+    "flex-layout.col#header__menu--animals2": {
+      "children": [
+        "image#header__menu--cat", 
+        "rich-text#header__menu--text-cat"
+      ],
+      "props": {
+        "blockClass": "header__menu--animals1"
+      }
+    },
+      "image#header__menu--cat": {
+        "title": "Menu gato img",
+        "props": {
+          "blockClass": "header__menu--animals2",
+          "src": "assets/img/header__menu-cat.png"
+          // "width": "5%"
+        }
+      }, 
+      "rich-text#header__menu--text-cat": {
+        "title": "Menu gato texto",
+        "props": {
+          "blockClass": "header__menu--text",
+          "text": "GATOS", 
+          "textPosition": "CENTER"
+        }
+      },
+    "link.product#desktop__header--menu-offers": {
+      "props": {
+        "blockClass": "desktop__header--menu-offers",
+        "displayMode": "button",
+        "href": "/",
+        "label": "OFERTAS"
+      }
+    }
+}

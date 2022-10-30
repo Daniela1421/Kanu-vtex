@@ -1,0 +1,20 @@
+{
+  "header-row#mobile__header--bottom": {
+    "title": "Header medio",
+    "children": ["search-bar#header--search"], 
+    "props": {
+        "blockClass": "header__bottom", 
+        "sticky": true
+    }
+  },
+  "search-bar#header--search":{
+    "blocks": ["autocomplete-result-list.v2"], 
+    "props": {
+        "containerMode": "overlay",
+        "openAutocompleteOnFocus": true
+    }
+  }, 
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  }
+}

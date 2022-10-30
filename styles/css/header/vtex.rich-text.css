@@ -2,3 +2,39 @@
     font-size: 10px;
     margin: 0; 
 }
+.paragraph{
+    margin: 1px; 
+    font-size: 13px;
+    font-family: "RobotoSlab";
+    font-weight: 400;
+}
+
+.paragraph--header__menu--text{
+    font-family: "RobotoSlab";
+    font-weight: 400;
+    font-size: 0.75rem;
+    
+}
+
+.container--desktop__header--pqr:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.container--desktop__header--pqr{
+    background-color: #fff;
+    width: 100px;
+    display: block;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #f8971d;
+    height: 34px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 3em;
+}
+
+.paragraph--desktop__header--pqr{
+    margin: 0;
+    line-height: 34px;
+}

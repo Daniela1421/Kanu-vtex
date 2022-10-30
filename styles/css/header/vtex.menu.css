@@ -1,24 +1,50 @@
-/* .submenuAccordion--department__one{
-    z-index: 999; 
-   
-} */
+/*********** Desktop menu ************/
 
 .menuContainerNav--desktop__header--menu{
   background-color: #fff;
   position: absolute;
-  top: 64px;
-  left: 15em;
+  top: 0;
+  /* left: 15em; */
   z-index: 2;
   /* line-height: 50px;  */
   box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+  width: 100%;
+  height: auto;
+}
+.menuContainer--desktop__header--menu{
+  margin: 0 10em 0 6.5em;
+}
+
+.menuItem--department-main:hover{
+  cursor: pointer;
+  background: #f7f7f7;
+  color: #000;
+  border-bottom: 2px solid #f8971d;
+}
+
+.menuItem--department-main{
+  line-height: 25px; 
+  /* display: contents; */
 }
 
 .styledLinkContainer{
   margin: 0;
   padding: 1em;
-  /* font-size: 0.5em; */
+}
+.styledLinkContent{
+  font-family: "RobotoSlab";
+  font-weight: 400;
+  font-size: 0.90rem;
+
+}
+.styledLinkContent--department-main{
+  font-size: 0.75rem;
+  color: #050505;
+  margin: 0; 
+  display: contents;
 }
 
-/* .menuContainer--desktop__header--menu{
-  width: 10em;
-} */
+.accordionIcon--department-main{
+  display: none; 
+}
+

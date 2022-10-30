@@ -1,0 +1,60 @@
+{
+  "header-row#mobile__header--middle": {
+    "title": "Header middle", 
+    "children": [
+        "logo#mobile__header--logo",
+        "flex-layout.row#mobile__header--middle-animals",
+        "login#mobile__header--login",
+        "minicart.v2",
+        "drawer#mobile__header--menu"
+    ],
+    "props": {
+        "blockClass": "mobile__header--middle",
+        "sticky": true
+    }
+  },
+  "logo#mobile__header--logo": {
+    "title": "Logo", 
+    "props": {
+      "url": "assets/img/header__logo-kanu.png", 
+      "width": 150, 
+      "href": "/"
+    }
+  },
+  "flex-layout.row#mobile__header--middle-animals": {
+    "title": "animals menu section", 
+    "children": [
+        "image#mobile__header--menu-dog", 
+        "image#mobile__header--menu-cat" 
+    ],
+    "props": {
+        "blockClass":"mobile__header--middle-animals", 
+        "horizontalAlign": "center"
+    }
+  },
+    "image#mobile__header--menu-dog": {
+        "title": "Cat image - Mobile menu",
+        "props": {
+          "blockClass": "mobile__header--menu-dog",
+          "src": "assets/img/header__menu--mobile-dog.png"
+        }
+    }, 
+    "image#mobile__header--menu-cat": {
+        "title": "Dog image - Mobile menu",
+        "props": {
+          "blockClass": "mobile__header--menu-cat",
+          "src": "assets/img/header__menu--mobile-cat.png"
+        }
+    },
+  "login#mobile__header--login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true, 
+      "showIconProfile": true,
+      "hasGoogleOneTap": true
+    }
+  }
+}

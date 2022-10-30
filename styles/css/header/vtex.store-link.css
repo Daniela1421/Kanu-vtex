@@ -1,0 +1,15 @@
+.link--desktop__header--menu-offers{
+    background: #ee562a;
+    color: #fff;
+    height: 1.7em;
+    border-radius: 12px;
+    margin-top: 0.5em;
+}
+
+.label--desktop__header--menu-offers{
+    display: flex;
+    justify-content: center;
+    font-family: "RobotoSlab";
+    font-weight: bold;
+    font-size: 0.75rem;
+}

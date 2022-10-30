@@ -1,0 +1,42 @@
+{
+  "header-row#desktop__header--middle": {
+    "title": "Header superior", 
+    "children": [
+      "logo#desktop__header--logo",
+      "search-bar#header--search",
+      "overlay-trigger#desktop__header--pqrs",
+      "icon#desktop__header--icon-repurchase",
+      "login#desktop__header--login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "desktop__header--middle",
+      "sticky": true
+    }
+  },
+  "logo#desktop__header--logo": {
+    "title": "Logo", 
+    "props": {
+        "url": "assets/img/header__logo-kanu.png", 
+        "width": 150, 
+        "href": "/"
+    }
+  },
+  "icon#desktop__header--icon-repurchase": {
+    "props": {
+      "id": "header-repurchase", 
+      "size": 20
+    }
+  },
+  "login#desktop__header--login": {
+    "props": {
+        "emailAndPasswordTitle": "LOG-IN",
+        "accessCodeTitle": "Acess Code LOG-IN",
+        "emailPlaceholder": "e-mail",
+        "passwordPlaceholder": "password",
+        "showPasswordVerificationIntoTooltip": true, 
+        "showIconProfile": true,
+        "hasGoogleOneTap": true
+    }
+  }
+}
