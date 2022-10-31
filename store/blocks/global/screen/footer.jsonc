@@ -4,23 +4,152 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#desktop__footer--container"
     ]
+  },
+  "flex-layout.row#desktop__footer--container": {
+    "children": [
+      "flex-layout.col#footer__container--col-one",
+      "flex-layout.col#footer__container--col-two",
+      "flex-layout.col#footer__container--col-three",
+      "flex-layout.col#footer__container--col-four"
+    ]
+  }, 
+  "flex-layout.col#footer__container--col-one": {
+    "children": ["social-networks"]
+  },
+  "flex-layout.col#footer__container--col-two": {
+    "children": ["menu#about-us"]
+  },
+  "flex-layout.col#footer__container--col-three": {
+    "children": ["menu#policies"]
+  },
+  "flex-layout.col#footer__container--col-four": {
+    "children": ["menu#about-us"]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/kanupets/", 
+          "name": "Facebook"
+        },
+        {
+          "url": "https://twitter.com", 
+          "name": "Twitter"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCAkGoOl6XDSK7NbguP60U_g", 
+          "name": "YouTube"
+        }
+      ]
+    }
   },
   "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer"
+      "disclosure-layout-group#footer__menu--group"
     ]
   },
-  "flex-layout.row#footer": { 
+  "disclosure-layout-group#footer__menu--group": {
     "children": [
-      "image"
+      "disclosure-layout#policies",
+      "disclosure-layout#about-us"
+      // "disclosure-layout#departments"
     ]
   },
-  "image": {
+  "disclosure-layout#policies": {
+    "children": ["disclosure-trigger#policies", "disclosure-content#policies"]
+  }, 
+  "disclosure-trigger#policies": {
+    "children": ["rich-text#policies"]
+  }, 
+  "rich-text#policies": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "text": "Políticas de la tienda"
+    }
+  }, 
+  "disclosure-content#policies": {
+    "children": ["menu#policies"]
+  }, 
+  "menu#policies": {
+    "children": [
+      "menu-item#terms-and-conds", 
+      "menu-item#privacy-policies"
+    ], 
+    "props": {
+      "orientation": "vertical"
+    }
+  }, 
+  "menu-item#terms-and-conds": {
+    "props": {
+      "id": "menu-terms-and-conds", 
+      "type": "custom", 
+      "itemProps": {
+        "type": "internal", 
+        "href": "/", 
+        "tagTitle": "Términos y condiciones", 
+        "text": "Términos y condiciones"
+      }
+      
+    }
+  }, 
+  "menu-item#privacy-policies": {
+    "props": {
+      "id": "menu-privacy-policies", 
+      "type": "custom", 
+      "itemProps": {
+        "type": "internal", 
+        "href": "/", 
+        "tagTitle": "Políticas de privacidad", 
+        "text": "Políticas de privacidad"
+      }
+    }
+  }, 
+  "disclosure-layout#about-us": {
+    "children": ["disclosure-trigger#about-us", "disclosure-content#about-us"]
+  }, 
+  "disclosure-trigger#about-us": {
+    "children": ["rich-text#about-us"]
+  }, 
+  "rich-text#about-us": {
+    "props": {
+      "text": "Políticas de la tienda"
+    }
+  }, 
+  "disclosure-content#about-us": {
+    "children": ["menu#about-us"]
+  }, 
+  "menu#about-us": {
+    "children": [
+      "menu-item#about-us", 
+      "menu-item#our-shops"
+    ], 
+    "props": {
+      "orientation": "vertical"
+    }
+  }, 
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-about-us", 
+      "type": "custom", 
+      "itemProps": {
+        "type": "internal", 
+        "href": "/", 
+        "tagTitle": "Sobre nosotros", 
+        "text": "Sobre nosotros"
+      }
+    }
+  }, 
+  "menu-item#our-shops": {
+    "props": {
+      "id": "menu-our-shops", 
+      "type": "custom", 
+      "itemProps": {
+        "type": "internal", 
+        "href": "/", 
+        "tagTitle": "Nuestras tiendas", 
+        "text": "Nuestras tiendas"
+      }
     }
   }
 }
