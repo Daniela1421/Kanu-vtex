@@ -1,0 +1,32 @@
+/********* Minicart ********/   
+.popupContentContainer, 
+.popupChildrenContainer{
+    border-radius: 10px;
+}
+
+.popupStyles {
+    max-height: 600px;
+}
+
+.minicartCheckoutButton
+:global(.vtex-button){
+    background: #050505;
+    color: #fff;
+    border-radius: 12px;
+    font-family: "RobotoSlab";
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    min-height: 1.9em;
+}
+
+.minicartProductListContainer{
+    max-height: 220px;
+    padding: 0;
+}
+
+.minicartQuantityBadgeDefault{
+    background: #050505;
+    color: #fff;
+    border: 1px solid #050505;
+}

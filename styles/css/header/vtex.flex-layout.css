@@ -61,3 +61,17 @@
     flex-direction: row;
     align-items: center;
 }
+
+/*********** Minicart ************/
+
+.flexRowContent--global__home--minicart-footer{
+    flex-direction: column;
+}
+
+.stretchChildrenWidth{
+    width: 100% !important;
+}
+
+:global(.vtex-product-list-0-x-productImageContainer){
+    margin: 0;
+}
