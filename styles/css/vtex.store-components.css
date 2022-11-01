@@ -45,4 +45,11 @@
     border: none;
 }
 
+/* @media (min-with: 1024px) {
+    searchBarContainer{
+        padding: 5px 20px;
+        width: 100%;
+        background-color: #F8971D !important;
+    }
+} */
 
