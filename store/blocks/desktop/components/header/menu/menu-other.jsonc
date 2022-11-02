@@ -1,0 +1,102 @@
+{
+  "menu-item#desktop__menu--department-seven": {
+    "title": "header-menu-department-for-you",
+    "props": {
+      "blockClass": "department-main",
+      "id": "department-seven", 
+      "type": "custom", 
+      "itemProps": {
+        "type": "external", 
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "PARA TI",
+        "text":"PARA TI" 
+      }
+    },
+    "blocks": [
+      "submenu#department__foryou"
+    ]
+  },
+    "submenu#department__foryou": {
+      "title": "header-category-for-you",
+      "children": ["menu#category__foryou"], 
+      "props": {"blockClass": "container-items-categories"}
+    },
+    "menu#category__foryou":{
+      "title": "header-menu-category-for-you", 
+      "children": [
+        "flex-layout.row#menu__category--for-you", 
+        "flex-layout.row#menu__category--others2",
+        "flex-layout.row#menu__category",
+        "flex-layout.row#menu__category"
+      ], 
+      "props": {
+        "blockClass": "block-container", 
+        "orientation": "horizontal"
+      }
+    },
+/*************************** Category for-you *******************************/
+      "flex-layout.row#menu__category--for-you": {
+        "children": ["flex-layout.col#category__foryou--container--items"], 
+        "props": {"blockClass":"main-blocks"}
+      }, 
+      "flex-layout.col#category__foryou--container--items": {
+        "title": "menu-category-for-you", 
+        "children": [
+          "link#category__foryou--item-one",
+          "link#category__foryou--item-two",
+          "link#category__foryou--item-three"
+        ]
+      }, 
+        "link#category__foryou--item-one": {
+          "title": "category-foryou-item-one", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Ropa"
+          }
+        },
+        "link#category__foryou--item-two": {
+          "title": "category-foryou-item-two", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Accesorios"
+          }
+        },
+        "link#category__foryou--item-three": {
+          "title": "category-foryou-item-three", 
+          "props": {
+            "blockClass": "items__submenu",
+            "href": "/",
+            "label": "Útiles"
+          }
+        },
+/*************************** Category others2 *******************************/
+      "flex-layout.row#menu__category--others2":{
+        "children": ["flex-layout.col#category__others2--container--items"], 
+        "props": {"blockClass":"main-blocks"}
+      },
+      "flex-layout.col#category__others2--container--items":{
+        "title": "menu-category-others2",
+        "children": [
+          "flex-layout.row#category__others2--title2", 
+          "flex-layout.row#category__all--title3"
+        ]
+      },
+        "flex-layout.row#category__others2--title2": {
+          "title": "structure-category-others2-title2", 
+          "children": [
+            "link#category__others2--title2",
+            "icon#desktop__header--submenu"
+          ]
+        },
+          "link#category__others2--title2": {
+            "title": "title1-all-food", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Ver Todo Para tí"
+            }
+          }
+}

@@ -4,6 +4,7 @@
     height: 1.7em;
     border-radius: 12px;
     margin-top: 0.5em;
+    border: none;
 }
 
 .label--desktop__header--menu-offers{

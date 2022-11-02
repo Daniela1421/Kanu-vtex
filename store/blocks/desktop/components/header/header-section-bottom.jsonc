@@ -12,13 +12,13 @@
     "menu#desktop__header--menu": {
       "children": [
         "flex-layout.row#desktop__header--menu",
-        "menu-item#department__one",
-        "menu-item#department__two", 
-        "menu-item#department__three", 
-        "menu-item#department__four",
-        "menu-item#department__five", 
-        "menu-item#department__six", 
-        "menu-item#department__seven", 
+        "menu-item#desktop__menu--department-one",
+        "menu-item#desktop__menu--department-two", 
+        "menu-item#desktop__menu--department-three", 
+        "menu-item#desktop__menu--department-four",
+        "menu-item#desktop__menu--department-five", 
+        "menu-item#desktop__menu--department-six", 
+        "menu-item#desktop__menu--department-seven", 
         "link.product#desktop__header--menu-offers"
       ], 
       "props": {
@@ -60,7 +60,6 @@
         "props": {
           "blockClass": "header__menu--animals",
           "src": "assets/img/header__menu-dog.png"
-          // "width": "15%"
         }
       }, 
       "rich-text#header__menu--text-dog": {
@@ -85,7 +84,6 @@
         "props": {
           "blockClass": "header__menu--animals2",
           "src": "assets/img/header__menu-cat.png"
-          // "width": "5%"
         }
       }, 
       "rich-text#header__menu--text-cat": {

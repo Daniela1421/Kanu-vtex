@@ -83,3 +83,22 @@
     width: 1.5em;
     height: 1.5em;
 }
+
+/********* menu y submenu *******/
+
+.flexRowContent--main-blocks{
+    width: 228px;
+    padding-left: 14px;
+}
+
+.flexRowContent{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+/* .flexRowContent--main-blocks
+:global(.vtex-store-link-0-x-label--category__subtitles){
+    text-decoration: none;
+} */

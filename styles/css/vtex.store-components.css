@@ -35,21 +35,36 @@
     color: #f8971d;
 }
 
+:global(.vtex-input-prefix__group){
+    border: none;
+}
+
 .searchBarContainer{
     background-color: #f2f2f2; 
     padding: 5px 20px;
     width: 100%;
 }
 
-:global(.vtex-input-prefix__group){
-    border: none;
+@media (min-with: 1024px) {
+    .searchBarContainer{
+        background-color: #F8971D !important;
+        padding: 5px 100px;
+    }
 }
 
-/* @media (min-with: 1024px) {
-    searchBarContainer{
+
+
+/* .searchBarContainer{
+    background-color: #F8971D;
+    padding: 5px 100px;
+    width: 100%;
+}
+
+@media (max-with: 1024px) {
+    .searchBarContainer{
+        background-color: #f2f2f2 !important; 
         padding: 5px 20px;
         width: 100%;
-        background-color: #F8971D !important;
     }
 } */
 

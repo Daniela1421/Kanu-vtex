@@ -408,7 +408,7 @@
         "letterSpacing": "0"
       },
       "code": {
-        "fontFamily": "Consolas, monaco, monospace",
+        "fontFamily": "RobotoSlab, Consolas, monaco, monospace",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",

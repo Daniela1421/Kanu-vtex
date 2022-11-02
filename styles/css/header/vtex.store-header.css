@@ -35,11 +35,21 @@
     box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
 }
 
-@media (min-with: 1024px) {
+
+
+ /* .headerRowContainer--desktop__header--middle
+ :global(.vtex-store-components-3-x-searchBarContainer){
+    background-color: #F8971D;
+    padding: 5px 100px;
+    width: 100%;
+ }
+
+@media (max-with: 1024px) {
+    .headerRowContainer--desktop__header--middle
     :global(.vtex-store-components-3-x-searchBarContainer){
+        background-color: #f2f2f2 !important; 
         padding: 5px 20px;
         width: 100%;
-        background-color: #F8971D !important;
     }
  
-}
+} */

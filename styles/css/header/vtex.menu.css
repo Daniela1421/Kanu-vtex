@@ -4,9 +4,7 @@
   background-color: #fff;
   position: absolute;
   top: 0;
-  /* left: 15em; */
   z-index: 2;
-  /* line-height: 50px;  */
   box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
   width: 100%;
   height: auto;
@@ -24,7 +22,6 @@
 
 .menuItem--department-main{
   line-height: 25px; 
-  /* display: contents; */
 }
 
 .styledLinkContainer{
@@ -38,7 +35,7 @@
 
 }
 .styledLinkContent--department-main{
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: #050505;
   margin: 0; 
   display: contents;
@@ -46,5 +43,63 @@
 
 .accordionIcon--department-main{
   display: none; 
+}  
+
+/**************************************/
+
+/* .submenuContainer--department__food--submenu{
+  position: unset;
+} */
+
+.submenuWrapper--container-items-categories{
+  position: absolute;
+  top: 6px;
+  left: 24%;
+} 
+
+.submenu--department__one{
+  justify-content: flex-start;
 }
 
+.menuContainer--block-container
+:global(.vtex-store-link-0-x-link--category__subtitles){
+  text-decoration: none;
+  color: #f8971d;
+  font-weight: bold;
+  font-family: "RobotoSlab";
+  font-size: 15px;
+}
+
+.menuContainer--block-container
+:global(.vtex-store-link-0-x-link--items__submenu){
+  text-decoration: none;
+  color:#050505;
+  font-family: "RobotoSlab";
+  font-size: 15px;
+
+}
+
+/*
+.menuContainerNav--block-container{
+  border-right: 1px solid #efefef;
+}
+
+.menuContainer--block-container{
+  
+  min-width: 228px;
+}
+
+/*
+.styledLinkContainer--bloquesSubtitles{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0 10px;
+  line-height: 30px;
+}
+
+.styledLink--bloquesSubtitles{
+  color: #f8971d;
+  font-weight: bold;
+  font-size: 14px;
+} */
