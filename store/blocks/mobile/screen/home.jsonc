@@ -2,14 +2,15 @@
   "responsive-layout.mobile": {
     "title": "mobile component",
     "children": [
-      "list-context.image-list#global__home--slider-list",
+      "list-context.image-list#global__home--slider-list"
         // "flex-layout.row#global__home--section-search"
-        "rich-text#global__home--title-categories",
-        "flex-layout.row#global__home--categories",
-        "flex-layout.row#global__home--section-one",
-        "rich-text#global__home--title-services",
-        "flex-layout.row#global__home--section-services1",
-        "flex-layout.row#global__home--section-services2"
+        // "rich-text#global__home--title-categories",
+        // "flex-layout.row#global__home--categories",
+        // "flex-layout.row#global__home--section-one",
+        // "rich-text#global__home--title-services",
+        // "flex-layout.row#global__home--section-services1",
+        // "flex-layout.row#global__home--section-services2", 
+        // "search-result-layout.customQuery#home__search"
     ]
   }
 }

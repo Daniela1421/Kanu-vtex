@@ -1,6 +1,6 @@
 .sliderLayoutContainer--home_slider{
     max-width: 100%;
-    margin: 0 auto 10px;
+    margin: 4em 0; 
 }
 .paginationDotsContainer--home_slider{
     padding-bottom: 7px;

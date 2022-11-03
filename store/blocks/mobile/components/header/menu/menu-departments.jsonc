@@ -1,0 +1,274 @@
+{
+    "menu-item#department__one": {
+      "props": {
+        "blockClass": "department-main-mobile",
+        "id": "department-one",
+        "onMountBehavior": "true", 
+        "type": "custom",
+        "itemProps": {
+          "type": "external", 
+          "href": "https://www.google.com/",
+          "noFollow": true,
+          "tagTitle": "ALIMENTO",
+          "text": "ALIMENTO"
+        }
+      },
+      "blocks": [
+        "submenu.accordion#department__one"
+      ]
+    },
+    "submenu.accordion#department__one": {
+      "title": "Department-one-mobile",
+      "children": ["menu#department__one"], 
+      "props": {"blockClass": "department__one"}
+    },
+    "menu#department__one": {
+      "children": [
+        "flex-layout.row#menu__category--typefood-mobile", 
+        "flex-layout.row#menu__category--medicatedfood-mobile",
+        "flex-layout.row#menu__category--kindpet-mobile",
+        "flex-layout.row#menu__category--all-mobile"
+      ],
+      "props": {
+        "blockClass": "block-container-mobile",
+        "orientation": "vertical"
+      }
+    },
+/********************** category type food mobile ***************************/
+    "flex-layout.row#menu__category--typefood-mobile": {
+      "children": ["flex-layout.col#category__typefood--container--items-mobile"], 
+      "props": {"blockClass":"main-blocks-mobile"}
+    }, 
+    "flex-layout.col#category__typefood--container--items-mobile": {
+      "title": "menu-category-type-food-mobile", 
+      "children": [
+        "link#category__typefood--title-mobile", 
+        "link#category__food--item-one-mobile",
+        "link#category__food--item-two-mobile"
+      ], 
+      "props": {"blockClass": "container-items", "rowGap": 5}
+    },  
+      "link#category__typefood--title-mobile": {
+        "title": "title-type-food-mobile", 
+        "props": {
+          "blockClass": "category__subtitles-mobile", 
+          "href": "/",
+          "label": "Tipo de alimento"
+        }
+      },
+      "link#category__food--item-one-mobile": {
+        "title": "category-type-food--item-one-mobile", 
+        "props": {
+          "blockClass": "items__submenu", 
+          "href": "/",
+          "label": "Húmedo"
+        }
+      },
+      "link#category__food--item-two-mobile": {
+        "title": "category-type-food--item-two-mobile", 
+        "props": {
+          "blockClass": "items__submenu", 
+          "href": "/",
+          "label": "Seco"
+        }
+      },
+/*************************** Category medicated food *******************************/
+    "flex-layout.row#menu__category--medicatedfood-mobile": {
+      "children": ["flex-layout.col#category__medicatedfood--container--items-mobile"],
+      "props": {"blockClass":"main-blocks-mobile"}
+    }, 
+    "flex-layout.col#category__medicatedfood--container--items-mobile": {
+      "title": "menu-category-medicated-food-mobile",
+      "children": [
+        "link#category__medicatedfood--title-mobile", 
+        "link#category__food--item-one-mobile",
+        "link#category__food--item-two-mobile"
+      ], 
+      "props": {"blockClass": "container-items", "rowGap": 5}
+    },
+      "link#category__medicatedfood--title-mobile": {
+        "title": "title-medicated-food", 
+        "props": {
+          "blockClass": "category__subtitles-mobile", 
+          "href": "/",
+          "label": "Alimento Medicado"
+        }
+      },
+/*************************** Category kind of pet *******************************/
+    "flex-layout.row#menu__category--kindpet-mobile":{
+      "children": ["flex-layout.col#category__kindpet--container--items-mobile"], 
+      "props": {"blockClass":"main-blocks-mobile"}
+    },
+    "flex-layout.col#category__kindpet--container--items-mobile":{
+      "title": "menu-category-kind-pet",
+      "children": [
+        "link#category__kindpet--title-mobile", 
+        "flex-layout.row#category__kindpet--dog", 
+        "flex-layout.row#category__kindpet--cat"
+      ], 
+      "props": {"blockClass": "container-items", "rowGap": 5}
+    },
+      "link#category__kindpet--title-mobile": {
+        "title": "title-kind-pet", 
+        "props": {
+          "blockClass": "category__subtitles-mobile", 
+          "href": "/",
+          "label": "Tipo de mascota"
+        }
+      },
+/******************************** Category all *********************************/
+    "flex-layout.row#menu__category--all-mobile":{
+      "children": ["flex-layout.col#category__all--container--items-mobile"], 
+      "props": {"blockClass":"main-blocks-mobile"}
+    }, 
+    "flex-layout.col#category__all--container--items-mobile":{
+      "title": "menu-category-all-food-mobile",
+      "children": [
+        "link#category__all--title1-mobile",
+        "link#category__all--title2-mobile",
+        "link#category__all--title3-mobile"
+      ], 
+       "props": {"blockClass": "container-items", "rowGap": 5}
+    },
+      "link#category__all--title1-mobile": {
+        "title": "title1-all-food-mobile", 
+        "props": {
+          "blockClass": "category__subtitles-mobile", 
+          "href": "/",
+          "label": "Ver todo alimento"
+        }
+      },
+      "link#category__all--title2-mobile": {
+        "title": "title2-everything-puppy-mobile", 
+        "props": {
+          "blockClass": "category__subtitles-mobile", 
+          "href": "/",
+          "label": "Todo para tu cachorro"
+        }
+      },
+      "link#category__all--title3-mobile": {
+        "title": "title3-offers-mobile", 
+        "props": {
+          "blockClass": "category__subtitles-mobile", 
+          "href": "/",
+          "label": "OFERTAS"
+        }
+      },
+/********************************************************************************************************************/
+    "menu-item#department__two": {
+      "props": {
+        "blockClass": "department-main-mobile",
+        "id": "department-two", 
+        "type": "custom", 
+        "itemProps": {
+          "type": "external", 
+          "href": "https://www.google.com/",
+          "noFollow": true,
+          "tagTitle": "SNACKS",
+          "text": "SNACKS" 
+        }
+      }, 
+      "blocks": [
+        "submenu.accordion#department__one"
+      ]
+    }, 
+    "menu-item#department__three": {
+      "props": {
+        "blockClass": "department-main-mobile",
+        "id": "department-three", 
+        "type": "custom", 
+        "itemProps": {
+          "type": "external", 
+          "href": "https://www.google.com/",
+          "noFollow": true,
+          "tagTitle": "BELLEZA E HIGIENE",
+          "text":"BELLEZA E HIGIENE" 
+        }
+      }, 
+      "blocks": [
+        "submenu.accordion#department__one"
+      ]
+    }, 
+    "menu-item#department__four": {
+      "props": {
+        "blockClass": "department-main-mobile",
+        "id": "department-four", 
+        "type": "custom", 
+        "itemProps": {
+          "type": "external", 
+          "href": "https://www.google.com/",
+          "noFollow": true,
+          "tagTitle": "COMPLEMENTOS Y ACCESORIOS",
+          "text":"COMPLEMENTOS Y ACCESORIOS"   
+        }
+      }, 
+      "blocks": [
+        "submenu.accordion#department__one"
+      ]
+    },
+    "menu-item#department__five": {
+      "props": {
+        "blockClass": "department-main-mobile",
+        "id": "department-five", 
+        "type": "custom", 
+        "itemProps": {
+          "type": "external", 
+          "href": "https://www.google.com/",
+          "noFollow": true,
+          "tagTitle": "JUGUETES",
+          "text":"JUGUETES" 
+        }
+      }, 
+      "blocks": [
+        "submenu.accordion#department__one"
+      ]
+    }, 
+    "menu-item#department__six": {
+      "props": {
+        "blockClass": "department-main-mobile",
+        "id": "department-six", 
+        "type": "custom", 
+        "itemProps": {
+          "type": "external", 
+          "href": "https://www.google.com/",
+          "noFollow": true,
+          "tagTitle": "MEDICAMENTOS",
+          "text":"MEDICAMENTOS" 
+        }
+      }, 
+      "blocks": [
+        "submenu.accordion#department__one"
+      ]
+    }, 
+    "menu-item#department__seven": {
+      "props": {
+        "blockClass": "department-main-mobile",
+        "id": "department-seven", 
+        "type": "custom", 
+        "itemProps": {
+          "type": "external", 
+          "href": "https://www.google.com/",
+          "noFollow": true,
+          "tagTitle": "PARA TI",
+          "text":"PARA TI" 
+        }
+      }, 
+      "blocks": [
+        "submenu.accordion#department__one"
+      ]
+    },
+    "menu-item#department__eight": {
+      "props": {
+        "blockClass": ["department-main-mobile", "menu-offers"],
+        "id": "department-seven", 
+        "type": "custom", 
+        "itemProps": {
+          "type": "external", 
+          "href": "https://www.google.com/",
+          "noFollow": true,
+          "tagTitle": "OFERTAS",
+          "text":"OFERTAS" 
+        }
+      }
+    }
+}

@@ -2,42 +2,13 @@
   "header-layout.desktop": {
     "title": "Header desktop",
     "children": [
-      "header-row#desktop__header--top", 
-      "header-row#desktop__header--middle"
-    ]
-  },
-  "header-row#desktop__header--top": {
-    "title": "Header superior", 
-    "children": [
-      "logo#desktop__header--logo",
-      "search-bar#mobile__header--search",
-      "header-spacer",
-      "login#desktop__header--login",
-      "minicart.v2"
+      "header-row#header__top",
+      "header-row#desktop__header--middle", 
+      "header-row#desktop__header--bottom"
     ],
     "props": {
-      "blockClass": "header__top"
+      "blockClass": "desktop__header"
     }
-  }, 
-  "header-row#desktop__header--middle": {
-    "title": "Header medio",
-    "children": [
-      "menu#desktop__header--menu"
-    ], 
-    "props": {
-      "blockClass": "desktop__header--middle"
-    }
-  },
-  "menu#desktop__header--menu": {
-    "children": [
-      "menu-item#department__one",
-      "menu-item#department__two", 
-      "menu-item#department__three", 
-      "menu-item#department__four",
-      "menu-item#department__five", 
-      "menu-item#department__six", 
-      "menu-item#department__seven"
-    ]
   }
 }
 

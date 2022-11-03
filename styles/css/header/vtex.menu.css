@@ -1,0 +1,145 @@
+/*********** Desktop menu ************/
+
+.menuContainerNav--desktop__header--menu{
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+  width: 100%;
+  height: auto;
+}
+.menuContainer--desktop__header--menu{
+  margin: 0 10em 0 6.5em;
+}
+
+.menuItem--department-main:hover{
+  cursor: pointer;
+  background: #f7f7f7;
+  color: #000;
+  border-bottom: 2px solid #f8971d;
+}
+
+.menuItem--department-main{
+  line-height: 25px; 
+}
+
+.styledLinkContainer{
+  margin: 0;
+  padding: 1em;
+}
+
+.styledLinkContent{
+  font-family: "RobotoSlab";
+  font-weight: 400;
+  font-size: 0.90rem;
+}
+
+.styledLinkContent--department-main{
+  font-size: 0.85rem;
+  color: #050505;
+  margin: 0; 
+  display: contents;
+}
+
+.submenuContainer--container-items-categories{
+  position: absolute;
+  top: 57px;
+  left: 24%;
+}
+
+.submenuWrapper--container-items-categories{
+  position: absolute;
+  top: 6px;
+  left: 24%;
+} 
+
+.submenu--department__one{
+  justify-content: flex-start;
+}
+
+.menuContainer--block-container
+:global(.vtex-store-link-0-x-link--category__subtitles){
+  text-decoration: none;
+  color: #f8971d;
+  font-weight: bold;
+  font-family: "RobotoSlab";
+  font-size: 16px;
+}
+
+.menuContainer--block-container
+:global(.vtex-store-link-0-x-link--category__subtitles):hover{
+  text-decoration: underline;
+}
+
+.menuContainer--block-container
+:global(.vtex-store-link-0-x-link--items__submenu){
+  text-decoration: none;
+  color:#050505;
+  font-family: "RobotoSlab";
+  font-size: 16px;
+}
+
+.menuContainer--block-container
+:global(.vtex-store-link-0-x-label--category__blacksubtitles){
+  font-weight: bold;
+}
+
+.menuContainer--block-container
+:global(.vtex-store-link-0-x-label--category__blacksubtitles):hover{
+  text-decoration: underline;
+}
+
+.menuContainer--block-container
+:global(.vtex-store-link-0-x-link--items__kindpet){
+  margin-left: 10px;
+}
+
+/********************************** menu mobile ******************************/
+.menuContainerNav--mobile__header--menu{
+  width: 100%;
+}
+
+.menuItem--department-main-mobile{
+  border-bottom: 1px solid #ebe9e9;
+}
+
+.styledLinkContent--department-main-mobile{
+  font-size: 14px;
+  padding: 6px 0;
+  /* margin: 6px 0; */
+  color: #707070;
+}
+
+.styledLinkContent--menu-offers::after{
+  content: url("assets/img/pata.png")
+}
+
+.styledLinkContent--menu-offers{
+  color: #ebe9e9;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.menuItem--menu-offers{
+  background-color: #050505;
+}
+
+.accordionIcon--department-main-mobile{
+  visibility: hidden;
+}
+
+.accordionIcon--department-main-mobile::before{
+  content: url("assets/img/mobile__menu--icon.svg");
+  visibility: visible;
+}
+
+.menuItem--department-main-mobile--isOpen
+:global(.vtex-menu-2-x-styledLinkContent--department-main-mobile):hover{
+  font-weight: bold;
+}
+
+.submenuAccordion--department__one{
+  padding-left: 20px;
+}

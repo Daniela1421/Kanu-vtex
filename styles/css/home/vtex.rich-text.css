@@ -2,13 +2,17 @@
     color: #fff;
     font-size: 30px;
     font-weight: bold;
+    font-family: "RobotoSlab";
+    font-weight: 400;
     /* margin-right: 5em; */
     /* margin-right: 5em; */
 }
 
 /****** Categories ******/
 .paragraph--categories__seccion1--item{
-    font-size: 13px;
+    font-size: 12px;
+    font-family: "RobotoSlab";
+    font-weight: 400;
 }
 
 /******* Titles********/
@@ -23,5 +27,21 @@
     padding: 10px 15px;
     border-radius: 10px;
     border: 2px solid #050505;
+    font-family: "RobotoSlab";
+    font-weight: 400;
+    font-size: 18px;
 }
 
+/******* Services *****/
+
+.paragraph--section__services1{
+    font-family: "RobotoSlab";
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.paragraph--section__services2-text{
+    font-family: "RobotoSlab";
+    font-weight: 400;
+    font-size: 0.75rem;
+}

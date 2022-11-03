@@ -1,0 +1,20 @@
+.closeIconContainer{
+    position: absolute;
+    right: 0px;
+    top: -58px;
+    background: #f8971d;
+}
+
+.opened{
+    margin-top: 105px;
+}
+
+.overlay{
+    background: transparent;
+}
+
+/* .closeIconContainer--mobile__header--menu
+:global(.vtex-store-drawer-0-x-closeIcon){
+    color: white
+} */
+
