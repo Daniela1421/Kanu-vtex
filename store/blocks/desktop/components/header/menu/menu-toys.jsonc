@@ -1,0 +1,175 @@
+{
+  "menu-item#desktop__menu--department-five": {
+    "title": "header-menu-department-toys",
+    "props": {
+      "blockClass": "department-main",
+      "id": "department-five", 
+      "type": "custom", 
+      "itemProps": {
+        "type": "external", 
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "JUGUETES",
+        "text":"JUGUETES" 
+      }
+    },
+    "blocks": [
+      "submenu#department__toys"
+    ]
+  }, 
+    "submenu#department__toys": {
+      "title": "header-category-toys",
+      "children": ["menu#category__toys"], 
+      "props": {"blockClass": "container-items-categories"}
+    },
+    "menu#category__toys":{
+      "title": "header-menu-category-toys", 
+      "children": [
+        "flex-layout.row#menu__category--toys", 
+				"flex-layout.row#menu__category--toys2", 
+        "flex-layout.row#menu__category--all-toys",
+        "flex-layout.row#menu__category"
+      ], 
+      "props": {
+        "blockClass": "block-container", 
+        "orientation": "horizontal"
+      }
+    },
+/*************************** Category toys section one *******************************/
+			"flex-layout.row#menu__category--toys": {
+        "children": ["flex-layout.col#category__toys--container--items"], 
+        "props": {"blockClass":"main-blocks"}
+      }, 
+      "flex-layout.col#category__toys--container--items": {
+        "title": "menu-category-toys", 
+        "children": [
+          "link#category__toys--item-one",
+          "link#category__toys--item-two",
+          "link#category__toys--item-three", 
+					"link#category__toys--item-four", 
+					"link#category__toys--item-five"
+        ], 
+        "props": {"blockClass": "container-items", "rowGap": 5}
+      }, 
+        "link#category__toys--item-one": {
+          "title": "category-toys-item-one", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Baras"
+          }
+        },
+        "link#category__toys--item-two": {
+          "title": "category-toys-item-two", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Blando"
+          }
+        },
+        "link#category__toys--item-three": {
+          "title": "category-toys-item-three", 
+          "props": {
+            "blockClass": "items__submenu",
+            "href": "/",
+            "label": "Catnip"
+          }
+        },
+				"link#category__toys--item-four": {
+          "title": "category-toys-item-four", 
+          "props": {
+            "blockClass": "items__submenu",
+            "href": "/",
+            "label": "Duro"
+          }
+        },
+				"link#category__toys--item-five": {
+          "title": "category-toys-item-five", 
+          "props": {
+            "blockClass": "items__submenu",
+            "href": "/",
+            "label": "Lazo"
+          }
+        },
+/*************************** Category toys section two *******************************/
+			"flex-layout.row#menu__category--toys2": {
+				"children": ["flex-layout.col#category__toys2--container--items"], 
+				"props": {"blockClass":"main-blocks"}
+			}, 
+			"flex-layout.col#category__toys2--container--items": {
+				"title": "menu-category-toys2", 
+				"children": [
+					"link#category__toys2--item-one",
+					"link#category__toys2--item-two",
+					"link#category__toys2--item-three", 
+					"link#category__toys2--item-four"
+				], 
+        "props": {"blockClass": "container-items", "rowGap": 5}
+			}, 
+				"link#category__toys2--item-one": {
+					"title": "category-toys2-item-one", 
+					"props": {
+						"blockClass": "items__submenu", 
+						"href": "/",
+						"label": "Pelotas"
+					}
+				},
+				"link#category__toys2--item-two": {
+					"title": "category-toys2-item-two", 
+					"props": {
+						"blockClass": "items__submenu", 
+						"href": "/",
+						"label": "Peluche"
+					}
+				},
+				"link#category__toys2--item-three": {
+					"title": "category-toys2-item-three", 
+					"props": {
+						"blockClass": "items__submenu",
+						"href": "/",
+						"label": "Porta Snack"
+					}
+				},
+				"link#category__toys2--item-four": {
+					"title": "category-toys2-item-four", 
+					"props": {
+						"blockClass": "items__submenu",
+						"href": "/",
+						"label": "Rascadores"
+					}
+				},
+/*************************** Category all toys *******************************/
+			"flex-layout.row#menu__category--all-toys":{
+        "children": ["flex-layout.col#category__alltoys--container--items"], 
+        "props": {"blockClass":"main-blocks"}
+      },
+      "flex-layout.col#category__alltoys--container--items":{
+        "title": "menu-category-all-toys",
+        "children": [
+          "flex-layout.row#category__kindpet--title", 
+          "flex-layout.row#category__kindpet--dog", 
+          "flex-layout.row#category__kindpet--cat",
+          "flex-layout.row#category__alltoys--title2", 
+          "flex-layout.row#category__all--title3"
+        ], 
+        "props": {"blockClass": "container-items", "rowGap": 5}
+      },
+        "flex-layout.row#category__alltoys--title2": {
+          "title": "structure-category-all-toys-title2", 
+          "children": [
+            "link#category__alltoys--title2",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        },
+          "link#category__alltoys--title2": {
+            "title": "title1-all-toys", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Ver Todo Juguetes"
+            }
+          }
+}

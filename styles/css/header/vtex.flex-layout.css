@@ -12,28 +12,10 @@
 
 /********* Header desktop *************/
 
-/********************************************* contener de menu animales****************/
-/* .flexRowContent--desktop__header--menu{
-    background: #f7f7f7;
-    border: 1px solid #050505;
-    padding: 0 14px;
-    height: 40px;
-    border-radius: 10px;
-    width: 27.5em;
-    height: 3.2em;
-} */
-
 .flexRowContent--desktop__header--menu{
-    /* display: flex;
-    flex-direction: row; */
     align-items: center;
     justify-content: space-between;
-    /* z-index: 10;
-    background-color: #fff;
-    box-shadow: 0 3px 4px rgb(0 0 0 / 12%); */
     width: 15em;
-    /* position: absolute;
-    top: 64px; */
 }
 
 .flexCol--header__menu--animals{
@@ -51,11 +33,6 @@
 .flexColChild--header__menu--animals{
     padding-right: 0.5em;
 }
-
-/* .flexRow--desktop__header--menu{
-    background-color: #fff;
-    box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
-} */
 
 .flexCol--header__menu--animals1{
     flex-direction: row;
@@ -98,7 +75,29 @@
     align-content: center;
 }
 
-/* .flexRowContent--main-blocks
-:global(.vtex-store-link-0-x-label--category__subtitles){
-    text-decoration: none;
+.flexRow--main-blocks{
+    border-right: 1px solid #efefef
+}
+
+/* .flexCol--container-items  
+:global(.vtex-flex-layout-0-x-flexColChild--container-items):hover{
+    background-color: #F2F2F2;
 } */
+
+.flexColChild--container-items:hover{
+    background-color: #F2F2F2;
+}
+
+/* .flexRowContent--main-blocks-mobile
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    margin-top: 15px;
+} */
+
+.flexRow--main-blocks-mobile{
+    margin-top: 20px;
+}
+
+.flexColChild--container-items{
+    padding-top: 10px;
+}
+

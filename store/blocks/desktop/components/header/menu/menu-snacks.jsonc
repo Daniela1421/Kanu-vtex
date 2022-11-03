@@ -41,12 +41,13 @@
         "props": {"blockClass":"main-blocks"}
       }, 
       "flex-layout.col#category__snacks--container--items": {
-        "title": "menu-category-type-food", 
+        "title": "menu-category-snacks", 
         "children": [
           "link#category__snacks--item-one",
           "link#category__snacks--item-two",
           "link#category__snacks--item-three"
-        ]
+        ], 
+        "props": {"blockClass": "container-items", "rowGap": 5}
       }, 
         "link#category__snacks--item-one": {
           "title": "category-snacks-item-one", 
@@ -85,17 +86,21 @@
           "flex-layout.row#category__kindpet--cat",
           "flex-layout.row#category__others--title2", 
           "flex-layout.row#category__all--title3"
-        ]
+        ], 
+        "props": {"blockClass": "container-items", "rowGap": 5}
       },
         "flex-layout.row#category__others--title2": {
           "title": "structure-category-others-title2", 
           "children": [
             "link#category__others--title2",
             "icon#desktop__header--submenu"
-          ]
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
         },
           "link#category__others--title2": {
-            "title": "title1-all-food", 
+            "title": "title1-all-snacks", 
             "props": {
               "blockClass": "category__subtitles", 
               "href": "/",

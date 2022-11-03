@@ -11,7 +11,7 @@
   "icon#cart-icon": {
     "props": {
       "id": "hpa-cart", 
-      "size": 22, 
+      "size": 21, 
       "viewBox": "0 0 16 16"
     }
   },

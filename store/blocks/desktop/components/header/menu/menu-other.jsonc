@@ -46,7 +46,8 @@
           "link#category__foryou--item-one",
           "link#category__foryou--item-two",
           "link#category__foryou--item-three"
-        ]
+        ], 
+        "props": {"blockClass": "container-items", "rowGap": 5}
       }, 
         "link#category__foryou--item-one": {
           "title": "category-foryou-item-one", 
@@ -82,14 +83,18 @@
         "children": [
           "flex-layout.row#category__others2--title2", 
           "flex-layout.row#category__all--title3"
-        ]
+        ],
+        "props": {"blockClass": "container-items", "rowGap": 5}
       },
         "flex-layout.row#category__others2--title2": {
           "title": "structure-category-others2-title2", 
           "children": [
             "link#category__others2--title2",
             "icon#desktop__header--submenu"
-          ]
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
         },
           "link#category__others2--title2": {
             "title": "title1-all-food", 

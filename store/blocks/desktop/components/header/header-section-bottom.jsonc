@@ -19,7 +19,7 @@
         "menu-item#desktop__menu--department-five", 
         "menu-item#desktop__menu--department-six", 
         "menu-item#desktop__menu--department-seven", 
-        "link.product#desktop__header--menu-offers"
+        "link#desktop__header--menu-offers"
       ], 
       "props": {
         "blockClass": "desktop__header--menu"
@@ -94,12 +94,18 @@
           "textPosition": "CENTER"
         }
       },
-    "link.product#desktop__header--menu-offers": {
+    "link#desktop__header--menu-offers": {
+      "children": ["icon#desktop__header--footprint"],
       "props": {
         "blockClass": "desktop__header--menu-offers",
         "displayMode": "button",
         "href": "/",
         "label": "OFERTAS"
+      }
+    },
+    "icon#desktop__header--footprint":{
+      "props": {
+        "id": "footprint"
       }
     }
 }

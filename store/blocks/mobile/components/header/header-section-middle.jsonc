@@ -56,5 +56,59 @@
       "showIconProfile": true,
       "hasGoogleOneTap": true
     }
-  }
+  }, 
+  "drawer#mobile__header--menu": {
+    "children": [
+      "menu#header__menu"
+    ],
+    "props": {
+      "maxWidth": "100%",
+      "isFullWidth": true, 
+      "slideDirection": "vertical",
+      "blockClass": "mobile__header--menu"
+    }
+  },
+    "menu#header__menu": {
+      "children": [
+        "menu-item#department__one",
+        "menu-item#department__two", 
+        "menu-item#department__three", 
+        "menu-item#department__four",
+        "menu-item#department__five", 
+        "menu-item#department__six", 
+        "menu-item#department__seven",
+        "menu-item#department__eight", 
+        "link#category__orders",
+        "link#category__contact",
+        "link#category__questions"
+      ], 
+      "props": {
+        "blockClass": "mobile__header--menu",
+        "orientation": "vertical"
+      }
+    },
+    "link#category__orders": {
+      "title": "category-orders", 
+      "props": {
+        "blockClass": "items__menu--mobile", 
+        "href": "/",
+        "label": "Mis Ordenes"
+      }
+    },
+    "link#category__contact": {
+      "title": "category-beds--item-one", 
+      "props": {
+        "blockClass": "items__menu--mobile", 
+        "href": "/",
+        "label": "Contáctanos"
+      }
+    },
+    "link#category__questions": {
+      "title": "category-beds--item-one", 
+      "props": {
+        "blockClass": "items__menu--mobile", 
+        "href": "/",
+        "label": "Preguntas Frecuentes"
+      }
+    }
 }
