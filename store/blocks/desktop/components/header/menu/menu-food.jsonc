@@ -48,7 +48,7 @@
           "link#category__food--item-two",
           "link#category__food--item-three"
         ], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       }, 
         "flex-layout.row#category__typefood--title": {
           "title": "structure-category-type-food-title", 
@@ -111,7 +111,7 @@
           "link#category__food--item-one",
           "link#category__food--item-two"
         ], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       },
         "flex-layout.row#category__medicatedfood--title": {
           "title": "structure-category-medicated-food-title", 
@@ -143,7 +143,7 @@
           "flex-layout.row#category__kindpet--dog", 
           "flex-layout.row#category__kindpet--cat"
         ], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       },
         "flex-layout.row#category__kindpet--title": {
           "title": "structure-category-kind-pet-title", 
@@ -225,7 +225,7 @@
           "flex-layout.row#category__all--title2", 
           "flex-layout.row#category__all--title3"
         ], 
-         "props": {"blockClass": "container-items", "rowGap": 5}
+         "props": {"blockClass": "container-items", "rowGap": 2}
       },
         "flex-layout.row#category__all--title1": {
           "title": "structure-category-all-title1", 

@@ -49,7 +49,7 @@
 					"link#category__toys--item-four", 
 					"link#category__toys--item-five"
         ], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       }, 
         "link#category__toys--item-one": {
           "title": "category-toys-item-one", 
@@ -104,7 +104,7 @@
 					"link#category__toys2--item-three", 
 					"link#category__toys2--item-four"
 				], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
 			}, 
 				"link#category__toys2--item-one": {
 					"title": "category-toys2-item-one", 
@@ -152,7 +152,7 @@
           "flex-layout.row#category__alltoys--title2", 
           "flex-layout.row#category__all--title3"
         ], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       },
         "flex-layout.row#category__alltoys--title2": {
           "title": "structure-category-all-toys-title2", 

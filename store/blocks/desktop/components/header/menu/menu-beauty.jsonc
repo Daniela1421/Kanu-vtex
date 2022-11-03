@@ -47,7 +47,7 @@
           "link#category__cleanliness--item-one",
           "link#category__cleanliness--item-two"
         ], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       }, 
         "flex-layout.row#category__cleanliness--title": {
           "title": "structure-category-cleanliness-title", 
@@ -98,7 +98,7 @@
           "link#category__sand--item-three",
           "link#category__sand--item-four"
         ], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       },
         "flex-layout.row#category__sand--title": {
           "title": "structure-category-sand-title", 
@@ -181,7 +181,7 @@
           "link#category__education--item-two",
           "link#category__education--item-three"
         ], 
-        "props": {"blockClass": "container-items","rowGap": 5}
+        "props": {"blockClass": "container-items","rowGap": 2}
       },
         "flex-layout.row#category__education--title": {
           "title": "structure-category-education-title", 
@@ -240,7 +240,7 @@
           "flex-layout.row#category__all--title2", 
           "flex-layout.row#category__all--title3"
         ], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       },
         "flex-layout.row#category__allbeauty--title2": {
           "title": "structure-category-all-beauty-title2", 

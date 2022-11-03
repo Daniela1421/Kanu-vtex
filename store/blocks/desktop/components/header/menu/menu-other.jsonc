@@ -47,7 +47,7 @@
           "link#category__foryou--item-two",
           "link#category__foryou--item-three"
         ], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       }, 
         "link#category__foryou--item-one": {
           "title": "category-foryou-item-one", 
@@ -84,7 +84,7 @@
           "flex-layout.row#category__others2--title2", 
           "flex-layout.row#category__all--title3"
         ],
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       },
         "flex-layout.row#category__others2--title2": {
           "title": "structure-category-others2-title2", 

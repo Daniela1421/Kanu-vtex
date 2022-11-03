@@ -38,7 +38,7 @@
 /*************************** Category beds *******************************/
       "flex-layout.row#menu__category--beds": {
         "children": ["flex-layout.col#category__beds--container--items"], 
-        "props": {"blockClass":"main-blocks", "rowGap": 5}
+        "props": {"blockClass":"main-blocks", "rowGap": 2}
       }, 
       "flex-layout.col#category__beds--container--items": {
         "title": "menu-category-beds", 
@@ -105,7 +105,7 @@
 /****************************** Category collars **********************************/
       "flex-layout.row#menu__category--collars": {
         "children": ["flex-layout.col#category__collars--container--items"],
-        "props": {"blockClass":"main-blocks", "rowGap": 5}
+        "props": {"blockClass":"main-blocks", "rowGap": 2}
       }, 
       "flex-layout.col#category__collars--container--items": {
         "title": "menu-category-collars",
@@ -181,7 +181,7 @@
           "flex-layout.row#category__trough--title2",
           "flex-layout.row#category__trough--title3"
         ], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       },
         "flex-layout.row#category__trough--title": {
           "title": "structure-category-trough-title", 
@@ -252,7 +252,7 @@
           "flex-layout.row#category__all--title2", 
           "flex-layout.row#category__all--title3"
         ], 
-        "props": {"blockClass": "container-items", "rowGap": 5}
+        "props": {"blockClass": "container-items", "rowGap": 2}
       },
         "flex-layout.row#category__allaccessories--title2": {
           "title": "structure-category-all-accessories-title2", 
