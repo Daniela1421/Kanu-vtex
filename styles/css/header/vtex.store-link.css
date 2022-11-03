@@ -4,6 +4,7 @@
     height: 1.7em;
     border-radius: 12px;
     margin-top: 0.5em;
+    border: none;
 }
 
 .label--desktop__header--menu-offers{
@@ -12,4 +13,41 @@
     font-family: "RobotoSlab";
     font-weight: bold;
     font-size: 0.75rem;
+    padding: 0 5px 0 10px;
+}
+
+.childrenContainer--desktop__header--menu-offers{
+    padding-right: 10px;
+}
+
+/******************* menu mobile *************/
+.label--items__menu--mobile{
+    font-family: "RobotoSlab";
+    font-size: 16px;
+    color: #707070;
+}
+
+.link--items__menu--mobile{
+    text-decoration: none;
+    margin: 15px;
+}
+
+.link--category__subtitles-mobile{
+    text-decoration: none;
+    font-weight: bold;
+    color: #707070;
+    font-family: "RobotoSlab";
+    font-size: 18px;
+}
+
+.link--category__subtitles-mobile:hover{
+    text-decoration: underline;
+}
+
+.link--items__submenu{
+    text-decoration: none;
+    color:#050505;
+    font-family: "RobotoSlab";
+    font-size: 17px;
+    /* font-size: ; */
 }
