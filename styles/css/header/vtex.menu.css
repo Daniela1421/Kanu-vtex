@@ -112,7 +112,7 @@
 }
 
 .styledLinkContent--menu-offers::after{
-  content: url("assets/img/pata.png")
+  content: url("assets/img/mobile-menu-offers.png")
 }
 
 .styledLinkContent--menu-offers{

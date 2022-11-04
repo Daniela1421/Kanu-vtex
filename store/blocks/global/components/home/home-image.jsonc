@@ -31,7 +31,7 @@
     "title": "Servicio 1 de home", 
     "props": {
         "src": "assets/img/home__services-1.png", 
-        // "maxWidth": 600, 
+        "maxWidth": 600, 
         "title": "Servicio 1", 
         "blockClass": "home__service1", 
         "link": {
@@ -45,9 +45,9 @@
     "title": "Servicio 2 de home", 
     "props": {
         "src": "assets/img/home__services-2.png", 
-        // "maxWidth": 600, 
+        "maxWidth": 600, 
         "title": "Servicio 2", 
-        "blockClass": "home__service1", 
+        "blockClass": ["home__service1", "image__service2"],
         "link": {
             "url": "https://www.google.com", 
             "newTab": true, 

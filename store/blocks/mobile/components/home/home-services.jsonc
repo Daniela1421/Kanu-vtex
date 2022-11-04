@@ -1,0 +1,180 @@
+{
+  "flex-layout.row#mobile__home--section-services1": {
+    "title": "services-section-one",
+    "children": [
+      "link#home__section--services1-item1",
+      "link#home__section--services1-item2"
+    ], 
+    "props": {
+      "blockClass": "mobile__home--section-services1"
+    }
+  },
+    "link#home__section--services1-item1": {
+      "title": "section-services-item1",
+      "children": ["image#home__services-1"],
+      "props": {
+        "blockClass": "home__section--services", 
+        "href": "/",
+        "label": "SERVICIOS SEDES KANÚ PET"
+      }
+    },
+    "link#home__section--services1-item2": {
+      "title": "section-services-item2",
+      "children": ["image#home__services-2"],
+      "props": {
+        "blockClass": "home__section--services", 
+        "href": "/",
+        "label": "ESCRÍBENOS A NUESTRO\n WHATSAPP"
+      }
+    },
+  "flex-layout.row#mobile__home--section-services1-part2": {
+    "title": "services-section-one-part-two",
+    "children": [
+      "link#home__section--services1-item3",
+      "link#home__section--services1-item4"
+    ], 
+    "props": {
+      "blockClass": "mobile__home--section-services1"
+    }
+  },
+    "link#home__section--services1-item3": {
+      "title": "section-services-item1",
+      "children": ["image#home__services-3"],
+      "props": {
+        "blockClass": ["home__section--services", "services-headquarters"],
+        "href": "/",
+        "label": "LOCALIZA TU SEDE MÁS\n CERCANA"
+      }
+    },
+    "link#home__section--services1-item4": {
+      "title": "section-services-item2",
+      "children": ["image#home__services-4"],
+      "props": {
+        "blockClass": ["home__section--services", "services-products"],
+        "href": "/",
+        "label": "PRODUCTOS PARA TI"
+      }
+    },
+/*************************** Section 2 services *********************/
+  "flex-layout.row#mobile__home--section-services2": {
+    "title": "",
+    "children": [
+      "flex-layout.col#home__section--services2--item1",
+      "flex-layout.col#home__section--services2--item2"
+    ], 
+    "props": {
+      "blockClass": "mobile__home--section-services2",
+      "marginTop": 8
+    }
+  }, 
+    "flex-layout.col#home__section--services2--item1": {
+      "children": [
+        "image#home__section--services2-img1", 
+        "rich-text#home__section--services2-msg1"
+      ], 
+      "props": {
+        "blockClass": "section__services2--container-items", 
+        "verticalAlign": "middle"
+      }
+    },
+      "image#home__section--services2-img1" : {
+        "title": "Imagen de envio gratis", 
+        "props": {
+          "src": "assets/img/home__section--services-shipping.png", 
+          "maxWidth": 40
+        }
+      }, 
+      "rich-text#home__section--services2-msg1" : {
+        "title": "Informacion de envio gratis", 
+        "props": {
+          "blockClass": "section__services2-text",
+          "text": "Envío gratis\n Por compras superiores a $65.000", 
+          "textAlignment": "CENTER"
+        }
+      },
+    "flex-layout.col#home__section--services2--item2": {
+      "children": [
+        "image#home__section--services2-img2", 
+        "rich-text#home__section--services2-msg2"
+      ], 
+      "props": {
+        "blockClass": "section__services2--container-items",
+        "verticalAlign": "middle"
+      }
+    },
+      "image#home__section--services2-img2" : {
+        "title": "Img Devoluciones gratis", 
+        "props": {
+          "src": "assets/img/home__section--services-repayment.png", 
+          "maxWidth": 40
+        }
+      }, 
+      "rich-text#home__section--services2-msg2" : {
+        "title": "Informacion de devoluciones", 
+        "props": {
+          "blockClass": "section__services2-text",
+          "text": "Devoluciones gratis\n 30 días para devolver el pedido\n gratis", 
+          "textAlignment": "CENTER"
+        }
+      },
+  "flex-layout.row#mobile__home--section-services2-part-two": {
+    "title": "",
+    "children": [
+      "flex-layout.col#home__section--services2--item3-part-two",
+      "flex-layout.col#home__section--services2--item4-part-two"
+    ], 
+    "props": {
+      "marginTop": 5
+    }
+  }, 
+    "flex-layout.col#home__section--services2--item3-part-two": {
+      "children": [
+        "image#home__section--services2-img3", 
+        "rich-text#home__section--services2-msg3"
+      ], 
+      "props": {
+        "blockClass": "section__services2--container-items",
+        "verticalAlign": "middle"
+      }
+    },
+      "image#home__section--services2-img3" : {
+        "title": "Img pago contraentrega", 
+        "props": {
+          "src": "assets/img/home__section--services-home.png", 
+          "maxWidth": 40
+        }
+      }, 
+      "rich-text#home__section--services2-msg3" : {
+        "title": "Informacion de pago contraentrega", 
+        "props": {
+          "blockClass": ["section__services2-text", "container-text-services2"],
+          "text": "Pago contra entrega\n Pide online y paga en casa", 
+          "textAlignment": "CENTER"
+        }
+      },
+    "flex-layout.col#home__section--services2--item4-part-two": {
+      "children": [
+        "image#home__section--services2-img4", 
+        "rich-text#home__section--services2-msg4"
+      ], 
+      "props": {
+        "blockClass": "section__services2--container-items",
+        "verticalAlign": "middle"
+      }
+    },
+      "image#home__section--services2-img4" : {
+        "title": "Img tiempo de entrega", 
+        "props": {
+          "src": "assets/img/home__section--services-delivery.png", 
+          "maxWidth": 40
+        }
+      }, 
+      "rich-text#home__section--services2-msg4" : {
+        "title": "Informacion de tiempo de entrega", 
+        "props": {
+          "blockClass": ["section__services2-text", "container-text-services2"],
+          "text": "Entrega en 3 días hábiles\n aprox. En temporada de\n promociones puede variar",
+          "textAlignment": "CENTER"
+        }
+      }
+}

@@ -1,9 +1,8 @@
-.imageElement--home__image2 {
-    padding-left: 10px;
-}
-
 .imageElement--home__service1 {
     width: 85%;
+}
+.imageElement--image__service2{
+    margin-top: 20px;
 }
 
 .imageElement--categories__seccion1--item2{
@@ -29,8 +28,7 @@
 }
 
 .searchBarIcon--search{
-    content: "\e99e";
-    font-family: kanu-icons;
+    /* content: "\e99e"; */
     font-size: 20px;
     color: #f8971d;
 }

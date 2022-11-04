@@ -3,7 +3,7 @@
     font-size: 30px;
     font-weight: bold;
     font-family: "RobotoSlab";
-    font-weight: 400;
+    /* font-weight: 400; */
     /* margin-right: 5em; */
     /* margin-right: 5em; */
 }
@@ -43,5 +43,10 @@
 .paragraph--section__services2-text{
     font-family: "RobotoSlab";
     font-weight: 400;
-    font-size: 0.75rem;
+    font-size: 15px;
+    color: #3f3f40;
+}
+
+.paragraph--container-text-services2{
+    margin-left: 15px;
 }
