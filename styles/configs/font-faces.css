@@ -1,23 +1,23 @@
 @font-face {
-  font-family: 'RobotoSlab';
-  src: url(assets/fonts/RobotoSlab-Bold.ttf) format("ttf");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'RobotoSlab';
-  src: url(assets/fonts/RobotoSlab-Medium.ttf) format("ttf");
-  font-weight: 500; 
-}
-
-@font-face {
-  font-family: 'RobotoSlab';
-  src: url(assets/fonts/RobotoSlab-Regular.ttf) format("ttf");
+  font-family: 'RobotoSlab-regular';
+  src: url(assets/fonts/RobotoSlab-Regular.ttf);
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'RobotoSlab';
-  src: url(assets/fonts/RobotoSlab-SemiBold.ttf) format("ttf");
+  font-family: 'RobotoSlab-medium';
+  src: url(assets/fonts/RobotoSlab-Medium.ttf);
+  font-weight: 500; 
+}
+
+@font-face {
+  font-family: 'RobotoSlab-semibold';
+  src: url(assets/fonts/RobotoSlab-SemiBold.ttf);
   font-weight: 600;
+}
+
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url(assets/fonts/RobotoSlab-Bold.ttf);
+  font-weight: bold;
 }

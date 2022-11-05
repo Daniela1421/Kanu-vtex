@@ -15,7 +15,7 @@
 .flexRowContent--desktop__header--menu{
     align-items: center;
     justify-content: space-between;
-    width: 15em;
+    width: 19em;
 }
 
 .flexCol--header__menu--animals{
@@ -23,16 +23,16 @@
     align-items: center;
     background: #f7f7f7;
     border: 1px solid #050505;
-    margin: 0.8em 0 0.8em 2em;
+    margin: 0.5em 0 0.5em 2em;
     padding: 2px 14px; 
     height: auto;
     border-radius: 10px;
     width: 11em;
 }
 
-.flexColChild--header__menu--animals{
+/* .flexColChild--header__menu--animals{
     padding-right: 0.5em;
-}
+} */
 
 .flexCol--header__menu--animals1{
     flex-direction: row;
@@ -68,12 +68,12 @@
     padding-left: 14px;
 }
 
-.flexRowContent{
+/* .flexRowContent{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     align-content: center;
-}
+} */
 
 .flexRow--main-blocks{
     border-right: 1px solid #efefef

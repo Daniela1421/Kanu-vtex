@@ -22,7 +22,7 @@
           "title": "category-section-one", 
           "props": {
               "blockClass": "home__categories--seccion", 
-              "text": "Tipo de mascota", 
+              "text": "TIPO DE MASCOTA", 
               "textPosition": "CENTER"
           }
       }, 
@@ -110,7 +110,7 @@
           "title": "category-seccion-two", 
           "props": {
               "blockClass": "home__categories--seccion", 
-              "text": "Tipo de producto", 
+              "text": "TIPO DE PRODUCTO", 
               "textPosition": "CENTER"
           }
       }, 

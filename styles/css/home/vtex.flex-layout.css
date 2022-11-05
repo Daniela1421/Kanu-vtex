@@ -31,7 +31,7 @@
     padding-left: 10px;
 }
 
-/*********** Servicios ************/
+/*********** Services ************/
 
 .flexRowContent--home__section--services2{
     display: flex;
@@ -87,6 +87,7 @@
     text-decoration: none;
     color: #050505;
     text-align: center;
+    /* font-family: "RobotoSlab"; */
 }
 
 .flexCol--desktop-home-categories
@@ -95,6 +96,37 @@
     box-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
     border: 1px solid #f2f2f2;
     border-bottom-color: #f8971d;
+    filter: invert(59%) sepia(96%) saturate(844%) hue-rotate(347deg) brightness(100%) contrast(94%);
+}
+
+
+
+.flexRowContent--mobile-home-categories
+:global(.vtex-store-link-0-x-link--categories-items-mobile){
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 11px;
+    text-decoration: none;
+    color: #050505;
+    text-align: center;
+}
+
+.flexRowContent--mobile-home-categories
+:global(.vtex-store-link-0-x-link--categories-items-mobile):hover{
+    color: #f8971d;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
+    border: 1px solid #f2f2f2;
+    border-bottom-color: #f8971d;
+    filter: invert(59%) sepia(96%) saturate(844%) hue-rotate(347deg) brightness(100%) contrast(94%);
+}
+
+.flexRowContent--mobile-home-categories
+:global(.vtex-store-link-0-x-label--categories-items-mobile){
+    padding: 11px;
+}
+
+.flexRow--categories-cat{
+    width: 70%;
 }
 /* 
 .flexCol--desktop-home-categories
@@ -158,7 +190,7 @@
     flex-direction: column-reverse;
     align-items: center;
     text-decoration: none;
-    font-family: "RobotoSlab";
+    /* font-family: "RobotoSlab"; */
     font-weight: 600;
     font-size: 16px;
     color: #050505;
@@ -225,4 +257,10 @@
 
 .flexCol--mobile__section--search-form{
     height: 12em;
+}
+
+/******************** mobile categories **************/
+.flexRowContent--mobile__home--categories{
+    display: flex;
+    flex-direction: column;
 }

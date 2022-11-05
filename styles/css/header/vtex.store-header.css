@@ -30,13 +30,13 @@
 
 .headerRowContainer--desktop__header--middle{
     background-color: #F8971D;
-    padding: 0.5em 0 0.4em 7em;
+    padding: 0.5em 0 0.4em 9em;
 }
 
 .headerRowContainer--desktop__header--middle
 :global(.vtex-store-components-3-x-searchBarContainer){
     background-color: #F8971D;
-    padding: 5px 80px 5px 120px;
+    padding: 5px 139px 5px 89px;
 }
 
 .headerRowContentContainer--desktop__header--bottom{

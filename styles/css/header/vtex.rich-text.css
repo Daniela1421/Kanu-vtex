@@ -2,16 +2,20 @@
     font-size: 10px;
     margin: 0; 
 }
-.paragraph{
+/* .paragraph{
     margin: 1px; 
     font-size: 13px;
-    font-family: "RobotoSlab";
-    font-weight: 400;
+    font-family: "RobotoSlab"; 
+     font-weight: 400;
+} */
+.paragraph--desktop__header--time-delivery{
+    margin: 5px;
+    font-size: 13px;
 }
 
 .paragraph--header__menu--text{
-    font-family: "RobotoSlab";
-    font-weight: 400;
+    /* font-family: "RobotoSlab"; */
+    /* font-weight: 400; */
     font-size: 0.75rem;
     
 }
@@ -31,10 +35,11 @@
     height: 34px;
     text-align: center;
     cursor: pointer;
-    margin-right: 3em;
+    margin: 0 7em 0 -6em;
 }
 
 .paragraph--desktop__header--pqr{
     margin: 0;
     line-height: 34px;
+    font-size: 16px;
 }
