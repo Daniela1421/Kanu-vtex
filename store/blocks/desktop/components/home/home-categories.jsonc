@@ -51,7 +51,6 @@
             "icon#categories__seccion1--type-of-pet":{
               "props": {
                 "id": "category-pet",
-                // "activeClassName": "vtex-store-link-0-x--category-icon"
                 "size": 60
               }
             },
@@ -85,7 +84,6 @@
             "icon#categories__seccion1--type-of-pet2":{
               "props": {
                 "id": "submenu-cat",
-                // "activeClassName": "vtex-store-link-0-x--category-icon"
                 "size": 60
               }
             },
@@ -140,7 +138,6 @@
           "icon#categories__seccion2--type-of-product":{
             "props": {
               "id": "category-product",
-                // "activeClassName": "vtex-store-link-0-x--category-icon"
                 "size": 60
             }
           },

@@ -3,7 +3,6 @@
     "title":"list-of-images-desktop",
     "children": ["slider-layout#home__slider--list"],
     "props": {
-      // "preload":true,
       "images":[
         {
           "image":"assets/img/home__slider-1.png",

@@ -2,17 +2,11 @@
     color: #fff;
     font-size: 30px;
     margin: 0%;
-    /* font-family: "RobotoSlab"; */
-    /* font-weight: 400; */
-    /* margin-right: 5em; */
-    /* margin-right: 5em; */
 }
 
 /****** Categories ******/
 .paragraph--categories__seccion1--item{
     font-size: 12px;
-    /* font-family: "RobotoSlab"; */
-    /* font-weight: 400; */
 }
 
 /******* Titles********/
@@ -28,8 +22,6 @@
     padding: 10px 15px;
     border-radius: 10px;
     border: 2px solid #050505;
-    /* font-family: "RobotoSlab"; */
-    /* font-weight: 400; */
     font-size: 18px;
     background: #fff;
 }
@@ -42,25 +34,14 @@
     top: 50%;
     left: 0;
     right: 0;
-    /* bottom: 0;
-    width: 100%; */
     z-index: -1;
 }
 
 /******* Services *****/
 
 .paragraph--section__services1{
-    /* font-family: "RobotoSlab"; */
-    font-weight: 600;
     font-size: 16px;
 }
-
-/* .paragraph--section__services2-text{
-    font-family: "RobotoSlab";
-    font-weight: 400;
-    font-size: 15px;
-    color: #3f3f40;
-} */
 
 .paragraph--container-text-services2{
     margin-left: 15px;
@@ -73,9 +54,6 @@
 }
 
 /******* Section search mobile *****/
-/* .container--home__section--search-msg{
-    margin-left: 40px;
-} */
 
 .container--text-section-search{
     height: 35px;

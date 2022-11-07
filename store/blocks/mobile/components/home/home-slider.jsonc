@@ -3,7 +3,6 @@
     "title":"list-of-images",
     "children": ["slider-layout#mobile__home--slider--list"],
     "props": {
-      // "preload":true,
       "images":[
         {
           "image":"assets/img/home__slider-mobile.png",
@@ -28,11 +27,10 @@
     "title":"slider-with-list",
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
         "mobile": 1
       },
       "infinite": true,
+      "showNavigationArrows": "never",
       "blockClass": "mobile__home--slider", 
       "autoplay": {
         "timeout": 3000,

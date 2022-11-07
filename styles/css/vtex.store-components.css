@@ -46,54 +46,35 @@
     width: 40%;
 }
 
-/* .searchBarContainer{
-    background-color: #f2f2f2; 
-    padding: 5px 20px;
-    width: 100%;
-}
-
-@media (min-with: 1024px) {
-    .searchBarContainer{
-        background-color: #F8971D !important;
-        padding: 5px 100px;
-    }
-} */
-
-
-
-/* .searchBarContainer{
-    background-color: #F8971D;
-    padding: 5px 100px;
-    width: 100%;
-}
-
-@media (max-with: 1024px) {
-    .searchBarContainer{
-        background-color: #f2f2f2 !important; 
-        padding: 5px 20px;
-        width: 100%;
-    }
-} */
-
-/**************************** Section products recomended *******/
+/************ Section products recommended **************/
 
 .skuSelectorTextContainer, .frameAround {
     display: none;
 }
 
-/* .skuSelectorContainer
-:global(.vtex-product-summary-2-x-skuSelectorItem--2-x-1){
-
-} */
-
-/* .skuSelectorContainer
-:global(.){
-
-}  */
-.skuSelectorInternalBox{
+.skuSelectorItem--selected{
     background-color: #ee562a;
+    border-radius: 0.25rem;
 }
 
 .skuSelectorItemTextValue{
+    color: #ee562a;
+}
+
+.skuSelectorItemTextValue:hover{
     color:#fff;
+}
+
+
+.skuSelectorInternalBox{
+    border: 1px solid #ee562a;
+}
+
+.skuSelectorInternalBox:hover{
+    background-color: #ee562a;
+}
+
+.skuSelectorItem--selected
+:global(.vtex-store-components-3-x-skuSelectorItemTextValue){
+    color: #fff;
 }

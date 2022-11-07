@@ -69,8 +69,6 @@
   }, 
     "flex-layout.col#home__section--services2--item1": {
       "children": [
-        // "image#home__section--services2-img1", 
-        // "rich-text#home__section--services2-msg1"
         "image#section__services2-img1", 
         "rich-text#section__services2-msg1"
       ], 
@@ -79,25 +77,8 @@
         "verticalAlign": "middle"
       }
     },
-      // "image#home__section--services2-img1" : {
-      //   "title": "Imagen de envio gratis", 
-      //   "props": {
-      //     "src": "assets/img/home__section--services-shipping.png", 
-      //     "maxWidth": 40
-      //   }
-      // }, 
-      // "rich-text#home__section--services2-msg1" : {
-      //   "title": "Informacion de envio gratis", 
-      //   "props": {
-      //     "blockClass": "section__services2-text",
-      //     "text": "Envío gratis\n Por compras superiores a $65.000", 
-      //     "textAlignment": "CENTER"
-      //   }
-      // },
     "flex-layout.col#home__section--services2--item2": {
       "children": [
-        // "image#home__section--services2-img2", 
-        // "rich-text#home__section--services2-msg2"
         "image#section__services2-img2", 
         "rich-text#section__services2-msg2"
       ], 
@@ -106,21 +87,6 @@
         "verticalAlign": "middle"
       }
     },
-      // "image#home__section--services2-img2" : {
-      //   "title": "Img Devoluciones gratis", 
-      //   "props": {
-      //     "src": "assets/img/home__section--services-repayment.png", 
-      //     "maxWidth": 40
-      //   }
-      // }, 
-      // "rich-text#home__section--services2-msg2" : {
-      //   "title": "Informacion de devoluciones", 
-      //   "props": {
-      //     "blockClass": "section__services2-text",
-      //     "text": "Devoluciones gratis\n 30 días para devolver el pedido\n gratis", 
-      //     "textAlignment": "CENTER"
-      //   }
-      // },
   "flex-layout.row#mobile__home--section-services2-part-two": {
     "title": "",
     "children": [
@@ -134,8 +100,6 @@
   }, 
     "flex-layout.col#home__section--services2--item3-part-two": {
       "children": [
-        // "image#home__section--services2-img3", 
-        // "rich-text#home__section--services2-msg3"
         "image#section__services2-img3", 
         "rich-text#section__services2-msg3"
       ], 
@@ -144,25 +108,8 @@
         "verticalAlign": "middle"
       }
     },
-      // "image#home__section--services2-img3" : {
-      //   "title": "Img pago contraentrega", 
-      //   "props": {
-      //     "src": "assets/img/home__section--services-home.png", 
-      //     "maxWidth": 40
-      //   }
-      // }, 
-      // "rich-text#home__section--services2-msg3" : {
-      //   "title": "Informacion de pago contraentrega", 
-      //   "props": {
-      //     "blockClass": ["section__services2-text", "container-text-services2"],
-      //     "text": "Pago contra entrega\n Pide online y paga en casa", 
-      //     "textAlignment": "CENTER"
-      //   }
-      // },
     "flex-layout.col#home__section--services2--item4-part-two": {
       "children": [
-        // "image#home__section--services2-img4", 
-        // "rich-text#home__section--services2-msg4"
         "image#section__services2-img4", 
         "rich-text#section__services2-msg4"
       ], 
@@ -171,19 +118,4 @@
         "verticalAlign": "middle"
       }
     }
-      // "image#home__section--services2-img4" : {
-      //   "title": "Img tiempo de entrega", 
-      //   "props": {
-      //     "src": "assets/img/home__section--services-delivery.png", 
-      //     "maxWidth": 40
-      //   }
-      // }, 
-      // "rich-text#home__section--services2-msg4" : {
-      //   "title": "Informacion de tiempo de entrega", 
-      //   "props": {
-      //     "blockClass": ["section__services2-text", "container-text-services2"],
-      //     "text": "Entrega en 3 días hábiles\n aprox. En temporada de\n promociones puede variar",
-      //     "textAlignment": "CENTER"
-      //   }
-      // }
 }

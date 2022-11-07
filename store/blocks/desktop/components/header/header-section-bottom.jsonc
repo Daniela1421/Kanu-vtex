@@ -51,7 +51,6 @@
         "rich-text#header__menu--text-dog"
       ], 
       "props": {
-        // "horizontalAlign": "center"
         "blockClass": "header__menu--animals1"
       }
     }, 

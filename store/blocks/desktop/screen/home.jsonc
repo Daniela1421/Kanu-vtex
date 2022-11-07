@@ -4,16 +4,6 @@
     "children": [
       "list-context.image-list#desktop__home--slider-list",
       "flex-layout.row#desktop__home--main"
-      // "flex-layout.row#desktop__home--section-search",
-      // "rich-text#global__home--title-categories",
-      // "flex-layout.row#desktop__home--categories",
-      // "flex-layout.row#desktop__home--section-one",
-      // "rich-text#global__home--title-services",
-      // "flex-layout.row#desktop__home--section-services1",
-      // "flex-layout.row#desktop__home--section-services2",
-      // "modal-trigger#desktop__home--modal-children"
-      // "modal-trigger#desktop__home--modal-event"
-      // "search-result-layout.customQuery#home__search"
     ]
   }, 
   "search-result-layout.customQuery#home__search": {

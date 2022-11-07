@@ -11,6 +11,7 @@
       "rich-text#global__home--title-products",
       "list-context.product-list#global__home--products-recommended",
       "rich-text#global__home--title-favorites",
+      "list-context.product-list#global__home--products-recommended",
       "rich-text#global__home--title-services",
       "flex-layout.row#mobile__home--section-services1",
       "flex-layout.row#mobile__home--section-services1-part2",

@@ -2,22 +2,14 @@
     font-size: 10px;
     margin: 0; 
 }
-/* .paragraph{
-    margin: 1px; 
-    font-size: 13px;
-    font-family: "RobotoSlab"; 
-     font-weight: 400;
-} */
+
 .paragraph--desktop__header--time-delivery{
     margin: 5px;
     font-size: 13px;
 }
 
 .paragraph--header__menu--text{
-    /* font-family: "RobotoSlab"; */
-    /* font-weight: 400; */
-    font-size: 0.75rem;
-    
+    font-size: 0.75rem; 
 }
 
 .container--desktop__header--pqr:hover{

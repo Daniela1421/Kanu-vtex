@@ -3,14 +3,14 @@
     "title": "Section-products-recommended",
     "blocks": ["product-summary.shelf#home__products--recommended"],
     "children": ["slider-layout#home__products--recommended"], 
-    "props": {"blockClass": ""}
+    "props": {"blockClass": "global__home--products-recommended"}
   }, 
     "product-summary.shelf#home__products--recommended": {
       "children": [
         "product-summary-image",
         "product-summary-name",
         "product-summary-sku-selector",
-        "product-summary-price",
+        // "product-selling-price",
         "add-to-cart-button"
       ]
     },
@@ -22,7 +22,6 @@
           "phone": 1
         }, 
         "infinite": true,
-        // "showNavigationArrows": "always",
         "showPaginationDots": "never", 
         "blockClass": "home__products--recommended"
       }

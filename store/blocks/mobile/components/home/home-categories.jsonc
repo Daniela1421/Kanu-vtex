@@ -17,7 +17,7 @@
           "flex-layout.row#home__categories--seccion1-part-one", 
           "flex-layout.row#home__categories--seccion1-part-two"
       ], 
-      "props": { "blockClass": "mobile__home--categories"} /******** cambiar clase agregar flex, flex-direction: column***/
+      "props": { "blockClass": "mobile__home--categories"}
     },
       "rich-text#mobile__home--categories-seccion1": {
         "title": "category-section-one-mobile", 
@@ -47,13 +47,6 @@
             "label": "Perro Grande"
           }
         },
-          // "icon#categories__seccion1--type-of-pet":{
-          //   "props": {
-          //     "id": "category-pet",
-          //     // "activeClassName": "vtex-store-link-0-x--category-icon"
-          //     "size": 60
-          //   }
-          // },
         "link#mobile__home--categories-seccion1-item2": {
           "title": "category-section-one-item2", 
           "children": ["icon#categories__seccion1--type-of-pet"],
@@ -92,13 +85,6 @@
             // "width": "50%"
           }
         },
-        // "icon#categories__seccion1--type-of-pet2":{
-        //   "props": {
-        //     "id": "submenu-cat",
-        //     // "activeClassName": "vtex-store-link-0-x--category-icon"
-        //     "size": 60
-        //   }
-        // },
         "link#mobile__home--categories-seccion1-item5": {
           "title": "category-section-one-item5", 
           "children": ["icon#categories__seccion1--type-of-pet2"],
@@ -145,13 +131,6 @@
               "label": "Alimento"
             }
         }, 
-          // "icon#categories__seccion2--type-of-product":{
-          //   "props": {
-          //     "id": "category-product",
-          //       // "activeClassName": "vtex-store-link-0-x--category-icon"
-          //       "size": 60
-          //   }
-          // },
           "link#mobile__home--categories-seccion2-item2": {
           "title": "category-section-two-item2", 
           "children": ["icon#categories__seccion2--type-of-product"],

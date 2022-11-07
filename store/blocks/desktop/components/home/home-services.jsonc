@@ -63,6 +63,7 @@
         "title": "services-section-part-one-headquarters",
         "props": {
           "blockClass": "section__services1",
+          "font": "t-heading-2",
           "text": "SERVICIOS SEDES KANÚ PET", 
           "textAlignment": "CENTER"
         }
@@ -71,6 +72,7 @@
         "title": "services-section-part-one-whatsapp",
         "props": {
           "blockClass": "section__services1",
+          "font": "t-heading-2",
           "text": "ESCRÍBENOS A NUESTRO\n WHATSAPP",
           "textAlignment": "CENTER"
         }
@@ -79,6 +81,7 @@
         "title": "services-section-part-one-location",
         "props": {
           "blockClass": "section__services1",
+          "font": "t-heading-2",
           "text": "LOCALIZA TU SEDE MÁS\n CERCANA",
           "textAlignment": "CENTER"
         }
@@ -87,6 +90,7 @@
         "title": "services-section-part-one-for-you",
         "props": {
           "blockClass": "section__services1",
+          "font": "t-heading-2",
           "text": "PRODUCTOS PARA TI",
           "textAlignment": "CENTER"
         }
