@@ -1,14 +1,102 @@
 .sliderLayoutContainer--home_slider{
     max-width: 100%;
-    margin: 4em 0; 
+    margin: 4em 0 1em 0;
 }
 .paginationDotsContainer--home_slider{
     padding-bottom: 7px;
 }
 
-/* .paginationDotsContainer--isActive{
-    background-color: black;
-} */
-.bg-emphasis {
-    background-color: black;
+.paginationDot--home_slider--isActive{
+    background-color: #000;;
+}
+
+
+/************** Slider mobile ******************/
+
+.sliderLayoutContainer--mobile__home--slider{
+    margin: 1em 0;
+    max-width: 100%;
+}
+
+.paginationDotsContainer--mobile__home--slider{
+    padding-bottom: 7px;
+}
+
+.paginationDot--mobile__home--slider--isActive{
+    background-color: #000;;
+}
+
+/************** Section products recommended *************/
+
+.caretIcon--home__products--recommended{
+    color: #f8971d;
+}
+
+.slideChildrenContainer--home__products--recommended 
+:global(.vtex-product-summary-2-x-element){
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 4px;
+    transition: .2s;
+    position: relative;
+    margin: 5px;
+}
+
+.slide--home__products--recommended{
+    margin-bottom: 25px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.slideChildrenContainer--home__products--recommended 
+:global(.vtex-product-summary-2-x-imageNormal){
+    width: 90px;
+    height: 100%;
+    object-fit: contain;
+    max-height: 150px;
+}
+
+.slide--home__products--recommended
+:global(.vtex-product-summary-2-x-nameWrapper){
+    font-size: 12px;
+    margin: 5px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.slideChildrenContainer--home__products--recommended
+:global(.vtex-add-to-cart-button-0-x-buttonText){
+    visibility: hidden;
+}
+
+.slideChildrenContainer--home__products--recommended
+:global(.vtex-add-to-cart-button-0-x-buttonText)::before{
+    visibility: visible;
+    content: "COMPRAR";
+    font-size: 12px;
+    align-items: center;
+}
+
+.slideChildrenContainer--home__products--recommended
+:global(.vtex-button__label){
+    padding: 0 1em;
+}
+
+.slideChildrenContainer--home__products--recommended
+:global(.vtex-add-to-cart-button-0-x-buttonDataContainer){
+    height: 18px;
+    width: 300px;
+    padding-left: 4.5em;
+}
+
+.slideChildrenContainer--home__products--recommended
+:global(.vtex-button__label):hover{
+    color: #000;
+}
+
+
+.slideChildrenContainer--home__products--recommended
+:global(.vtex-product-summary-2-x-brandName){
+  font-size: 13px;
 }

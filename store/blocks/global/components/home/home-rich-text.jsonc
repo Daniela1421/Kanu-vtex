@@ -1,6 +1,6 @@
 {
   "rich-text#global__home--title-categories": {
-    "title": "Titulo de categorias", 
+    "title": "title-categories", 
     "props": {
         "blockClass": "home__title", 
         "text": "NAVEGAR POR CATEGORÍA", 
@@ -8,15 +8,23 @@
     }
   }, 
   "rich-text#global__home--title-products": {
-    "title": "Titulo de productos", 
+    "title": "Title-products", 
     "props": {
         "blockClass": "home__title", 
         "text": "PRODUCTOS RECOMENDADOS", 
         "textPosition": "CENTER"
     }
   },
+  "rich-text#global__home--title-favorites": {
+    "title": "Title-favorites", 
+    "props": {
+        "blockClass": "home__title", 
+        "text": "FAVORITOS KANÚ", 
+        "textPosition": "CENTER"
+    }
+  },
   "rich-text#global__home--title-services": {
-    "title": "Titulo de servicios ", 
+    "title": "Title-services", 
     "props": {
         "blockClass": "home__title", 
         "text": "SERVICIOS", 

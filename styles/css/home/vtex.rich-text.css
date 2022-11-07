@@ -1,18 +1,12 @@
 .paragraph--home__section--search-msg {
     color: #fff;
     font-size: 30px;
-    font-weight: bold;
-    font-family: "RobotoSlab";
-    font-weight: 400;
-    /* margin-right: 5em; */
-    /* margin-right: 5em; */
+    margin: 0%;
 }
 
 /****** Categories ******/
 .paragraph--categories__seccion1--item{
     font-size: 12px;
-    font-family: "RobotoSlab";
-    font-weight: 400;
 }
 
 /******* Titles********/
@@ -21,27 +15,52 @@
     position: relative;
     z-index: 1;
     color: #050505;
+    margin: 30px auto 0;
 }
 
 .paragraph--home__title{
     padding: 10px 15px;
     border-radius: 10px;
     border: 2px solid #050505;
-    font-family: "RobotoSlab";
-    font-weight: 400;
     font-size: 18px;
+    background: #fff;
+}
+
+.paragraph--home__title::before{
+    border-top: 2px solid #050505;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
 
 /******* Services *****/
 
 .paragraph--section__services1{
-    font-family: "RobotoSlab";
-    font-weight: 600;
     font-size: 16px;
 }
 
-.paragraph--section__services2-text{
-    font-family: "RobotoSlab";
+.paragraph--container-text-services2{
+    margin-left: 15px;
+}
+
+.paragraph--section__services2-text
+:global(.vtex-rich-text-0-x-strong--section__services2-text){
     font-weight: 400;
-    font-size: 0.75rem;
+    font-size: 14px;
+}
+
+/******* Section search mobile *****/
+
+.container--text-section-search{
+    height: 35px;
+}
+
+@media (max-width: 1024px){
+    .container--home__title{
+        margin: 0.7rem;
+    }
 }

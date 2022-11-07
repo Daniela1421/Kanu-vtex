@@ -25,19 +25,28 @@
 .headerRowContainer--header__top{
     min-height: 10px;
     justify-content: center;
-    /* margin: 0 10em */
 }
 
 .headerRowContainer--desktop__header--middle{
     background-color: #F8971D;
-    padding: 0.5em 0 0.4em 7em;
+    padding: 0.5em 0 0.4em 9em;
 }
 
 .headerRowContainer--desktop__header--middle
 :global(.vtex-store-components-3-x-searchBarContainer){
     background-color: #F8971D;
-    padding: 5px 80px 5px 120px;
+    padding: 5px 139px 5px 89px;
 }
+
+.headerRowContainer--desktop__header--middle
+:global(.vtex-login-2-x-label){
+    display: none;
+}
+
+/* .headerRowContainer--desktop__header--middle
+:global(.vtex-login-2-x-profileIcon):hover{
+    filter: invert(0%) sepia(93%) saturate(17%) hue-rotate(53deg) brightness(104%) contrast(101%);
+} */
 
 .headerRowContentContainer--desktop__header--bottom{
     background-color: #fff;
@@ -48,21 +57,3 @@
     background-color: #fff;
     box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
 }
-
-
- /* .headerRowContainer--desktop__header--middle
- :global(.vtex-store-components-3-x-searchBarContainer){
-    background-color: #F8971D;
-    padding: 5px 100px;
-    width: 100%;
- }
-
-@media (max-with: 1024px) {
-    .headerRowContainer--desktop__header--middle
-    :global(.vtex-store-components-3-x-searchBarContainer){
-        background-color: #f2f2f2 !important; 
-        padding: 5px 20px;
-        width: 100%;
-    }
- 
-} */

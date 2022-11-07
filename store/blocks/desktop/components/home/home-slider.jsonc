@@ -1,9 +1,8 @@
 {
-  "list-context.image-list#global__home--slider-list":{
-    "title":"lista de imágenes",
+  "list-context.image-list#desktop__home--slider-list":{
+    "title":"list-of-images-desktop",
     "children": ["slider-layout#home__slider--list"],
     "props": {
-      // "preload":true,
       "images":[
         {
           "image":"assets/img/home__slider-1.png",
@@ -25,7 +24,7 @@
     }
   },
   "slider-layout#home__slider--list":{
-    "title":"slider con lista",
+    "title":"slider-with-list-desktop",
     "props": {
       "itemsPerPage": {
         "desktop": 1,

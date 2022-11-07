@@ -25,7 +25,6 @@
 
 .minicartTitle::before{
     content: "Productos en tu carrito";
-    font-family: "RobotoSlab";
     visibility: visible;
     color: #050505;
     font-size: 18px;
@@ -36,11 +35,6 @@
     padding: 0;
 }
 
-.minicartSummary
-:global(.vtex-checkout-summary-0-x-summaryItemLabel){
-    font-family: "RobotoSlab";
-    /* size: 25px */
-}
 .minicartSummary
 :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
     display: none;
@@ -55,21 +49,18 @@
 .minicartProductListContainer
 :global(.vtex-product-list-0-x-productName ){
     font-size: 0.9em;
-    font-family: "RobotoSlab";
 }
 
 .minicartProductListContainer
 :global(.vtex-product-list-0-x-productBrandName){
     font-size: 9px;
-    font-family: "RobotoSlab";
 }
 
 .minicartProductListContainer
 :global(.vtex-product-list-0-x-price){
-    padding-right: 6.5em;
+    padding-right: 9.5em;
     font-size: 0.95em;
     font-weight: bold;
-    font-family: "RobotoSlab";
 }
 
 .minicartProductListContainer
@@ -140,3 +131,8 @@
     padding: 20px;
 }
 
+@media (min-width:1024px){
+    .minicartContainer{
+        padding-left: 5em;
+    }
+}
