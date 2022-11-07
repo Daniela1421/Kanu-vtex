@@ -7,6 +7,10 @@
     border: none;
 }
 
+.link--desktop__header--menu-offers:hover{
+    background-color: #050505;
+}
+
 .label--desktop__header--menu-offers{
     display: flex;
     justify-content: center;

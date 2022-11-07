@@ -127,7 +127,7 @@
         "title": "info-free-shipping", 
         "props": {
           "blockClass": "section__services2-text",
-          "text": "Envío gratis\n Por compras superiores a $65.000", 
+          "text": "**Envío gratis**\n Por compras superiores a $65.000", 
           "textAlignment": "CENTER"
         }
       },
@@ -153,7 +153,7 @@
         "title": "returns-info", 
         "props": {
           "blockClass": "section__services2-text",
-          "text": "Devoluciones gratis\n 30 días para devolver el pedido gratis", 
+          "text": "**Devoluciones gratis**\n 30 días para devolver el pedido gratis", 
           "textAlignment": "CENTER"
         }
       },
@@ -172,14 +172,14 @@
         "props": {
           "src": "assets/img/home__section--services-home.png", 
           "maxWidth": 40,
-          "blockClass": "section__services2"
+          "blockClass": ["section__services2", "section-services-part2"]
         }
       }, 
       "rich-text#section__services2-msg3" : {
         "title": "info-cash-on-delivery", 
         "props": {
           "blockClass": "section__services2-text",
-          "text": "Pago contra entrega\n Pide online y paga en casa", 
+          "text": "**Pago contra entrega**\n Pide online y paga en casa", 
           "textAlignment": "CENTER"
         }
       },
@@ -198,14 +198,14 @@
         "props": {
           "src": "assets/img/home__section--services-delivery.png", 
           "maxWidth": 40,
-          "blockClass": "section__services2"
+          "blockClass": ["section__services2", "section-services-part2"]
         }
       }, 
       "rich-text#section__services2-msg4" : {
         "title": "info-delivery-time", 
         "props": {
           "blockClass": "section__services2-text",
-          "text": "Entrega en 3 días hábiles\n aprox. En temporada de promociones\n puede variar",
+          "text": "**Entrega en 3 días hábiles**\n aprox. En temporada de promociones\n puede variar",
           "textAlignment": "CENTER"
         }
       }

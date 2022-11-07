@@ -3,45 +3,46 @@
     "title": "Seccion de busqueda",
     "children": [
       "flex-layout.row#mobile__home--section-search-item1",
-      // "flex-layout.col#home__section--search-item2",
-      "flex-layout.row#mobile__home--section-search-item3"
+      // "rich-text#home__section--search-msg",
+      "flex-layout.col#mobile__home--section-search-item3"
     ],
     "props": {
-        "blockClass": "mobile__home--section--search"
-        // "colSizing":"equal" 
+        "blockClass": "mobile__home--section--search",
+        "colSizing":"auto" 
     }
   }, 
   "flex-layout.row#mobile__home--section-search-item1": {
     "title": "Seccion de busqueda item1",
     "children": [
-        "flex-layout.col#home__section--search-img",
-        "flex-layout.col#home__section--search-text"
+        "image#home__section--search-img",
+        // "flex-layout.col#home__section--search-img",
+        // "flex-layout.col#home__section--search-text"
         // "image#home__section--search-img", 
-        // "rich-text#home__section--search-msg"
+        "rich-text#home__section--search-msg"
     ],
     "props": {
-       "width": "100%", 
-       "colSizing":"auto"
-        // "blockClass": "section--search-img"
+      //  "width": "20%"
+       "colSizing":"auto",
+        "blockClass": "home__section--search-item1"
     }
   },
-    "flex-layout.col#home__section--search-img":{
-      "title": "Section-search-mobile-text",
-      "children": [
-        "image#home__section--search-img"
-      ], 
-      "props": {"width": "20%"}
-    },
-    "flex-layout.col#home__section--search-text": {
-      "title": "Section-search-mobile-text",
-      "children": [
-          "rich-text#home__section--search-msg"
-      ], 
-      "props": {
-          // "blockClass": "section--search", 
-          "width": "80%"
-      }
-  },
+    // "flex-layout.col#home__section--search-img":{
+    //   "title": "Section-search-mobile-text",
+    //   "children": [
+    //     "image#home__section--search-img"
+    //   ],
+    //   "props": {
+    //     "blockClass": "home__section--search-img",
+    //     "width": "20%"
+    //   }
+    // },
+    // "flex-layout.col#home__section--search-text": {
+    //   "title": "Section-search-mobile-text",
+    //   "children": [
+    //       "rich-text#home__section--search-msg"
+    //   ],
+    //   "props": { "width": "80%"}
+  // },
   // "rich-text#home__section--search-msg": {
   //   "title": "texto de seccion de busqueda",
   //   "props": {
@@ -50,26 +51,30 @@
   //       // "blockClass": "home__section--search-msg"
   //   }
   // },
-  "flex-layout.row#mobile__home--section-search-item3": {
+  "flex-layout.col#mobile__home--section-search-item3": {
     "title": "Seccion de busqueda item 3",
     "children": [
-        "flex-layout.col#mobile__home--section-search-form"
-    ], 
-    "props": {
-      // "blockClass": "section--search", 
-      "width": "100%"
-    }
-  },
-  "flex-layout.col#mobile__home--section-search-form": {
-    "children": [
-        // "flex-layout.row#section__search--form1",
-        // "flex-layout.row#section__search--form2"
+        // "flex-layout.col#mobile__home--section-search-form"
         "rich-text#section__search--form-especie",
         "rich-text#section__search--form-Edad",
         "rich-text#section__search--form-especie",
         "rich-text#section__search--form-Edad"
     ], 
-    "props": {"blockClass": "mobile__section--search-form"}
+    "props": {
+      "blockClass": "mobile__section--search-form"}
+      // "blockClass": "section--search"
+      // "width": "100%"
+  },
+  "flex-layout.col#mobile__home--section-search-form": {
+    "children": [
+        // "flex-layout.row#section__search--form1",
+        // "flex-layout.row#section__search--form2"
+        // "rich-text#section__search--form-especie",
+        // "rich-text#section__search--form-Edad",
+        // "rich-text#section__search--form-especie",
+        // "rich-text#section__search--form-Edad"
+    ]
+    // "props": {"blockClass": "mobile__section--search-form"}
   }
     // "flex-layout.row#section__search--form1":{
     //   "children": ["rich-text#section__search--form-especie", "rich-text#section__search--form-Edad"],

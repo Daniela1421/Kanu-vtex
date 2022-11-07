@@ -47,7 +47,7 @@
         "src": "assets/img/home__services-2.png", 
         "maxWidth": 600, 
         "title": "Servicio 2", 
-        "blockClass": ["home__service1", "image__service2"],
+        "blockClass": "home__service1",
         "link": {
             "url": "https://www.google.com", 
             "newTab": true, 
@@ -75,7 +75,7 @@
         "src": "assets/img/home__services-4.png", 
         // "maxWidth": 600, 
         "title": "Servicio 4", 
-        "blockClass": "home__service1", 
+        "blockClass": "home__service4", 
         "link": {
             "url": "https://www.google.com", 
             "newTab": true, 

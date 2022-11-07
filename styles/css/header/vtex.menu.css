@@ -18,6 +18,7 @@
   background: #f7f7f7;
   color: #000;
   border-bottom: 2px solid #f8971d;
+  cursor: pointer;
 }
 
 .menuItem--department-main{
@@ -54,7 +55,7 @@
 
 .submenuWrapper--container-items-categories{
   position: absolute;
-  top: 6px;
+  top: 3px;
   left: 24%;
 } 
 
@@ -74,6 +75,7 @@
 .menuContainer--block-container
 :global(.vtex-store-link-0-x-link--category__subtitles):hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .menuContainer--block-container
@@ -92,6 +94,7 @@
 .menuContainer--block-container
 :global(.vtex-store-link-0-x-label--category__blacksubtitles):hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .menuContainer--block-container

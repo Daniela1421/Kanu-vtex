@@ -23,7 +23,8 @@
   "image#home__section--search-img": {
     "title": "image-section-search",
     "props": {
-        "src": "assets/img/home__flexlayout-3.png"
+      "blockClass": "home__section--search-img",
+      "src": "assets/img/home__flexlayout-3.png"
     }
   },
   "flex-layout.col#home__section--search-item2": {
@@ -39,7 +40,7 @@
   "rich-text#home__section--search-msg": {
     "title": "text-section-search",
     "props": {
-        "text": "ENCUENTRA EL ALIMENTO\n ADECUADO PARA TU\n MASCOTA",   
+        "text": "ENCUENTRA EL **ALIMENTO**\n ADECUADO PARA **TU\n MASCOTA**",   
         "textAlignment": "CENTER", 
         "blockClass": "home__section--search-msg"
     }

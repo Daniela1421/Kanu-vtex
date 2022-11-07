@@ -62,6 +62,17 @@
 }
 
 /********* menu y submenu *******/
+.flexRow--main-blocks
+:global(.vtex-flex-layout-0-x-flexRowContent){
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.flexRow--main-blocks{
+    border-right: 1px solid #efefef
+}
 
 .flexRowContent--main-blocks{
     width: 228px;
@@ -75,9 +86,7 @@
     align-content: center;
 } */
 
-.flexRow--main-blocks{
-    border-right: 1px solid #efefef
-}
+
 
 /* .flexCol--container-items  
 :global(.vtex-flex-layout-0-x-flexColChild--container-items):hover{
@@ -86,6 +95,7 @@
 
 .flexColChild--container-items:hover{
     background-color: #F2F2F2;
+    cursor: pointer;
 }
 
 /* .flexRowContent--main-blocks-mobile

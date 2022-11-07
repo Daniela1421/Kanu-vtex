@@ -3,10 +3,14 @@
     "title": "mobile component",
     "children": [
       "list-context.image-list#mobile__home--slider-list",
+      // "flex-layout.row#mobile__home--main"
       "flex-layout.row#mobile__home--section-search",
       "rich-text#global__home--title-categories",
       "flex-layout.row#mobile__home--categories",
       "flex-layout.row#mobile__home--section-promotions",
+      "rich-text#global__home--title-products",
+      "list-context.product-list#global__home--products-recommended",
+      "rich-text#global__home--title-favorites",
       "rich-text#global__home--title-services",
       "flex-layout.row#mobile__home--section-services1",
       "flex-layout.row#mobile__home--section-services1-part2",

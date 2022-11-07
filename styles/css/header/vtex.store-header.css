@@ -39,6 +39,11 @@
     padding: 5px 139px 5px 89px;
 }
 
+/* .headerRowContainer--desktop__header--middle NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO BORRAR
+:global(.vtex-login-2-x-profileIcon):hover{
+    filter: invert(0%) sepia(93%) saturate(17%) hue-rotate(53deg) brightness(104%) contrast(101%);
+} */
+
 .headerRowContentContainer--desktop__header--bottom{
     background-color: #fff;
     box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
