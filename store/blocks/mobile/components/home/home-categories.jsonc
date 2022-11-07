@@ -1,0 +1,190 @@
+{
+  "flex-layout.row#mobile__home--categories": {
+    "title": "Section-categories-mobile", 
+    "children": [
+        "flex-layout.row#mobile__home--categories-item1",
+        "flex-layout.row#mobile__home--categories-item2"
+    ], 
+    "props": {
+        "blockClass": "mobile__home--categories", 
+        "colSizing": "auto"
+    }
+  }, 
+    "flex-layout.row#mobile__home--categories-item1": {
+      "title": "type-of-category", 
+      "children": [
+          "rich-text#mobile__home--categories-seccion1", 
+          "flex-layout.row#home__categories--seccion1-part-one", 
+          "flex-layout.row#home__categories--seccion1-part-two"
+      ], 
+      "props": { "blockClass": "mobile__home--categories"}
+    },
+      "rich-text#mobile__home--categories-seccion1": {
+        "title": "category-section-one-mobile", 
+        "props": {
+            "blockClass": "home__categories--seccion", 
+            "text": "Tipo de mascota", 
+            "textPosition": "CENTER"
+        }
+      }, 
+      "flex-layout.row#home__categories--seccion1-part-one": {
+        "title": "list-of-categories-section1-part-one", 
+        "children": [
+            "link#mobile__home--categories-seccion1-item1",
+            "link#mobile__home--categories-seccion1-item2", 
+            "link#mobile__home--categories-seccion1-item3"
+        ], 
+        "props": {
+            "blockClass": "mobile-home-categories"
+        }
+      },
+        "link#mobile__home--categories-seccion1-item1": {
+          "title": "category-section-one-item1", 
+          "children": ["icon#categories__seccion1--type-of-pet"],
+          "props": {
+            "blockClass": "categories-items-mobile", 
+            "href": "/",
+            "label": "Perro Grande"
+          }
+        },
+        "link#mobile__home--categories-seccion1-item2": {
+          "title": "category-section-one-item2", 
+          "children": ["icon#categories__seccion1--type-of-pet"],
+          "props": {
+            "blockClass": "categories-items-mobile", 
+            "href": "/",
+            "label": "Perro mediano"
+          }
+        }, 
+        "link#mobile__home--categories-seccion1-item3": {
+          "title": "category-section-one-item3",  
+          "children": ["icon#categories__seccion1--type-of-pet"],
+          "props": {
+            "blockClass": "categories-items-mobile", 
+            "href": "/",
+            "label": "Perro Pequeño"
+          }
+        },
+      "flex-layout.row#home__categories--seccion1-part-two": {
+        "title": "list-of-categories-section1-part-two", 
+        "children": [
+          "link#mobile__home--categories-seccion1-item4",
+          "link#mobile__home--categories-seccion1-item5"
+        ], 
+        "props": {
+          "blockClass": ["mobile-home-categories", "categories-cat"]
+        }
+      },
+        "link#mobile__home--categories-seccion1-item4": {
+          "title": "category-section-one-item4",  
+          "children": ["icon#categories__seccion1--type-of-pet2"],
+          "props": {
+            "blockClass": "categories-items-mobile", 
+            "href": "/",
+            "label": "Gato Adulto"
+            // "width": "50%"
+          }
+        },
+        "link#mobile__home--categories-seccion1-item5": {
+          "title": "category-section-one-item5", 
+          "children": ["icon#categories__seccion1--type-of-pet2"],
+          "props": {
+            "blockClass": "categories-items-mobile", 
+            "href": "/",
+            "label": "Gato Joven"
+          }
+        },
+    "flex-layout.row#mobile__home--categories-item2": {
+      "title": "type-of-product", 
+      "children": [
+        "rich-text#mobile__home--categories-seccion2", 
+        "flex-layout.row#home__categories--seccion2-part-one", 
+        "flex-layout.row#home__categories--seccion2-part-two"
+      ], 
+      "props": { "blockClass": "mobile__home--categories"}
+    },
+      "rich-text#mobile__home--categories-seccion2": {
+        "title": "category-seccion-two-mobile", 
+        "props": {
+          "blockClass": "home__categories--seccion", 
+          "text": "Tipo de producto", 
+          "textPosition": "CENTER"
+        }
+      }, 
+      "flex-layout.row#home__categories--seccion2-part-one": {
+          "title": "list-of-categories-section2-part-one",
+          "children": [
+              "link#mobile__home--categories-seccion2-item1", 
+              "link#mobile__home--categories-seccion2-item2",
+              "link#mobile__home--categories-seccion2-item3"
+          ], 
+          "props": {
+              "blockClass": "mobile-home-categories"
+          }
+      }, 
+        "link#mobile__home--categories-seccion2-item1": {
+            "title": "category-section-two-item1", 
+            "children": ["icon#categories__seccion2--type-of-product"],
+            "props": {
+              "blockClass": "categories-items-mobile", 
+              "href": "/",
+              "label": "Alimento"
+            }
+        }, 
+          "link#mobile__home--categories-seccion2-item2": {
+          "title": "category-section-two-item2", 
+          "children": ["icon#categories__seccion2--type-of-product"],
+          "props": {
+            "blockClass": "categories-items-mobile", 
+            "href": "/",
+            "label": "Snacks"
+          }
+        },
+        "link#mobile__home--categories-seccion2-item3": {
+          "title": "category-section-two-item3", 
+          "children": ["icon#categories__seccion2--type-of-product"],
+          "props": {
+            "blockClass": "categories-items-mobile", 
+            "href": "/",
+            "label": "Medicamentos"
+          }
+        },
+      "flex-layout.row#home__categories--seccion2-part-two": {
+        "title": "list-of-categories-section2-part-two",
+        "children": [
+          "link#mobile__home--categories-seccion2-item4",
+          "link#mobile__home--categories-seccion2-item5",
+          "link#mobile__home--categories-seccion2-item6"
+        ], 
+        "props": {
+            "blockClass": "mobile-home-categories"
+        }
+      },
+        "link#mobile__home--categories-seccion2-item4": {
+          "title": "category-section-two-item4", 
+          "children": ["icon#categories__seccion2--type-of-product"],
+          "props": {
+            "blockClass": "categories-items-mobile", 
+            "href": "/",
+            "label": "Juguetes"
+          }
+        },
+        "link#mobile__home--categories-seccion2-item5": {
+          "title": "category-section-two-item5", 
+          "children": ["icon#categories__seccion2--type-of-product"],
+          "props": {
+            "blockClass": "categories-items-mobile", 
+            "href": "/",
+            "label": "Belleza"
+          }
+        },
+        "link#mobile__home--categories-seccion2-item6": {
+          "title": "category-section-two-item6", 
+          "children": ["icon#categories__seccion2--type-of-product"],
+          "props": {
+            "blockClass": "categories-items-mobile", 
+            "href": "/",
+            "label": "Accesorios"
+          }
+        }
+}

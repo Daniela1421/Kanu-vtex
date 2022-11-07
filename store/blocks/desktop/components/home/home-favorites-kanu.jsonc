@@ -1,0 +1,18 @@
+{
+  "list-context.product-list#global__home--products-favorites": {
+    "title": "Section-products-favorites",
+    "blocks": ["product-summary.shelf#home__products--recommended"],
+    "children": ["slider-layout#home__products--favorites"], 
+    "props": {"blockClass": "global__home--products-favorites"}
+  },
+  "slider-layout#home__products--favorites":{
+    "props": {
+      "itemsPerPage":{
+        "desktop": 4
+      }, 
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "blockClass": "home__products--recommended"
+    }
+  }
+}

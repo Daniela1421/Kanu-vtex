@@ -1,0 +1,29 @@
+{
+  "list-context.product-list#global__home--products-recommended": {
+    "title": "Section-products-recommended",
+    "blocks": ["product-summary.shelf#home__products--recommended"],
+    "children": ["slider-layout#home__products--recommended"], 
+    "props": {"blockClass": "global__home--products-recommended"}
+  }, 
+    "product-summary.shelf#home__products--recommended": {
+      "children": [
+        "product-summary-image",
+        "product-summary-name",
+        "product-summary-sku-selector",
+        // "product-selling-price",
+        "add-to-cart-button"
+      ]
+    },
+    "slider-layout#home__products--recommended": {
+      "props": {
+        "itemsPerPage":{
+          "desktop": 5, 
+          "tablet": 3,
+          "phone": 1
+        }, 
+        "infinite": true,
+        "showPaginationDots": "never", 
+        "blockClass": "home__products--recommended"
+      }
+    }
+}
