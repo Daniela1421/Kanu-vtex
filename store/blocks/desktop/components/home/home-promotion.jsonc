@@ -1,6 +1,6 @@
 {
-  "flex-layout.row#global__home--section-one": {
-      "title": "Sección uno", 
+  "flex-layout.row#desktop__home--section-one": {
+      "title": "section-promotion-one", 
       "children": [
         "flex-layout.col#home__section--one-image",
         "flex-layout.col#home__section--one-image2"
@@ -13,7 +13,7 @@
       }
   },
     "flex-layout.col#home__section--one-image": {
-      "title": "Imagen 1 de seccion uno",
+      "title": "image-promotion-section1",
       "children": [
         "image#home__image1"
       ], 
@@ -22,7 +22,7 @@
       }
     },
     "flex-layout.col#home__section--one-image2": {
-      "title": "Imagen 2 de seccion uno",
+      "title": "image-prmotion-section2",
       "children": [
         "image#home__image2"
       ],

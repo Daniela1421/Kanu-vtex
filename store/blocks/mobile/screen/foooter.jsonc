@@ -1,0 +1,9 @@
+{
+  "footer-layout.mobile": { 
+    "children": [
+      // "disclosure-layout-group#footer__menu--group"
+      "flex-layout.row#global__footer--top",
+      "flex-layout.row#global__footer--middle"
+    ]
+  }
+}

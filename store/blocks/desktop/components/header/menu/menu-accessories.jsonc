@@ -1,0 +1,275 @@
+{
+  "menu-item#desktop__menu--department-four": {
+    "title": "header-menu-department-accessories",
+    "props": {
+      "blockClass": "department-main",
+      "id": "department-four", 
+      "type": "custom", 
+      "itemProps": {
+        "type": "external", 
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "COMPLEMENTOS Y ACCESORIOS",
+        "text":"COMPLEMENTOS Y ACCESORIOS"   
+      }
+    },
+    "blocks": [
+      "submenu#department__accessories"
+    ]
+  },
+    "submenu#department__accessories": {
+      "title": "header-category-accessories",
+      "children": ["menu#category__accessories"], 
+      "props": {"blockClass": "container-items-categories"}
+    },
+    "menu#category__accessories":{
+      "title": "header-menu-category-accessories", 
+      "children": [
+        "flex-layout.row#menu__category--beds", 
+        "flex-layout.row#menu__category--collars",
+        "flex-layout.row#menu__category--trough",
+        "flex-layout.row#menu__category--all-accessories"
+      ], 
+      "props": {
+        "blockClass": "block-container", 
+        "orientation": "horizontal"
+      }
+    },
+/*************************** Category beds *******************************/
+      "flex-layout.row#menu__category--beds": {
+        "children": ["flex-layout.col#category__beds--container--items"], 
+        "props": {"blockClass":"main-blocks", "rowGap": 2}
+      }, 
+      "flex-layout.col#category__beds--container--items": {
+        "title": "menu-category-beds", 
+        "children": [
+          "flex-layout.row#category__beds--title", 
+          "flex-layout.row#category__beds--title2", 
+          "link#category__beds--item-one",
+          "link#category__beds--item-two"
+        ], 
+        "props": {"blockClass": "container-items"}
+      }, 
+        "flex-layout.row#category__beds--title": {
+          "title": "structure-category-beds-title", 
+          "children": [
+            "link#category__beds--title",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        }, 
+          "link#category__beds--title": {
+            "title": "title-beds", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Bozales"
+            }
+          },
+        "flex-layout.row#category__beds--title2": {
+          "title": "structure-category-beds-title2", 
+          "children": [
+            "link#category__beds--title2",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        }, 
+          "link#category__beds--title2": {
+            "title": "title2-beds", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Camas"
+            }
+          },
+        "link#category__beds--item-one": {
+          "title": "category-beds--item-one", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Camas"
+          }
+        },
+        "link#category__beds--item-two": {
+          "title": "category-beds--item-two", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Colchonetas"
+          }
+        },
+/****************************** Category collars **********************************/
+      "flex-layout.row#menu__category--collars": {
+        "children": ["flex-layout.col#category__collars--container--items"],
+        "props": {"blockClass":"main-blocks", "rowGap": 2}
+      }, 
+      "flex-layout.col#category__collars--container--items": {
+        "title": "menu-category-collars",
+        "children": [
+          "flex-layout.row#category__collars--title", 
+          "flex-layout.row#category__collars--title2", 
+          "link#category__collars--item-one",
+          "link#category__collars--item-two"
+        ], 
+        "props": {"blockClass": "container-items"}
+      },
+        "flex-layout.row#category__collars--title": {
+          "title": "structure-category-collars-title", 
+          "children": [
+            "link#category__collars--title",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        },
+          "link#category__collars--title": {
+            "title": "title-collars", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Medallas e Identificación"
+            }
+          },
+        "flex-layout.row#category__collars--title2": {
+          "title": "structure-category-collars-title", 
+          "children": [
+            "link#category__collars--title2",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        },
+          "link#category__collars--title2": {
+            "title": "title2-collars", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Collares y Traillas"
+            }
+          },
+        "link#category__collars--item-one": {
+          "title": "category-collars--item-one", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Collares"
+          }
+        },
+        "link#category__collars--item-two": {
+          "title": "category-collars--item-two", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Traillas"
+          }
+        },
+/******************************** Category trough *********************************/
+      "flex-layout.row#menu__category--trough": {
+        "children": ["flex-layout.col#category__trough--container--items"],
+        "props": {"blockClass":"main-blocks"}
+      }, 
+      "flex-layout.col#category__trough--container--items": {
+        "title": "menu-category-trough",
+        "children": [
+          "flex-layout.row#category__trough--title", 
+          "flex-layout.row#category__trough--title2",
+          "flex-layout.row#category__trough--title3"
+        ], 
+        "props": {"blockClass": "container-items", "rowGap": 2}
+      },
+        "flex-layout.row#category__trough--title": {
+          "title": "structure-category-trough-title", 
+          "children": [
+            "link#category__trough--title",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        },
+          "link#category__trough--title": {
+            "title": "title-trough", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Comederos y Bebederos"
+            }
+          },
+        "flex-layout.row#category__trough--title2": {
+          "title": "structure-category-trough-title2", 
+          "children": [
+            "link#category__trough--title2",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        },
+          "link#category__trough--title2": {
+            "title": "title2-trough", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Transporte y Viajes"
+            }
+          },
+        "flex-layout.row#category__trough--title3": {
+          "title": "structure-category-trough-title3", 
+          "children": [
+            "link#category__trough--title3",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        },
+          "link#category__trough--title3": {
+            "title": "title3-trough", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Ropa y otros"
+            }
+          },
+/*************************** Category all accessories *******************************/
+      "flex-layout.row#menu__category--all-accessories":{
+        "children": ["flex-layout.col#category__allaccessories--container--items"], 
+        "props": {"blockClass":"main-blocks"}
+      },
+      "flex-layout.col#category__allaccessories--container--items":{
+        "title": "menu-category-all-accessories",
+        "children": [
+          "flex-layout.row#category__kindpet--title", 
+          "flex-layout.row#category__kindpet--dog", 
+          "flex-layout.row#category__kindpet--cat",
+          "flex-layout.row#category__allaccessories--title2", 
+          "flex-layout.row#category__all--title2", 
+          "flex-layout.row#category__all--title3"
+        ], 
+        "props": {"blockClass": "container-items", "rowGap": 2}
+      },
+        "flex-layout.row#category__allaccessories--title2": {
+          "title": "structure-category-all-accessories-title2", 
+          "children": [
+            "link#category__allaccessories--title2",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        },
+          "link#category__allaccessories--title2": {
+            "title": "title2-all-accessories", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Ver Todo Complementos"
+            }
+          }
+}

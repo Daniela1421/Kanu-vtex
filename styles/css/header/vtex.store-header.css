@@ -13,18 +13,41 @@
     width: 100%;
 }
 
-/************ Header desktop *****************/
-
-.headerRowContainer--desktop__header--middle{
-    background-color: #F8971D;
-    padding: 0.5em 0 0.4em 7em;
+.headerRowContainer--header__bottom
+:global(.vtex-store-components-3-x-searchBarContainer){
+    background-color: #f2f2f2; 
+    padding: 5px 20px;
+    width: 100%;
 }
+
+/************ Header desktop *****************/
 
 .headerRowContainer--header__top{
     min-height: 10px;
     justify-content: center;
-    /* margin: 0 10em */
 }
+
+.headerRowContainer--desktop__header--middle{
+    background-color: #F8971D;
+    padding: 0.5em 0 0.4em 9em;
+}
+
+.headerRowContainer--desktop__header--middle
+:global(.vtex-store-components-3-x-searchBarContainer){
+    background-color: #F8971D;
+    padding: 5px 139px 5px 89px;
+}
+
+.headerRowContainer--desktop__header--middle
+:global(.vtex-login-2-x-label){
+    display: none;
+}
+
+/* .headerRowContainer--desktop__header--middle
+:global(.vtex-login-2-x-profileIcon):hover{
+    filter: invert(0%) sepia(93%) saturate(17%) hue-rotate(53deg) brightness(104%) contrast(101%);
+} */
+
 .headerRowContentContainer--desktop__header--bottom{
     background-color: #fff;
     box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
@@ -33,13 +56,4 @@
 .headerRowBackground--desktop__header--bottom{
     background-color: #fff;
     box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
-}
-
-@media (min-with: 1024px) {
-    :global(.vtex-store-components-3-x-searchBarContainer){
-        padding: 5px 20px;
-        width: 100%;
-        background-color: #F8971D !important;
-    }
- 
 }

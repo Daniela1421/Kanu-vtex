@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#mobile__home--section-promotions": {
+      "title": "Sección uno", 
+      "children": [
+        "flex-layout.col#mobile__home--section-image",
+        "flex-layout.col#mobile__home--section-image2"
+      ],
+      "props": {
+        "blockClass": "mobile__home--section-promotions",
+        "colSizing":"auto", 
+        "horizontalAlign": "center", 
+        "colJustify": "around"
+      }
+  },
+    "flex-layout.col#mobile__home--section-image": {
+      "title": "Image-one-section-promotions",
+      "children": [
+        "image#home__image1"
+      ], 
+      "props": {
+        "blockClass": "mobile__home--section-promotions"
+      }
+    },
+    "flex-layout.col#mobile__home--section-image2": {
+      "title": "Image-two-section-promotions",
+      "children": [
+        "image#home__image2"
+      ],
+      "props": {
+        "blockClass": "mobile__home--section-promotions"
+      }
+    }
+}

@@ -1,0 +1,103 @@
+{
+  "flex-layout.row#global__footer--top": {
+    "title": "main-container-newsletter",
+    "children": ["flex-layout.col#footer__top--newsletter"], 
+    "props": {"blockClass": "global__footer--top"}
+  },
+    "flex-layout.col#footer__top--newsletter": {
+      "title": "section-newsletter",
+      "children": [
+        "rich-text#footer__top--newsletter-title", 
+        "rich-text#footer__top--newsletter-question",
+        "newsletter-form"
+      ]
+    },
+      "rich-text#footer__top--newsletter-title":{
+        "title": "",
+        "props": {
+          "font": "t-heading-3",
+          "blockClass": "newsletter-title",
+          "text": "¡Suscríbete al Newsletter y obtén 10% de descuento en tu primera compra", 
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      }, 
+      "rich-text#footer__top--newsletter-question":{
+        "title": "",
+        "props": {
+          "font": "t-heading-2",
+          "blockClass": "newsletter-question",
+          "text": "¿Qué mascota tienes?",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      },
+      "newsletter-form": {
+        "children": [
+          "flex-layout.row#newsletter__pets",
+          "flex-layout.row#newsletter__form",
+          "flex-layout.col#newsletter__politics--data"
+        ]
+      },
+        "flex-layout.row#newsletter__pets":{
+          "children": [
+            "newsletter-checkbox-confirmation#type__pet1",
+            "newsletter-checkbox-confirmation#type__pet2"
+          ], 
+          "props": {
+            "blockClass": ["newsletter__pets", "mobile__newsletter--pets"]
+          }
+        },
+          "newsletter-checkbox-confirmation#type__pet1":{
+            "props": {
+              "checkboxLabel": ""
+            }
+          },
+          "newsletter-checkbox-confirmation#type__pet2":{
+            "props": {
+              "checkboxLabel": ""
+            }
+          },
+        "flex-layout.row#newsletter__form":{
+          "children": [
+            "newsletter-input-email",
+            "newsletter-submit"
+          ], 
+          "props": {
+            "blockClass": ["newsletter__form", "mobile__newsletter--form"]
+          }
+        },
+          "newsletter-input-email": {
+            "props": {
+              "placeholderText": "Ej: correo@gmail.com"
+            }
+          },
+          "newsletter-submit":{
+            "props": {
+              "submitButtonLabel": "ENVIAR"
+            }
+          },
+        "flex-layout.col#newsletter__politics--data":{
+          "children": [    
+            "newsletter-checkbox-confirmation#politics",
+            "newsletter-checkbox-confirmation#data"
+          ], 
+          "props": {
+            "blockClass": ["newsletter__politics--data", "mobile__newsletter--politics-data"]
+          }
+        },
+        "newsletter-checkbox-confirmation#politics": {
+          "props": {
+            "checkboxLabel": "Aceptas estar de acuerdo con nuestra", 
+            "firstLabelLink":{
+              "text": "Política de privacidad", 
+              "url": "/"
+            }
+          }
+        },
+        "newsletter-checkbox-confirmation#data": {
+          "props": {
+            "checkboxLabel": "Autorizo el tratamiento de mis datos y el envío de emails\n promocionales y SMS por parte de Kanú."
+          }
+        }
+}

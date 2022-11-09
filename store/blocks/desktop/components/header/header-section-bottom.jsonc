@@ -12,14 +12,14 @@
     "menu#desktop__header--menu": {
       "children": [
         "flex-layout.row#desktop__header--menu",
-        "menu-item#department__one",
-        "menu-item#department__two", 
-        "menu-item#department__three", 
-        "menu-item#department__four",
-        "menu-item#department__five", 
-        "menu-item#department__six", 
-        "menu-item#department__seven", 
-        "link.product#desktop__header--menu-offers"
+        "menu-item#desktop__menu--department-one",
+        "menu-item#desktop__menu--department-two", 
+        "menu-item#desktop__menu--department-three", 
+        "menu-item#desktop__menu--department-four",
+        "menu-item#desktop__menu--department-five", 
+        "menu-item#desktop__menu--department-six", 
+        "menu-item#desktop__menu--department-seven", 
+        "link#desktop__header--menu-offers"
       ], 
       "props": {
         "blockClass": "desktop__header--menu"
@@ -51,7 +51,6 @@
         "rich-text#header__menu--text-dog"
       ], 
       "props": {
-        // "horizontalAlign": "center"
         "blockClass": "header__menu--animals1"
       }
     }, 
@@ -60,7 +59,6 @@
         "props": {
           "blockClass": "header__menu--animals",
           "src": "assets/img/header__menu-dog.png"
-          // "width": "15%"
         }
       }, 
       "rich-text#header__menu--text-dog": {
@@ -85,7 +83,6 @@
         "props": {
           "blockClass": "header__menu--animals2",
           "src": "assets/img/header__menu-cat.png"
-          // "width": "5%"
         }
       }, 
       "rich-text#header__menu--text-cat": {
@@ -96,12 +93,18 @@
           "textPosition": "CENTER"
         }
       },
-    "link.product#desktop__header--menu-offers": {
+    "link#desktop__header--menu-offers": {
+      "children": ["icon#desktop__header--footprint"],
       "props": {
         "blockClass": "desktop__header--menu-offers",
         "displayMode": "button",
         "href": "/",
         "label": "OFERTAS"
+      }
+    },
+    "icon#desktop__header--footprint":{
+      "props": {
+        "id": "footprint"
       }
     }
 }

@@ -1,155 +1,125 @@
 {
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#desktop__footer--container"
-    ]
-  },
-  "flex-layout.row#desktop__footer--container": {
-    "children": [
-      "flex-layout.col#footer__container--col-one",
-      "flex-layout.col#footer__container--col-two",
-      "flex-layout.col#footer__container--col-three",
-      "flex-layout.col#footer__container--col-four"
-    ]
-  }, 
-  "flex-layout.col#footer__container--col-one": {
-    "children": ["social-networks"]
-  },
-  "flex-layout.col#footer__container--col-two": {
-    "children": ["menu#about-us"]
-  },
-  "flex-layout.col#footer__container--col-three": {
-    "children": ["menu#policies"]
-  },
-  "flex-layout.col#footer__container--col-four": {
-    "children": ["menu#about-us"]
-  },
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "url": "https://www.facebook.com/kanupets/", 
-          "name": "Facebook"
-        },
-        {
-          "url": "https://twitter.com", 
-          "name": "Twitter"
-        },
-        {
-          "url": "https://www.youtube.com/channel/UCAkGoOl6XDSK7NbguP60U_g", 
-          "name": "YouTube"
-        }
-      ]
-    }
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "disclosure-layout-group#footer__menu--group"
-    ]
-  },
-  "disclosure-layout-group#footer__menu--group": {
-    "children": [
-      "disclosure-layout#policies",
-      "disclosure-layout#about-us"
-      // "disclosure-layout#departments"
-    ]
-  },
-  "disclosure-layout#policies": {
-    "children": ["disclosure-trigger#policies", "disclosure-content#policies"]
-  }, 
-  "disclosure-trigger#policies": {
-    "children": ["rich-text#policies"]
-  }, 
-  "rich-text#policies": {
-    "props": {
-      "text": "Políticas de la tienda"
-    }
-  }, 
-  "disclosure-content#policies": {
-    "children": ["menu#policies"]
-  }, 
-  "menu#policies": {
-    "children": [
-      "menu-item#terms-and-conds", 
-      "menu-item#privacy-policies"
-    ], 
-    "props": {
-      "orientation": "vertical"
-    }
-  }, 
-  "menu-item#terms-and-conds": {
-    "props": {
-      "id": "menu-terms-and-conds", 
-      "type": "custom", 
-      "itemProps": {
-        "type": "internal", 
-        "href": "/", 
-        "tagTitle": "Términos y condiciones", 
-        "text": "Términos y condiciones"
-      }
-      
-    }
-  }, 
-  "menu-item#privacy-policies": {
-    "props": {
-      "id": "menu-privacy-policies", 
-      "type": "custom", 
-      "itemProps": {
-        "type": "internal", 
-        "href": "/", 
-        "tagTitle": "Políticas de privacidad", 
-        "text": "Políticas de privacidad"
-      }
-    }
-  }, 
-  "disclosure-layout#about-us": {
-    "children": ["disclosure-trigger#about-us", "disclosure-content#about-us"]
-  }, 
-  "disclosure-trigger#about-us": {
-    "children": ["rich-text#about-us"]
-  }, 
-  "rich-text#about-us": {
-    "props": {
-      "text": "Políticas de la tienda"
-    }
-  }, 
-  "disclosure-content#about-us": {
-    "children": ["menu#about-us"]
-  }, 
-  "menu#about-us": {
-    "children": [
-      "menu-item#about-us", 
-      "menu-item#our-shops"
-    ], 
-    "props": {
-      "orientation": "vertical"
-    }
-  }, 
-  "menu-item#about-us": {
-    "props": {
-      "id": "menu-about-us", 
-      "type": "custom", 
-      "itemProps": {
-        "type": "internal", 
-        "href": "/", 
-        "tagTitle": "Sobre nosotros", 
-        "text": "Sobre nosotros"
-      }
-    }
-  }, 
-  "menu-item#our-shops": {
-    "props": {
-      "id": "menu-our-shops", 
-      "type": "custom", 
-      "itemProps": {
-        "type": "internal", 
-        "href": "/", 
-        "tagTitle": "Nuestras tiendas", 
-        "text": "Nuestras tiendas"
-      }
-    }
   }
+  // "flex-layout.row#mobile__footer--middle": {
+  //   "children": [
+  //     "flex-layout.col#mobile__footer--middle-col-one"
+  //   ], 
+  //   "props": {"blockClass": "desktop__footer--middle"}
+  // },
+  // "flex-layout.col#mobile__footer--middle-col-one": {
+  //   "children": [
+  //     "logo#desktop__header--logo",
+  //     "rich-text#footer__middle--follow-us",
+  //     "social-networks", 
+  //     "rich-text#footer__middle--store", 
+  //     "flex-layout.row#footer__middle--select-store", 
+  //     "menu#about-us"
+  //   ],
+  //   "props": {"blockClass":"footer__middle--col-one"}
+  // }
+  // "disclosure-layout-group#footer__menu--group": {
+  //   "children": [
+  //     "disclosure-layout#policies",
+  //     "disclosure-layout#about-us"
+  //     // "disclosure-layout#departments"
+  //   ]
+  // },
+  // "disclosure-layout#policies": {
+  //   "children": ["disclosure-trigger#policies", "disclosure-content#policies"]
+  // }, 
+  // "disclosure-trigger#policies": {
+  //   "children": ["rich-text#policies"]
+  // }, 
+  // "rich-text#policies": {
+  //   "props": {
+  //     "text": "Políticas de la tienda"
+  //   }
+  // }, 
+  // "disclosure-content#policies": {
+  //   "children": ["menu#policies"]
+  // }, 
+  // "menu#policies": {
+  //   "children": [
+  //     "menu-item#terms-and-conds", 
+  //     "menu-item#privacy-policies"
+  //   ], 
+  //   "props": {
+  //     "orientation": "vertical"
+  //   }
+  // }, 
+  // "menu-item#terms-and-conds": {
+  //   "props": {
+  //     "id": "menu-terms-and-conds", 
+  //     "type": "custom", 
+  //     "itemProps": {
+  //       "type": "internal", 
+  //       "href": "/", 
+  //       "tagTitle": "Términos y condiciones", 
+  //       "text": "Términos y condiciones"
+  //     }
+      
+  //   }
+  // }, 
+  // "menu-item#privacy-policies": {
+  //   "props": {
+  //     "id": "menu-privacy-policies", 
+  //     "type": "custom", 
+  //     "itemProps": {
+  //       "type": "internal", 
+  //       "href": "/", 
+  //       "tagTitle": "Políticas de privacidad", 
+  //       "text": "Políticas de privacidad"
+  //     }
+  //   }
+  // }, 
+  // "disclosure-layout#about-us": {
+  //   "children": ["disclosure-trigger#about-us", "disclosure-content#about-us"]
+  // }, 
+  // "disclosure-trigger#about-us": {
+  //   "children": ["rich-text#about-us"]
+  // }, 
+  // "rich-text#about-us": {
+  //   "props": {
+  //     "text": "Políticas de la tienda"
+  //   }
+  // }, 
+  // "disclosure-content#about-us": {
+  //   "children": ["menu#about-us2"]
+  // }
+  // "menu#about-us2": {
+  //   "children": [
+  //     "menu-item#about-us2", 
+  //     "menu-item#links-interest"
+  //     // "menu-item#customer-service"
+  //   ], 
+  //   "props": {
+  //     "orientation": "vertical"
+  //   }
+  // }, 
+  // "menu-item#about-us2": {
+  //   "props": {
+  //     "id": "menu-about-us", 
+  //     "type": "custom", 
+  //     "itemProps": {
+  //       "type": "internal", 
+  //       "href": "/", 
+  //       "tagTitle": "Acerca de Kanú", 
+  //       "text": "Acerca de Kanú"
+  //     }
+  //   }
+  // }, 
+  // "menu-item#links-interest": {
+  //   "props": {
+  //     "id": "menu-our-shops", 
+  //     "type": "custom", 
+  //     "itemProps": {
+  //       "type": "internal", 
+  //       "href": "/", 
+  //       "tagTitle": "Nuestras tiendas", 
+  //       "text": "Nuestras tiendas"
+  //     }
+  //   }
+  // }
 }

@@ -1,0 +1,138 @@
+/********* Minicart desktop  ********/   
+
+.minicartQuantityBadgeDefault{
+    background: #050505;
+    color: #fff;
+    border: 1px solid #050505;
+}
+
+.popupContentContainer, 
+.popupChildrenContainer{
+    border-radius: 10px;
+}
+
+.popupStyles {
+    max-height: 600px;
+}
+
+.minicartTitle{
+    visibility: hidden;
+    margin-left: 5em;
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+}
+
+.minicartTitle::before{
+    content: "Productos en tu carrito";
+    visibility: visible;
+    color: #050505;
+    font-size: 18px;
+}
+
+.minicartProductListContainer{
+    max-height: 220px;
+    padding: 0;
+}
+
+.minicartSummary
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
+    display: none;
+}
+
+.minicartProductListContainer
+:global(.vtex-product-list-0-x-productImageContainer){
+    width: 76px !important;
+    margin: 0 0.8em 0 0.5em;
+}
+
+.minicartProductListContainer
+:global(.vtex-product-list-0-x-productName ){
+    font-size: 0.9em;
+}
+
+.minicartProductListContainer
+:global(.vtex-product-list-0-x-productBrandName){
+    font-size: 9px;
+}
+
+.minicartProductListContainer
+:global(.vtex-product-list-0-x-price){
+    padding-right: 9.5em;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+.minicartProductListContainer
+:global(.vtex-dropdown__caption){
+    font-size: 0.9em;
+}
+
+.minicartProductListContainer
+:global(.vtex-flex-layout-0-x-flexCol){
+    margin: 0;
+}
+
+.minicartProductListContainer
+:global(.vtex-flex-layout-0-x-flexRowContent){
+    justify-content: center;
+    align-items: center;
+}
+
+.minicartCheckoutButton
+:global(.vtex-button){
+    background: #050505;
+    color: #fff;
+    border-radius: 12px;
+    font-family: "RobotoSlab";
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    min-height: 1.9em;
+    padding: 0.5em;
+}
+.minicartCheckoutButton
+:global(.vtex-button__label){
+    visibility: hidden;
+    margin-left: 4em;
+    padding: 0%;
+}
+
+.minicartCheckoutButton
+:global(.vtex-button__label)::before{
+    content: "Finalizar compra";
+    visibility: visible;
+    display: contents;
+}
+
+/********* Minicart mobile *******/
+.opened{
+    transform: translate3d(0,120px,0)!important;
+    width: 95%!important;
+    max-height: fit-content;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    left: 0;
+}
+
+.closeIconContainer{
+    justify-content: flex-end;
+}
+.closeIconButton{
+    color: #050505;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.minicartSideBarContentWrapper{
+    height: auto!important;
+    padding: 20px;
+}
+
+@media (min-width:1024px){
+    .minicartContainer{
+        padding-left: 5em;
+    }
+}

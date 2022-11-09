@@ -1,0 +1,263 @@
+{
+  "menu-item#desktop__menu--department-three": {
+    "title": "header-menu-department-beauty",
+    "props": {
+      "blockClass": "department-main",
+      "id": "department-three", 
+      "type": "custom", 
+      "itemProps": {
+        "type": "external", 
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "BELLEZA E HIGIENE",
+        "text":"BELLEZA E HIGIENE" 
+      }
+    },
+    "blocks": [
+      "submenu#department__beauty"
+    ]
+  },
+    "submenu#department__beauty": {
+      "title": "header-category-beauty",
+      "children": ["menu#category__beauty"], 
+      "props": {"blockClass": "container-items-categories"}
+    },
+    "menu#category__beauty":{
+      "title": "header-menu-category-beauty", 
+      "children": [
+        "flex-layout.row#menu__category--cleanliness", 
+        "flex-layout.row#menu__category--sand",
+        "flex-layout.row#menu__category--education",
+        "flex-layout.row#menu__category--all-beauty"
+      ], 
+      "props": {
+        "blockClass": "block-container", 
+        "orientation": "horizontal"
+      }
+    },
+/*************************** Category cleanliness *******************************/
+      "flex-layout.row#menu__category--cleanliness": {
+        "children": ["flex-layout.col#category__cleanliness--container--items"], 
+        "props": {"blockClass":"main-blocks"}
+      }, 
+      "flex-layout.col#category__cleanliness--container--items": {
+        "title": "menu-category-cleanliness", 
+        "children": [
+          "flex-layout.row#category__cleanliness--title", 
+          "link#category__cleanliness--item-one",
+          "link#category__cleanliness--item-two"
+        ], 
+        "props": {"blockClass": "container-items", "rowGap": 2}
+      }, 
+        "flex-layout.row#category__cleanliness--title": {
+          "title": "structure-category-cleanliness-title", 
+          "children": [
+            "link#category__cleanliness--title",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        }, 
+          "link#category__cleanliness--title": {
+            "title": "title-cleanliness", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Accesorios de aseo"
+            }
+          },
+          "link#category__cleanliness--item-one": {
+            "title": "category-cleanliness--item-one", 
+            "props": {
+              "blockClass": "items__submenu", 
+              "href": "/",
+              "label": "Cepillos"
+            }
+          },
+          "link#category__cleanliness--item-two": {
+            "title": "category-cleanliness--item-two", 
+            "props": {
+              "blockClass": "items__submenu", 
+              "href": "/",
+              "label": "Corta Uñas"
+            }
+          },
+/****************************** Category sand **********************************/
+      "flex-layout.row#menu__category--sand": {
+        "children": ["flex-layout.col#category__sand--container--items"],
+        "props": {"blockClass":"main-blocks"}
+      }, 
+      "flex-layout.col#category__sand--container--items": {
+        "title": "menu-category-sand",
+        "children": [
+          "flex-layout.row#category__sand--title", 
+          "flex-layout.row#category__sand--title2", 
+          "link#category__sand--item-one",
+          "link#category__sand--item-two",
+          "link#category__sand--item-three",
+          "link#category__sand--item-four"
+        ], 
+        "props": {"blockClass": "container-items", "rowGap": 2}
+      },
+        "flex-layout.row#category__sand--title": {
+          "title": "structure-category-sand-title", 
+          "children": [
+            "link#category__sand--title",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        },
+          "link#category__sand--title": {
+            "title": "title-sand", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Arenas y Areneros"
+            }
+          },
+        "flex-layout.row#category__sand--title2": {
+          "title": "structure-category-sand-title", 
+          "children": [
+            "link#category__sand--title2",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        },
+          "link#category__sand--title2": {
+            "title": "title2-sand", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Baño"
+            }
+          },
+        "link#category__sand--item-one": {
+          "title": "category-sand--item-one", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Baño Seco"
+          }
+        },
+        "link#category__sand--item-two": {
+          "title": "category-sand--item-two", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Colonias"
+          }
+        },
+        "link#category__sand--item-three": {
+          "title": "category-sand--item-three", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Jabón"
+          }
+        },
+        "link#category__sand--item-four": {
+          "title": "category-sand--item-four", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Shampoo y acondicionador"
+          }
+        },
+/******************************** Category education *********************************/
+      "flex-layout.row#menu__category--education": {
+        "children": ["flex-layout.col#category__education--container--items"],
+        "props": {"blockClass":"main-blocks"}
+      }, 
+      "flex-layout.col#category__education--container--items": {
+        "title": "menu-category-education",
+        "children": [
+          "flex-layout.row#category__education--title", 
+          "link#category__education--item-one",
+          "link#category__education--item-two",
+          "link#category__education--item-three"
+        ], 
+        "props": {"blockClass": "container-items","rowGap": 2}
+      },
+        "flex-layout.row#category__education--title": {
+          "title": "structure-category-education-title", 
+          "children": [
+            "link#category__education--title",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        },
+          "link#category__education--title": {
+            "title": "title-education", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Educación"
+            }
+          },
+        "link#category__education--item-one": {
+          "title": "category-education--item-one", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Articulos de entrenamiento"
+          }
+        },
+        "link#category__education--item-two": {
+          "title": "category-education--item-two", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Esencias florales"
+          }
+        },
+        "link#category__education--item-three": {
+          "title": "category-education--item-three", 
+          "props": {
+            "blockClass": "items__submenu", 
+            "href": "/",
+            "label": "Manejo de pis y popis"
+          }
+        },
+/*************************** Category all 3 *******************************/
+      "flex-layout.row#menu__category--all-beauty":{
+        "children": ["flex-layout.col#category__allbeauty--container--items"], 
+        "props": {"blockClass":"main-blocks"}
+      },
+      "flex-layout.col#category__allbeauty--container--items":{
+        "title": "menu-category-all-beauty",
+        "children": [
+          "flex-layout.row#category__kindpet--title", 
+          "flex-layout.row#category__kindpet--dog", 
+          "flex-layout.row#category__kindpet--cat",
+          "flex-layout.row#category__allbeauty--title2", 
+          "flex-layout.row#category__all--title2", 
+          "flex-layout.row#category__all--title3"
+        ], 
+        "props": {"blockClass": "container-items", "rowGap": 2}
+      },
+        "flex-layout.row#category__allbeauty--title2": {
+          "title": "structure-category-all-beauty-title2", 
+          "children": [
+            "link#category__allbeauty--title2",
+            "icon#desktop__header--submenu"
+          ], 
+          "props": {
+            "colSizing": "auto"
+          }
+        },
+          "link#category__allbeauty--title2": {
+            "title": "title2-all-beauty", 
+            "props": {
+              "blockClass": "category__subtitles", 
+              "href": "/",
+              "label": "Ver Todo Belleza e Higiene"
+            }
+          }
+}

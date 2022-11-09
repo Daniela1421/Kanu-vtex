@@ -3,7 +3,6 @@
     "title": "Imagen de home1", 
     "props": {
         "src": "assets/img/home__flexlayout-1.png", 
-        // "maxWidth": 600, 
         "title": "Promocion 1", 
         "blockClass": "home__image1", 
         "link": {
@@ -17,7 +16,6 @@
     "title": "Imagen 2 de home", 
     "props": {
         "src": "assets/img/home__flexlayout-2.jpg", 
-        // "maxWidth": 600, 
         "title": "Promocion 2", 
         "blockClass": "home__image2", 
         "link": {
@@ -31,7 +29,7 @@
     "title": "Servicio 1 de home", 
     "props": {
         "src": "assets/img/home__services-1.png", 
-        // "maxWidth": 600, 
+        "maxWidth": 600, 
         "title": "Servicio 1", 
         "blockClass": "home__service1", 
         "link": {
@@ -45,9 +43,9 @@
     "title": "Servicio 2 de home", 
     "props": {
         "src": "assets/img/home__services-2.png", 
-        // "maxWidth": 600, 
+        "maxWidth": 600, 
         "title": "Servicio 2", 
-        "blockClass": "home__service1", 
+        "blockClass": "home__service1",
         "link": {
             "url": "https://www.google.com", 
             "newTab": true, 
@@ -59,7 +57,6 @@
     "title": "Servicio 3 de home", 
     "props": {
         "src": "assets/img/home__services-3.png", 
-        // "maxWidth": 600, 
         "title": "Servicio 3", 
         "blockClass": "home__service1", 
         "link": {
@@ -73,9 +70,8 @@
     "title": "Servicio 4 de home", 
     "props": {
         "src": "assets/img/home__services-4.png", 
-        // "maxWidth": 600, 
         "title": "Servicio 4", 
-        "blockClass": "home__service1", 
+        "blockClass": "home__service4", 
         "link": {
             "url": "https://www.google.com", 
             "newTab": true, 

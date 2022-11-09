@@ -1,0 +1,42 @@
+{
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#global__footer--top",
+      "flex-layout.row#global__footer--middle",
+      "flex-layout.row#desktop__footer--bottom"
+    ]
+  },
+  "flex-layout.row#desktop__footer--bottom": {
+    "title": "", 
+    "children": [
+      "flex-layout.col#footer__bottom--safe-zone", 
+      "flex-layout.col#footer__bottom--payment-methods", 
+      "flex-layout.col#footer__bottom--guarded"   
+    ],
+    "props": {"blockClass": "footer--bottom"}
+  }, 
+    "flex-layout.col#footer__bottom--safe-zone": {
+      "title": "", 
+      "children": [
+        // "rich-text#footer__bottom--safe-zone-title", 
+        // "flex-layout.row#footer__bottom--images"
+      ], 
+      "props": {"blockClass": ""}
+    }, 
+    "flex-layout.col#footer__bottom--payment-methods": {
+      "title": "", 
+      "children": [
+        // "rich-text#footer__bottom--payment-methods-title", 
+        // "flex-layout.row#footer__bottom--images2"
+      ], 
+      "props": {"blockClass": ""}
+    }, 
+    "flex-layout.col#footer__bottom--guarded": {
+      "title": "", 
+      "children": [
+        // "rich-text#footer__bottom--guarded-title", 
+        // "image#footer__bottom--guarded-img"
+      ], 
+      "props": {"blockClass": ""}
+    }
+}

@@ -1,0 +1,42 @@
+{
+  "list-context.image-list#mobile__home--slider-list":{
+    "title":"list-of-images",
+    "children": ["slider-layout#mobile__home--slider--list"],
+    "props": {
+      "images":[
+        {
+          "image":"assets/img/home__slider-mobile.png",
+          "description":"slide mobile"
+        },
+        {
+          "image":"assets/img/home__slider-1.png",
+          "description":"slide 1"
+        },
+        {
+          "image":"assets/img/home__slider-mobile3.png",
+          "description":"slide 3"
+        },
+        {
+          "image":"assets/img/home__slider-mobile4.png",
+          "description":"slide 4"
+        }
+      ]
+    }
+  },
+  "slider-layout#mobile__home--slider--list":{
+    "title":"slider-with-list",
+    "props": {
+      "itemsPerPage": {
+        "mobile": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "mobile__home--slider", 
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}
+

@@ -1,0 +1,121 @@
+{
+  "flex-layout.row#mobile__home--section-services1": {
+    "title": "services-section-one",
+    "children": [
+      "link#home__section--services1-item1",
+      "link#home__section--services1-item2"
+    ], 
+    "props": {
+      "blockClass": "mobile__home--section-services1"
+    }
+  },
+    "link#home__section--services1-item1": {
+      "title": "section-services-item1",
+      "children": ["image#home__services-1"],
+      "props": {
+        "blockClass": "home__section--services", 
+        "href": "/",
+        "label": "SERVICIOS SEDES KANÚ PET"
+      }
+    },
+    "link#home__section--services1-item2": {
+      "title": "section-services-item2",
+      "children": ["image#home__services-2"],
+      "props": {
+        "blockClass": "home__section--services", 
+        "href": "/",
+        "label": "ESCRÍBENOS A NUESTRO\n WHATSAPP"
+      }
+    },
+  "flex-layout.row#mobile__home--section-services1-part2": {
+    "title": "services-section-one-part-two",
+    "children": [
+      "link#home__section--services1-item3",
+      "link#home__section--services1-item4"
+    ], 
+    "props": {
+      "blockClass": "mobile__home--section-services1"
+    }
+  },
+    "link#home__section--services1-item3": {
+      "title": "section-services-item1",
+      "children": ["image#home__services-3"],
+      "props": {
+        "blockClass": ["home__section--services", "services-headquarters"],
+        "href": "/",
+        "label": "LOCALIZA TU SEDE MÁS\n CERCANA"
+      }
+    },
+    "link#home__section--services1-item4": {
+      "title": "section-services-item2",
+      "children": ["image#home__services-4"],
+      "props": {
+        "blockClass": ["home__section--services", "services-products"],
+        "href": "/",
+        "label": "PRODUCTOS PARA TI"
+      }
+    },
+/*************************** Section 2 services *********************/
+  "flex-layout.row#mobile__home--section-services2": {
+    "title": "",
+    "children": [
+      "flex-layout.col#home__section--services2--item1",
+      "flex-layout.col#home__section--services2--item2"
+    ], 
+    "props": {
+      "blockClass": "mobile__home--section-services2",
+      "marginTop": 8
+    }
+  }, 
+    "flex-layout.col#home__section--services2--item1": {
+      "children": [
+        "image#section__services2-img1", 
+        "rich-text#section__services2-msg1"
+      ], 
+      "props": {
+        "blockClass": "section__services2--container-items", 
+        "verticalAlign": "middle"
+      }
+    },
+    "flex-layout.col#home__section--services2--item2": {
+      "children": [
+        "image#section__services2-img2", 
+        "rich-text#section__services2-msg2"
+      ], 
+      "props": {
+        "blockClass": "section__services2--container-items",
+        "verticalAlign": "middle"
+      }
+    },
+  "flex-layout.row#mobile__home--section-services2-part-two": {
+    "title": "",
+    "children": [
+      "flex-layout.col#home__section--services2--item3-part-two",
+      "flex-layout.col#home__section--services2--item4-part-two"
+    ], 
+    "props": {
+      "blockClass": "mobile__home--section-services2",
+      "marginTop": 3
+    }
+  }, 
+    "flex-layout.col#home__section--services2--item3-part-two": {
+      "children": [
+        "image#section__services2-img3", 
+        "rich-text#section__services2-msg3"
+      ], 
+      "props": {
+        "blockClass": "section__services2--container-items",
+        "verticalAlign": "middle"
+      }
+    },
+    "flex-layout.col#home__section--services2--item4-part-two": {
+      "children": [
+        "image#section__services2-img4", 
+        "rich-text#section__services2-msg4"
+      ], 
+      "props": {
+        "blockClass": "section__services2--container-items",
+        "verticalAlign": "middle"
+      }
+    }
+}

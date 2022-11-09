@@ -1,0 +1,223 @@
+/********** newsletter ***********/
+
+.flexRow--global__footer--top{
+    background: #f2f2f2;
+    /* color: #fff; */
+    margin: 0 auto;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.flexRowContent--global__footer--top{
+    flex-direction: column;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 18px 5%;
+}
+
+.flexRowContent--global__footer--top
+:global(.vtex-store-newsletter-1-x-newsletterForm){
+    background: transparent;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.flexRowContent--newsletter__pets{
+    margin: 25px 0 15px;
+    padding: 0 170px;
+}
+
+.flexRowContent--newsletter__pets
+:global(.vtex-checkbox__box-wrapper){
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+/* .flexRowContent--mobile__newsletter--pets
+:global(.vtex-checkbox__label){
+    visibility: hidden;
+} */
+
+/* .flexRowContent--mobile__newsletter--pets
+:global(.vtex-checkbox__label){
+    visibility: visible;
+    content:url("assets/img/newsletter__dog.svg"); 
+}
+
+.flexRowContent--mobile__newsletter--pets
+:global(.vtex-checkbox__label){
+    visibility: visible;
+    content:url("assets/img/newsletter__cat.svg"); 
+} */
+
+
+.flexRowContent--newsletter__form
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    width: 128%!important;
+    margin-bottom: 0;
+}
+
+.flexRowContent--newsletter__form
+:global(.vtex-input-prefix__group){
+    height: 40px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.flexRowContent--newsletter__form
+:global(.vtex-button){
+    border-radius: 10px;
+}
+
+.flexRowContent--newsletter__form
+:global(.vtex-button):hover{
+    background-color: #000;
+}
+
+.flexRowContent--newsletter__form
+:global(.vtex-button__label)::after{
+    content: url("assets/img/mobile-menu-offers.png");
+    margin-left: 10px;
+}
+
+.flexRowContent--newsletter__form
+:global(.vtex-button__label){
+    padding-right: 1em;
+}
+
+.flexCol--newsletter__politics--data{
+    margin: 20px 0;
+}
+
+.flexColChild--newsletter__politics--data{
+    /* padding-left: 10%; */
+    padding: 10px 10px 10px 10%;
+}
+
+.flexColChild--newsletter__politics--data
+:global(.vtex-checkbox__label){
+    color: #707070;
+}
+
+.flexColChild--newsletter__politics--data
+:global(.vtex-checkbox__box-wrapper){
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+/******************** middle ******************/
+.flexRow--desktop__footer--middle{
+    background-color: #f8971d;
+}
+
+.flexRowContent--desktop__footer--middle{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+}
+
+.flexColChild--footer__middle--col-one
+:global(.vtex-store-components-3-x-logoContainer){
+    padding: 0;
+}
+
+.flexColChild--footer__middle--col-one
+:global(.vtex-store-components-3-x-logoImage){
+    width: 56%;
+}
+
+.flexRowContent--footer__middle--social-networks{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flexRowContent--footer__middle--select-store
+:global(.vtex-disclosure-layout-1-x-trigger){
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    width: 80%;
+    margin-right: 65px;
+}
+
+.flexRowContent--footer__middle--select-store
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    display: flex;
+    flex-direction: column;
+}
+
+.flexColChild--footer__middle--menu
+:global(.vtex-menu-2-x-styledLinkContent){
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 10px;
+    width: fit-content;
+    font-size: 14px;
+    /* transition: .4s;
+    cursor: default; */
+}
+
+.flexColChild--footer__middle--menu
+:global(.vtex-store-link-0-x-link--items__submenu){
+    font-size: 12px;
+    margin: 0 0 10px 23px;
+    color: #fff;
+}
+
+@media (max-width:1024px){
+    .flexRowContent--newsletter__form
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+        width: 100%!important;
+        margin: 10px 0;
+    }
+
+    .flexRowContent--newsletter__form
+    :global(.vtex-button){
+        width: 80%;
+        margin-left: 2.6em;
+    }
+
+    .flexCol--newsletter__politics--data{
+        margin: 20px 34px;
+    }
+
+    .flexRowContent--mobile__newsletter--pets{
+        display: flex;
+        padding: 0 160px;
+    }
+
+    .flexRowContent--newsletter__form{
+        align-items: center;
+    }
+    
+}
+
+@media (min-width: 728px) and (max-width: 1024px){
+    .flexRow--desktop__footer--middle{
+        padding-left: 40px;
+    }
+}
+
+@media (max-width:728px){
+    .flexCol--mobile__footer--middle-col-one{
+        margin: 0 0 16px 22px
+    }
+
+    .flexColChild--mobile__footer--middle-col-one 
+    :global(.vtex-store-components-3-x-logoImage){
+        width: 35%;
+    }
+
+    .flexRowContent--footer__middle--select-store
+    :global(.vtex-disclosure-layout-1-x-trigger){
+        background: #fff;
+        border: none
+    }
+
+    .flexRowContent--desktop__footer--middle{
+        display: flex;
+        flex-direction: column;
+    }
+}
