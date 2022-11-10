@@ -7,7 +7,9 @@
       "flex-layout.col#footer__middle--col-three",
       "flex-layout.col#footer__middle--col-four"
     ], 
-    "props": {"blockClass": "desktop__footer--middle"}
+    "props": {
+      "blockClass": "desktop__footer--middle"
+    }
   }, 
   "flex-layout.col#footer__middle--col-one": {
     "title": "footer__middle--column-one",
@@ -82,33 +84,37 @@
         }
       },
     "rich-text#footer__middle--store": {
-      "title": "", 
+      "title": "title-find-your-place", 
       "props": {
         "blockClass": "footer__middle--col-one-text",
         "text": "Encuentra tu local"
       }
     }, 
     "flex-layout.row#footer__middle--select-store": {
-      "title": "",
+      "title": "main-container-select-your-store",
       "children": ["disclosure-layout#footer__middle--select-store"], 
       "props": {
         "blockClass": "footer__middle--select-store"
       }
     },
       "disclosure-layout#footer__middle--select-store": {
+        "title": "container-stores", 
         "children": ["disclosure-trigger#select-store", "disclosure-content#select-store"]
       }, 
       "disclosure-trigger#select-store": {
+        "title": "title-container-stores", 
         "children": ["rich-text#select-store"], 
         "props": {"blockClass": "trigger__select--store"}
       }, 
       "rich-text#select-store": {
+        "title": "title-select-store", 
         "props": {
           "blockClass": "select-store-title",
           "text": "Selecciona tu tienda"
         }
       }, 
       "disclosure-content#select-store": {
+        "title": "store-options-container",
         "children": ["menu#select-store"],
         "props": {"blockClass": "content__select--store"}
       }, 
@@ -125,10 +131,12 @@
         }
       }, 
   "flex-layout.col#footer__middle--col-two": {
+    "title": "footer__middle--column-two", 
     "children": ["menu#about-us"],
     "props": {"blockClass":"footer__middle--menu"}
   },
   "menu#about-us": {
+    "title": "menu-about-us", 
     "children": [
       "menu-item#about-us", 
       "link#category__about--us-item-one",
@@ -139,6 +147,7 @@
     }
   }, 
   "menu-item#about-us": {
+    "title": "title-menu-about-us", 
     "props": {
       "id": "menu-about-us", 
       "type": "custom", 
@@ -167,10 +176,12 @@
     }
   },
   "flex-layout.col#footer__middle--col-three": {
+    "title": "footer__middle--column-three",
     "children": ["menu#links-interest"],
     "props": {"blockClass":"footer__middle--menu"}
   },
   "menu#links-interest": {
+    "title": "menu-links-interest",
     "children": [
       "menu-item#links-interest", 
       "link#category__links--interest-item-one",
@@ -184,6 +195,7 @@
     }
   }, 
   "menu-item#links-interest": {
+    "title": "title-menu-links-interest",
     "props": {
       "id": "menu-about-us", 
       "type": "custom", 
@@ -196,7 +208,7 @@
     }
   }, 
   "link#category__links--interest-item-one": {
-    "title": "category-cleanliness--item-one", 
+    "title": "category-links--interest-item-one", 
     "props": {
       "blockClass": "items__submenu", 
       "href": "/",
@@ -204,7 +216,7 @@
     }
   },
   "link#category__links--interest-item-two": {
-    "title": "category-cleanliness--item-two", 
+    "title": "category-links--interest-item-two", 
     "props": {
       "blockClass": "items__submenu", 
       "href": "/",
@@ -212,7 +224,7 @@
     }
   },
   "link#category__links--interest-item-three": {
-    "title": "category-cleanliness--item-three", 
+    "title": "category-links-interest-item-three", 
     "props": {
       "blockClass": "items__submenu", 
       "href": "/",
@@ -220,7 +232,7 @@
     }
   },
   "link#category__links--interest-item-four": {
-    "title": "category-cleanliness--item-four", 
+    "title": "category-links-interest-item-four", 
     "props": {
       "blockClass": "items__submenu", 
       "href": "/",
@@ -228,7 +240,7 @@
     }
   },
   "link#category__links--interest-item-five": {
-    "title": "category-cleanliness--item-five",  
+    "title": "category-links-interest-item-five",  
     "props": {
       "blockClass": "items__submenu", 
       "href": "/",
@@ -236,10 +248,12 @@
     }
   },
   "flex-layout.col#footer__middle--col-four": {
+    "title": "footer__middle--column-four", 
     "children": ["menu#customer-service"],
     "props": {"blockClass":"footer__middle--menu"}
   },
   "menu#customer-service": {
+    "title": "menu-customer-service",
     "children": [
       "menu-item#customer-service", 
       "rich-text#category__customer--service-item-one",
@@ -254,6 +268,7 @@
     }
   }, 
   "menu-item#customer-service": {
+    "title": "title-menu-customer-service", 
     "props": {
       "id": "menu-about-us", 
       "type": "custom", 
@@ -266,6 +281,7 @@
     }
   }, 
   "rich-text#category__customer--service-item-one": {
+    "title": "title-email", 
     "props": {
       "blockClass": "customer__service--subtittles", 
       "font": "t-heading-2",
@@ -273,7 +289,7 @@
     }
   },
   "link#category__customer--service-item-one": {
-    "title": "category-cleanliness--item-one", 
+    "title": "email", 
     "props": {
       "blockClass": "items__submenu", 
       "href": "/",
@@ -281,6 +297,7 @@
     }
   },
   "rich-text#category__customer--service-item-two": {
+    "title": "title-telephone-line",
     "props": {
       "blockClass": "customer__service--subtittles", 
       "font": "t-heading-2",
@@ -288,7 +305,7 @@
     }
   },
   "link#category__customer--service-item-two": {
-    "title": "category-cleanliness--item-two", 
+    "title": "telephone-line", 
     "props": {
       "blockClass": "items__submenu", 
       "href": "/",
@@ -296,6 +313,7 @@
     }
   },
   "rich-text#category__customer--service-item-three": {
+    "title": "title-office-hours",
     "props": {
       "blockClass": "customer__service--subtittles", 
       "font": "t-heading-2",
@@ -303,6 +321,7 @@
     }
   },
   "rich-text#category__customer--service-item-four": {
+    "title": "office-hours",
     "props": {
       "blockClass": "customer__service--item", 
       "text": "Lunes a Viernes de 8:00 am - 5:00 pm"

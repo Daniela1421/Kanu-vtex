@@ -113,7 +113,8 @@
 .flexRowContent--desktop__footer--middle{
     max-width: 1280px;
     margin: 0 auto;
-    padding: 1.5rem 0;
+    /* padding: 1.5rem 1em; */
+    padding: 1.5rem 0 1.5rem 1em;
 }
 
 .flexColChild--footer__middle--col-one
@@ -166,6 +167,44 @@
     color: #fff;
 }
 
+/******************* bottom *********************/
+.flexCol--footer__bottom--payment-methods, 
+.flexCol--footer__bottom--guarded, 
+.footer__bottom--safe-zone, 
+.flexRowContent--footer-images-safe-zone, 
+.flexRowContent--footer__bottom--terms-policy-links,
+.flexRowContent--footer__bottom--icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexRowContent--footer__botton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexRowContent--footer__bottom--phone-mail
+:global(.vtex-store-link-0-x-label--items__submenu){
+    text-decoration: underline;
+    font-size: 14px;
+    padding-left: 3px;
+}
+
+.flexRowContent--footer__middle--select-store
+:global(.vtex-menu-2-x-menuContainerNav){  
+    background: #fff;
+    position: absolute;
+    width: 17%;
+    /* top: 619%; */
+    /* bottom: -540%; */
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+
+
 @media (max-width:1024px){
     .flexRowContent--newsletter__form
     :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
@@ -173,11 +212,7 @@
         margin: 10px 0;
     }
 
-    .flexRowContent--newsletter__form
-    :global(.vtex-button){
-        width: 80%;
-        margin-left: 2.6em;
-    }
+   
 
     .flexCol--newsletter__politics--data{
         margin: 20px 34px;
@@ -185,22 +220,38 @@
 
     .flexRowContent--mobile__newsletter--pets{
         display: flex;
-        padding: 0 160px;
+        /* padding: 0 167px; */
+        padding: 0.5em 15em;    
     }
 
     .flexRowContent--newsletter__form{
         align-items: center;
+        display: flex;
+        flex-direction: column;
     }
-    
 }
 
-@media (min-width: 728px) and (max-width: 1024px){
+@media (min-width: 641px) and (max-width: 1024px){
     .flexRow--desktop__footer--middle{
-        padding-left: 40px;
+        padding: 0 0.5em;
+    }
+    .flexRowContent--footer__bottom--terms-policy-links{
+        margin-top: 1.5em;
+        width: 32em;
+    }
+
+    .flexRowContent--newsletter__form
+    :global(.vtex-button){
+        width: 100%;
+    }
+
+    .flexRowContent--footer__middle--select-store
+    :global(.vtex-menu-2-x-menuContainerNav){  
+        width: 20%;
     }
 }
 
-@media (max-width:728px){
+@media (max-width: 640px){
     .flexCol--mobile__footer--middle-col-one{
         margin: 0 0 16px 22px
     }
@@ -216,8 +267,26 @@
         border: none
     }
 
-    .flexRowContent--desktop__footer--middle{
+    .flexRow--desktop__footer--middle{
+        padding: 0 1em;
+    }
+
+    .flexRowContent--newsletter__form
+    :global(.vtex-button){
+        width: 80%;
+        margin-left: 2.7em;
+    }
+
+    .flexRowContent--footer__middle--select-store
+    :global(.vtex-menu-2-x-menuContainerNav){  
+        width: 72%;
+    }
+
+    .flexCol--footer__bottom--safe-zone,
+    .flexCol--footer__bottom--payment-methods,
+    .flexCol--footer__bottom--guarded{
+        margin-left: 2em;
         display: flex;
-        flex-direction: column;
+        align-items: flex-start;
     }
 }

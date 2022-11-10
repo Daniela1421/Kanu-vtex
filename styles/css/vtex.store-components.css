@@ -21,7 +21,8 @@
     width: 80%;
 }
 
-.imageElement--header__menu--animals2{
+.imageElement--header__menu--animals2,
+.imageElement--footer__bottom--icon-jump{
     width: 70%;
 }
 
@@ -81,9 +82,28 @@
     color: #fff;
 }
 
-/*********************** social networks ***********************/
+/********************* footer middle *********************/
 .imageElement--image-social-networks{
     width: 30px;
     filter: invert(100%) sepia(5%) saturate(839%) hue-rotate(263deg) brightness(119%) contrast(100%);
     margin-right: 10px;
 }
+
+/*********************** footer bottom *******************/
+.imageElement--footer__bottom--safe-zone-image1{
+    max-height: 20px;
+    margin-right: 0.5rem;
+}
+
+.imageElement--footer__bottom--safe-zone-image2, 
+.imageElement--footer__bottom--payment-methods-img,
+.imageElement--footer__bottom--guarded-img{
+    max-height: 30px;
+}
+
+/* .imageElement--footer__bottom--icon-vtex{
+    width: 10%;
+    height: fit-content;
+    filter: grayscale(1);
+}*/
+

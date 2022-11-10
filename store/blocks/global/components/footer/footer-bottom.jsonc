@@ -1,0 +1,212 @@
+{
+  "flex-layout.row#footer__bottom--titles-images": {
+    "title": "footer__bottom-row1", 
+    "children": [
+      "flex-layout.col#footer__bottom--safe-zone", 
+      "flex-layout.col#footer__bottom--payment-methods", 
+      "flex-layout.col#footer__bottom--guarded"  
+    ],
+    "props": {"blockClass": "footer__bottom--titles-images"}
+  },
+  "flex-layout.col#footer__bottom--safe-zone": {
+    "title": "footer__bottom--safe-zone", 
+    "children": [
+      "rich-text#footer__bottom--safe-zone-title", 
+      "flex-layout.row#footer__bottom--images"
+    ], 
+    "props": {"blockClass": "footer__bottom--safe-zone"}
+  }, 
+    "rich-text#footer__bottom--safe-zone-title": {
+      "title": "footer-title-safe-zone",
+      "props": {
+        "blockClass": "footer__bottom--titles", 
+        "text": "Sitio seguro", 
+        "textPosition": "CENTER"
+      }
+    }, 
+    "flex-layout.row#footer__bottom--images": {
+      "title": "footer-images-safe-zone",
+      "children": [
+        "image#footer__bottom--data-security",
+        "image#footer__bottom--security"
+      ],
+      "props": {
+        "blockClass": "footer-images-safe-zone", 
+        "colSizing": "auto"
+      }
+    }, 
+      "image#footer__bottom--data-security": {
+        "title": "image-data-security", 
+        "props": {
+          "src": "assets/img/pci-dss.png", 
+          "blockClass": "footer__bottom--safe-zone-image1"
+        }
+      },
+      "image#footer__bottom--security": {
+        "title": "image-security", 
+        "props": {
+          "src": "assets/img/seal.png", 
+          "blockClass": "footer__bottom--safe-zone-image2"
+        }
+      },
+  "flex-layout.col#footer__bottom--payment-methods": {
+    "title": "footer__bottom--payment-methods", 
+    "children": [
+      "rich-text#footer__bottom--payment-methods-title", 
+      "image#footer__bottom--payment-methods-img" 
+    ], 
+    "props": {"blockClass": "footer__bottom--payment-methods"}
+  }, 
+    "rich-text#footer__bottom--payment-methods-title": {
+      "title": "title-payment-methods", 
+      "props": {
+        "blockClass": "footer__bottom--titles", 
+        "text": "Métodos de pago", 
+        "textPosition": "CENTER"
+      }
+    }, 
+    "image#footer__bottom--payment-methods-img": {
+      "title": "image-payment-methods", 
+      "props": {
+        "src": "assets/img/payment-methods-jump.png", 
+        "blockClass": "footer__bottom--payment-methods-img"
+      }
+    },
+  "flex-layout.col#footer__bottom--guarded": {
+    "title": "footer__bottom--guarded", 
+    "children": [
+      "rich-text#footer__bottom--guarded-title", 
+      "image#footer__bottom--guarded-img"
+    ], 
+    "props": {"blockClass": "footer__bottom--guarded"}
+  },
+    "rich-text#footer__bottom--guarded-title": {
+      "title": "title-guarded", 
+      "props": {
+        "blockClass": "footer__bottom--titles", 
+        "text": "Vigilado", 
+        "textPosition": "CENTER"
+      }
+    }, 
+    "image#footer__bottom--guarded-img": {
+      "title": "image-guarded", 
+      "props": {
+        "src": "assets/img/guarded.png", 
+        "blockClass": "footer__bottom--guarded-img"
+      }
+    },
+  "flex-layout.row#footer__bottom--conditions": {
+    "title": "footer__bottom--row2-conditions", 
+    "children": [
+      "flex-layout.row#footer__bottom--terms-policy",
+      "link#footer__bottom--sic"
+    ], 
+    "props": {"blockClass": "footer__botton"}
+  },
+    "flex-layout.row#footer__bottom--terms-policy": {
+      "title": "footer__bottom--terms-policy", 
+      "children": [
+        "link#footer__bottom--terms", 
+        "link#footer__bottom--policy"
+      ], 
+      "props":{
+        "colSizing": "auto", 
+        "blockClass": "footer__bottom--terms-policy-links"
+      }
+    },
+      "link#footer__bottom--terms": {
+        "title": "footer__bottom--terms", 
+        "props": {
+          "blockClass": "footer__bottom--terms-policy", 
+          "href": "/prueba-daniela-ducuara",
+          "label": "Términos y Condiciones"
+        }
+      }, 
+      "link#footer__bottom--policy": {
+        "title": "footer__bottom--policy", 
+        "props": {
+          "blockClass": "footer__bottom--terms-policy", 
+          "href": "/prueba-daniela-ducuara",
+          "label": "Política de privacidad de datos"
+        }
+      },
+    "link#footer__bottom--sic": {
+      "title": "footer__bottom--sic", 
+      "props": {
+        "blockClass": "footer__bottom--sic", 
+        "href": "https://www.sic.gov.co/",
+        "label": "Link a la SIC"
+      }
+    }, 
+  "flex-layout.row#footer__bottom--contact-information": {
+    "title": "footer__bottom--row3-contact-information", 
+    "children": [
+      "rich-text#footer__bottom--information-kanu",
+      "flex-layout.row#footer__bottom--phone-mail", 
+      "rich-text#footer__bottom--rights-reserved"
+    ], 
+    "props": {
+      "blockClass": "footer__botton", 
+      "colSizing": "auto"
+    }
+  }, 
+    "rich-text#footer__bottom--information-kanu": {
+      "title": "information-kanu", 
+      "props": {
+        "blockClass": "footer__bottom--information-kanu",
+        "text": "Kanu.pet - Tienda de mascotas Kanú es marca propiedad de Grupo Infesa S.A.S con NIT 900167786-2.\n Dirección: Carrera 81 No. 32-80 local 130 Mall Villa del Aburrá", 
+        "textAlignment": "CENTER"
+      }
+    },
+    "flex-layout.row#footer__bottom--phone-mail": {
+      "title": "footer__bottom--phone-mail", 
+      "children": [
+        "rich-text#footer__bottom--phone", 
+        "link#category__customer--service-item-one"
+      ], 
+      "props": {
+        "blockClass": "footer__bottom--phone-mail", 
+        "colSizing": "auto"
+      }
+    }, 
+    "rich-text#footer__bottom--phone": {
+      "title": "text-phone", 
+      "props": {
+        "blockClass": "footer__bottom--phone", 
+        "text": "Teléfono (604) 4445268 Correo: "
+      }
+    }, 
+  "rich-text#footer__bottom--rights-reserved": {
+    "title": "text-rights-reserved", 
+    "props": {
+      "blockClass": "footer__bottom--rights-reserved",
+      "font": "t-heading-2",
+      "text": "Todos los derechos reservados - ® Kanú Colombia 2022"
+    }
+  }, 
+  "flex-layout.row#footer__bottom--icons": {
+    "title": "footer__bottom--row4-icons", 
+    "children": [
+      "image#footer__bottom--icon-vtex", 
+      "image#footer__bottom--icon-jump"
+    ],
+    "props": {
+      "blockClass": "footer__bottom--icons", 
+      "colSizing":"auto"
+    }
+  }, 
+    "image#footer__bottom--icon-vtex": {
+      "title": "icon-vtex", 
+      "props": {
+        "src": "assets/img/footer__bottom-icon-vtex.svg",
+        "blockClass": "footer__bottom--icon-vtex"
+      }
+    }, 
+    "image#footer__bottom--icon-jump": {
+      "title": "icon-jump-digital", 
+      "props": {
+        "src": "assets/img/footer__bottom-icon-jump.svg", 
+        "blockClass": "footer__bottom--icon-jump"
+      }
+    }
+}

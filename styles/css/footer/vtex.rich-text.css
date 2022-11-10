@@ -35,3 +35,19 @@
     display: flex;
     justify-content: space-between;
 }
+
+/************** bottom ****************/
+.paragraph--footer__bottom--titles, 
+.paragraph--footer__bottom--information-kanu{
+    font-size: 14px;
+}
+
+.paragraph--footer__bottom--information-kanu{
+    margin-bottom: 0;
+}
+.paragraph--footer__bottom--phone, 
+.paragraph--footer__bottom--rights-reserved{
+    margin-top: 0;
+    font-size: 14px;
+}
+

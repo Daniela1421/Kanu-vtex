@@ -13,7 +13,7 @@
       ]
     },
       "rich-text#footer__top--newsletter-title":{
-        "title": "",
+        "title": "main-title-newsletter",
         "props": {
           "font": "t-heading-3",
           "blockClass": "newsletter-title",
@@ -23,7 +23,7 @@
         }
       }, 
       "rich-text#footer__top--newsletter-question":{
-        "title": "",
+        "title": "question-newsletter",
         "props": {
           "font": "t-heading-2",
           "blockClass": "newsletter-question",
@@ -33,6 +33,7 @@
         }
       },
       "newsletter-form": {
+        "title": "main-newsletter-form", 
         "children": [
           "flex-layout.row#newsletter__pets",
           "flex-layout.row#newsletter__form",
@@ -40,6 +41,7 @@
         ]
       },
         "flex-layout.row#newsletter__pets":{
+          "title": "checkbox-select-your-pet",
           "children": [
             "newsletter-checkbox-confirmation#type__pet1",
             "newsletter-checkbox-confirmation#type__pet2"
@@ -49,16 +51,19 @@
           }
         },
           "newsletter-checkbox-confirmation#type__pet1":{
+            "title": "checkbox-dog", 
             "props": {
               "checkboxLabel": ""
             }
           },
           "newsletter-checkbox-confirmation#type__pet2":{
+            "title": "checkbox-cat", 
             "props": {
               "checkboxLabel": ""
             }
           },
         "flex-layout.row#newsletter__form":{
+          "title": "subscription-newsletter", 
           "children": [
             "newsletter-input-email",
             "newsletter-submit"
@@ -68,16 +73,19 @@
           }
         },
           "newsletter-input-email": {
+            "title": "newsletter-email",
             "props": {
               "placeholderText": "Ej: correo@gmail.com"
             }
           },
           "newsletter-submit":{
+            "title": "newsletter-submit",
             "props": {
               "submitButtonLabel": "ENVIAR"
             }
           },
         "flex-layout.col#newsletter__politics--data":{
+          "title": "checkbox-confirmation-policies-data-processing",
           "children": [    
             "newsletter-checkbox-confirmation#politics",
             "newsletter-checkbox-confirmation#data"
@@ -87,6 +95,7 @@
           }
         },
         "newsletter-checkbox-confirmation#politics": {
+          "title": "checkbox-politics",
           "props": {
             "checkboxLabel": "Aceptas estar de acuerdo con nuestra", 
             "firstLabelLink":{
@@ -96,6 +105,7 @@
           }
         },
         "newsletter-checkbox-confirmation#data": {
+          "title": "checkbox-data-processing",
           "props": {
             "checkboxLabel": "Autorizo el tratamiento de mis datos y el envío de emails\n promocionales y SMS por parte de Kanú."
           }
