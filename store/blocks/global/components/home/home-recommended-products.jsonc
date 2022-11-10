@@ -10,7 +10,7 @@
         "product-summary-image",
         "product-summary-name",
         "product-summary-sku-selector",
-        // "product-selling-price",
+        "product-selling-price",
         "add-to-cart-button"
       ]
     },

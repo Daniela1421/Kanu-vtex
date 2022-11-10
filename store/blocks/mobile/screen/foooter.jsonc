@@ -1,0 +1,13 @@
+{
+  "footer-layout.mobile": { 
+    "children": [
+      // "disclosure-layout-group#footer__menu--group"
+      "flex-layout.row#global__footer--top",
+      "flex-layout.row#global__footer--middle", 
+      "flex-layout.row#footer__bottom--titles-images",
+      "flex-layout.row#footer__bottom--conditions", 
+      "flex-layout.row#footer__bottom--contact-information",
+      "flex-layout.row#footer__bottom--icons"
+    ]
+  }
+}

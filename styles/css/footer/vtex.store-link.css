@@ -1,0 +1,24 @@
+.label--category__title{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: underline #ffffff;
+}
+
+.link--footer__bottom--terms-policy{
+    text-decoration: none;
+    font-size: 14px;
+    color: #050505;
+    margin: 0 5px;
+}
+
+.label--footer__bottom--sic{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.link--footer__bottom--sic{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #050505;
+}
