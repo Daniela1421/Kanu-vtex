@@ -208,7 +208,7 @@
       "rich-text#section__services2-msg4" : {
         "title": "info-delivery-time", 
         "props": {
-          "blockClass": "section__services2-text",
+          "blockClass": ["section__services2-text", "section__services2-text-tablet"],
           "text": "**Entrega en 3 días hábiles**\n aprox. En temporada de promociones\n puede variar",
           "textAlignment": "CENTER"
         }

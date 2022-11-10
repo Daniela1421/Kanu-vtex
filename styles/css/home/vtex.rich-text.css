@@ -64,3 +64,13 @@
         margin: 0.7rem;
     }
 }
+
+@media (min-width: 640px) and (max-width: 1024px){
+    .paragraph--section__services1{
+        font-size: 0.9rem;
+    }
+
+    .paragraph--section__services2-text-tablet{
+        margin-bottom: 0;
+    }
+}

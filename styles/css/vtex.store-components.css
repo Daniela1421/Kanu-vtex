@@ -78,3 +78,7 @@
 :global(.vtex-store-components-3-x-skuSelectorItemTextValue){
     color: #fff;
 }
+
+.skuSelectorSubcontainer{
+    margin-bottom: 10px;
+}
