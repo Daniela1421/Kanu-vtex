@@ -36,6 +36,17 @@
     justify-content: space-between;
 }
 
+.paragraph--select__store--items{
+    margin: 0;
+}
+
+.link--select__store--items{
+    text-decoration: none;
+    color: #000;
+    padding: 3px 0;
+    font-size: 11px;
+}
+
 /************** bottom ****************/
 .paragraph--footer__bottom--titles, 
 .paragraph--footer__bottom--information-kanu{

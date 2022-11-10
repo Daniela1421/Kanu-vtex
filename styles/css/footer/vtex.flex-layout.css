@@ -2,10 +2,8 @@
 
 .flexRow--global__footer--top{
     background: #f2f2f2;
-    /* color: #fff; */
     margin: 0 auto;
     padding: 0;
-    /* overflow: hidden; */
 }
 
 .flexRowContent--global__footer--top{
@@ -39,14 +37,12 @@
 } */
 
 /* .flexRowContent--mobile__newsletter--pets
-:global(.vtex-checkbox__label){
-    visibility: visible;
+:global(.vtex-checkbox__label):first-child{
     content:url("assets/img/newsletter__dog.svg"); 
 }
 
 .flexRowContent--mobile__newsletter--pets
-:global(.vtex-checkbox__label){
-    visibility: visible;
+:global(.vtex-checkbox__label):last-child{
     content:url("assets/img/newsletter__cat.svg"); 
 } */
 
@@ -197,13 +193,10 @@
     background: #fff;
     position: absolute;
     width: 17%;
-    /* top: 619%; */
-    /* bottom: -540%; */
     border: 1px solid #000;
     padding: 5px;
+    margin-top: 0.5em;
 }
-
-
 
 @media (max-width:1024px){
     .flexRowContent--newsletter__form
@@ -211,8 +204,6 @@
         width: 100%!important;
         margin: 10px 0;
     }
-
-   
 
     .flexCol--newsletter__politics--data{
         margin: 20px 34px;

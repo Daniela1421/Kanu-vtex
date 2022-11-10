@@ -120,16 +120,19 @@
       }, 
       "menu#select-store": {
         "children": [
-          "link#category__links--interest-item-one",
-          "link#category__links--interest-item-two",
-          "link#category__links--interest-item-three",
-          "link#category__links--interest-item-four",
-          "link#category__links--interest-item-five"
+          "rich-text#select__store--items"
         ], 
         "props": {
           "orientation": "vertical"
         }
       }, 
+        "rich-text#select__store--items":{
+          "title": "select-store-items", 
+          "props": {
+            "blockClass": "select__store--items", 
+            "text": "[MED - VIVA LAS PALMAS](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - SAN LUCAS](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - TESORO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - SANTA FE](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - EXITO POBLADO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - PALMA GRANDE](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - LA VILLA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - UNICENTRO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - LAURELES](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - NUEVO MUNDO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - FLORIDA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [BOG - COUNTRY](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [BOG - LA CABRERA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [BOG - SANTA BARBARA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n"
+          }
+        },
   "flex-layout.col#footer__middle--col-two": {
     "title": "footer__middle--column-two", 
     "children": ["menu#about-us"],
