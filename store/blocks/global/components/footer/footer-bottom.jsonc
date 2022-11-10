@@ -199,14 +199,16 @@
       "title": "icon-vtex", 
       "props": {
         "src": "assets/img/footer__bottom-icon-vtex.svg",
-        "blockClass": "footer__bottom--icon-vtex"
+        "blockClass": "footer__bottom--icon-vtex", 
+        "maxWidth": 60
       }
     }, 
     "image#footer__bottom--icon-jump": {
       "title": "icon-jump-digital", 
       "props": {
         "src": "assets/img/footer__bottom-icon-jump.svg", 
-        "blockClass": "footer__bottom--icon-jump"
+        "blockClass": "footer__bottom--icon-jump", 
+        "maxWidth": 58
       }
     }
 }

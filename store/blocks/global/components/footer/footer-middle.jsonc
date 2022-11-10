@@ -294,7 +294,7 @@
   "link#category__customer--service-item-one": {
     "title": "email", 
     "props": {
-      "blockClass": "items__submenu", 
+      "blockClass": ["items__submenu", "customer__service--submenu"],
       "href": "/",
       "label": "servicioalcliente@kanu.pet"
     }
@@ -310,7 +310,7 @@
   "link#category__customer--service-item-two": {
     "title": "telephone-line", 
     "props": {
-      "blockClass": "items__submenu", 
+      "blockClass": ["items__submenu", "customer__service--submenu"],
       "href": "/",
       "label": "(+604) 444 5268 Opción 2"
     }

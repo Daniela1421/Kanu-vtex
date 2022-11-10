@@ -31,21 +31,27 @@
     border-radius: 3px;
 }
 
-/* .flexRowContent--mobile__newsletter--pets
-:global(.vtex-checkbox__label){
-    visibility: hidden;
-} */
-
-/* .flexRowContent--mobile__newsletter--pets
-:global(.vtex-checkbox__label):first-child{
-    content:url("assets/img/newsletter__dog.svg"); 
+.flexRowContent--newsletter__pets
+:global(.vtex-checkbox__line-container){
+    display: flex;
+    align-items: center;
 }
 
-.flexRowContent--mobile__newsletter--pets
-:global(.vtex-checkbox__label):last-child{
-    content:url("assets/img/newsletter__cat.svg"); 
-} */
+.flexRowContent--newsletter__kind--pet1
+:global(.vtex-checkbox__label){
+    content:url("assets/img/newsletter__dog.svg"); 
+    width: 50%;
+}
 
+.flexRowContent--newsletter__kind--pet2
+:global(.vtex-checkbox__label){
+    content:url("assets/img/newsletter__cat.svg"); 
+    width: 50%;
+}
+
+.flexRowContent--newsletter__kind--pet2{
+    margin-left: 20px;
+}
 
 .flexRowContent--newsletter__form
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
@@ -87,13 +93,19 @@
 }
 
 .flexColChild--newsletter__politics--data{
-    /* padding-left: 10%; */
+
     padding: 10px 10px 10px 10%;
 }
 
 .flexColChild--newsletter__politics--data
 :global(.vtex-checkbox__label){
     color: #707070;
+    letter-spacing: .5px;
+}
+
+.flexColChild--newsletter__politics--data
+:global(.vtex-store-newsletter-1-x-labelLink--first){
+  color: #707070;
 }
 
 .flexColChild--newsletter__politics--data
@@ -163,6 +175,11 @@
     color: #fff;
 }
 
+.flexColChild--footer__middle--menu
+:global(.vtex-store-link-0-x-link--customer__service--submenu){
+    margin-bottom: 5px;
+}
+
 /******************* bottom *********************/
 .flexCol--footer__bottom--payment-methods, 
 .flexCol--footer__bottom--guarded, 
@@ -173,6 +190,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.flexRowContent--footer__bottom--titles-images{
+    margin: 1rem 0; 
 }
 
 .flexRowContent--footer__botton{
@@ -227,8 +247,9 @@
         padding: 0 0.5em;
     }
     .flexRowContent--footer__bottom--terms-policy-links{
-        margin-top: 1.5em;
-        width: 32em;
+        /* margin-top: 1.5em; */
+        /* width: 39em; */
+        text-align: center;
     }
 
     .flexRowContent--newsletter__form

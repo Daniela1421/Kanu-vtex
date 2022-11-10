@@ -17,7 +17,7 @@
         "props": {
           "font": "t-heading-3",
           "blockClass": "newsletter-title",
-          "text": "¡Suscríbete al Newsletter y obtén 10% de descuento en tu primera compra", 
+          "text": "¡Suscríbete al Newsletter y obtén 10% de descuento en tu primera compra!", 
           "textAlignment": "CENTER",
           "textPosition": "CENTER"
         }
@@ -41,22 +41,34 @@
         ]
       },
         "flex-layout.row#newsletter__pets":{
-          "title": "checkbox-select-your-pet",
+          "title": "main-container-select-your-pet",
           "children": [
-            "newsletter-checkbox-confirmation#type__pet1",
-            "newsletter-checkbox-confirmation#type__pet2"
+            "flex-layout.row#newsletter__kind--pet1", 
+            "flex-layout.row#newsletter__kind--pet2"
+            // "newsletter-checkbox-confirmation#type__pet1",
+            // "newsletter-checkbox-confirmation#type__pet2"
           ], 
           "props": {
             "blockClass": ["newsletter__pets", "mobile__newsletter--pets"]
           }
         },
-          "newsletter-checkbox-confirmation#type__pet1":{
+        "flex-layout.row#newsletter__kind--pet1": {
+          "title": "container-select-dog", 
+          "children": ["newsletter-checkbox-confirmation#kind__pet1"], 
+          "props": {"blockClass": "newsletter__kind--pet1"}
+        }, 
+          "newsletter-checkbox-confirmation#kind__pet1":{
             "title": "checkbox-dog", 
             "props": {
               "checkboxLabel": ""
             }
           },
-          "newsletter-checkbox-confirmation#type__pet2":{
+        "flex-layout.row#newsletter__kind--pet2": {
+          "title": "container-select-cat", 
+          "children": ["newsletter-checkbox-confirmation#kind__pet2"], 
+          "props": {"blockClass": "newsletter__kind--pet2"}
+        },
+          "newsletter-checkbox-confirmation#kind__pet2":{
             "title": "checkbox-cat", 
             "props": {
               "checkboxLabel": ""
@@ -97,7 +109,7 @@
         "newsletter-checkbox-confirmation#politics": {
           "title": "checkbox-politics",
           "props": {
-            "checkboxLabel": "Aceptas estar de acuerdo con nuestra", 
+            "checkboxLabel": "Aceptas estar de acuerdo con nuestra { firstLink }", 
             "firstLabelLink":{
               "text": "Política de privacidad", 
               "url": "/"
