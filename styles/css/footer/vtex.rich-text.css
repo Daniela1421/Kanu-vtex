@@ -1,0 +1,64 @@
+/***************** newsletter ***************/
+.paragraph--newsletter-question{
+    margin-top: 4px;
+    color: #ee562a;
+}
+
+/***************** middle ******************/
+.paragraph--footer__middle--col-one-text{
+    color: #ffffff;
+}
+
+.paragraph--customer__service--subtittles{
+    margin: 0 1.5rem;
+    color: #fff;
+    font-size: 14px;
+}
+
+.paragraph--customer__service--item{
+    margin: 0 1.5rem;
+    color: #fff;
+}
+
+.paragraph--select-store-title{
+    margin: 8px 0;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+.container--select-store-title::after{
+    content: url("assets/img/mobile__menu--icon.svg");
+    margin-top: 6px;
+}
+
+.container--select-store-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph--select__store--items{
+    margin: 0;
+}
+
+.link--select__store--items{
+    text-decoration: none;
+    color: #000;
+    padding: 3px 0;
+    font-size: 11px;
+}
+
+/************** bottom ****************/
+.paragraph--footer__bottom--titles, 
+.paragraph--footer__bottom--information-kanu{
+    font-size: 14px;
+}
+
+.paragraph--footer__bottom--information-kanu{
+    margin-bottom: 0;
+}
+.paragraph--footer__bottom--phone, 
+.paragraph--footer__bottom--rights-reserved{
+    margin-top: 0;
+    font-size: 14px;
+}
+

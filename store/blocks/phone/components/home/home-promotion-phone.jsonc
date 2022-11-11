@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#phone__home--section-promotions": {
+      "title": "Banner-promotions", 
+      "children": [
+        "flex-layout.col#phone__home--section-image",
+        "flex-layout.col#phone__home--section-image2"
+      ],
+      "props": {
+        "blockClass": "phone__home--section-promotions",
+        "colSizing":"auto", 
+        "horizontalAlign": "center", 
+        "colJustify": "around"
+      }
+  },
+    "flex-layout.col#phone__home--section-image": {
+      "title": "image-one-section-promotions",
+      "children": ["image#home__image1"], 
+      "props": {
+        "blockClass": "phone__home--section-promotions"
+      }
+    },
+    "flex-layout.col#phone__home--section-image2": {
+      "title": "image-two-section-promotions",
+      "children": ["image#home__image2"],
+      "props": {
+        "blockClass": "phone__home--section-promotions"
+      }
+    }
+}

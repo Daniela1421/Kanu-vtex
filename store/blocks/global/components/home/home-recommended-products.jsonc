@@ -48,6 +48,7 @@
     "props": {"blockClass": "global__home--products-recommended"}
   }, 
     "product-summary.shelf#home__products--recommended": {
+      "title": "product-summary-container",
       "children": [
         "product-summary-image",
         "product-summary-name",
@@ -57,6 +58,7 @@
       ]
     },
     "slider-layout#home__products--recommended": {
+      "title": "product-slider", 
       "props": {
         "itemsPerPage":{
           "desktop": 5, 

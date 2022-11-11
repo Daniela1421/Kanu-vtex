@@ -1,6 +1,6 @@
 {
   "image#home__image1": {
-    "title": "Imagen de home1", 
+    "title": "image-banner-promotion1", 
     "props": {
         "src": "assets/img/home__flexlayout-1.png", 
         "title": "Promocion 1", 
@@ -13,7 +13,7 @@
     }
   },
   "image#home__image2": {
-    "title": "Imagen 2 de home", 
+    "title": "image-banner-promotion2", 
     "props": {
         "src": "assets/img/home__flexlayout-2.jpg", 
         "title": "Promocion 2", 
@@ -26,7 +26,7 @@
     }
   },
   "image#home__services-1": {
-    "title": "Servicio 1 de home", 
+    "title": "service1-home", 
     "props": {
         "src": "assets/img/home__services-1.png", 
         "maxWidth": 600, 
@@ -40,7 +40,7 @@
     }
   }, 
   "image#home__services-2": {
-    "title": "Servicio 2 de home", 
+    "title": "service2-home", 
     "props": {
         "src": "assets/img/home__services-2.png", 
         "maxWidth": 600, 
@@ -54,7 +54,7 @@
     }
   },
   "image#home__services-3": {
-    "title": "Servicio 3 de home", 
+    "title": "service3-home", 
     "props": {
         "src": "assets/img/home__services-3.png", 
         "title": "Servicio 3", 
@@ -67,7 +67,7 @@
     }
   },
   "image#home__services-4": {
-    "title": "Servicio 4 de home", 
+    "title": "service4-home", 
     "props": {
         "src": "assets/img/home__services-4.png", 
         "title": "Servicio 4", 

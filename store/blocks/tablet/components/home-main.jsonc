@@ -1,6 +1,6 @@
 {
   "flex-layout.row#tablet__home--main": {
-    "title": "desktop-home-main", 
+    "title": "main-container-tablet-home", 
     "children": [
       "flex-layout.col#tablet__home--main"
     ], 
@@ -9,16 +9,16 @@
   "flex-layout.col#tablet__home--main":{
     "title": "tablet-home-main", 
     "children": [
-      "flex-layout.row#desktop__home--categories",
-      "flex-layout.row#desktop__home--section-one",
+      "rich-text#global__home--title-categories",
+      "flex-layout.row#global__home--categories",
+      "flex-layout.row#global__home--section-promotion",
       "rich-text#global__home--title-products",
       "list-context.product-list#global__home--products-recommended",
       "rich-text#global__home--title-favorites",
       "list-context.product-list#global__home--products-recommended",
       "rich-text#global__home--title-services",
-      "flex-layout.row#desktop__home--section-services1",
-      "flex-layout.row#desktop__home--section-services2"
-      // "modal-trigger#desktop__home--modal-event"
+      "flex-layout.row#global__home--section-services1",
+      "flex-layout.row#global__home--section-services2"
       // "search-result-layout.customQuery#home__search"
     ]
   }

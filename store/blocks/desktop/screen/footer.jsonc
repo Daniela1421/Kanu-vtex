@@ -1,0 +1,13 @@
+{
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#global__footer--top",
+      "flex-layout.row#global__footer--middle",
+      // "flex-layout.row#desktop__footer--bottom"
+      "flex-layout.row#footer__bottom--titles-images",
+      "flex-layout.row#footer__bottom--conditions", 
+      "flex-layout.row#footer__bottom--contact-information",
+      "flex-layout.row#footer__bottom--icons"
+    ]
+  }
+}

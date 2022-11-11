@@ -1,0 +1,333 @@
+{
+  "flex-layout.row#global__footer--middle": {
+    "title": "global__footer--middle",
+    "children": [
+      "flex-layout.col#footer__middle--col-one",
+      "flex-layout.col#footer__middle--col-two",
+      "flex-layout.col#footer__middle--col-three",
+      "flex-layout.col#footer__middle--col-four"
+    ], 
+    "props": {
+      "blockClass": "desktop__footer--middle"
+    }
+  }, 
+  "flex-layout.col#footer__middle--col-one": {
+    "title": "footer__middle--column-one",
+    "children": [
+      "logo#desktop__header--logo",
+      "rich-text#footer__middle--follow-us",
+      "flex-layout.row#footer__middle--social-networks", 
+      "rich-text#footer__middle--store", 
+      "flex-layout.row#footer__middle--select-store"
+    ],
+    "props": {"blockClass":["footer__middle--col-one", "mobile__footer--middle-col-one"]}
+  },
+    "rich-text#footer__middle--follow-us": {
+      "title": "Title-follow-us", 
+      "props": {
+        "blockClass": "footer__middle--col-one-text",
+        "text": "Siguenos:"
+      }
+    },
+    "flex-layout.row#footer__middle--social-networks": {
+      "title": "footer__middle--social-networks",
+      "children": [
+        "image#social__networks--facebook", 
+        "image#social__networks--instagram", 
+        "image#social__networks--youtube", 
+        "image#social__networks--tiktok"
+      ], 
+      "props": {"blockClass": "footer__middle--social-networks", "colSizing": "auto"}
+    },
+      "image#social__networks--facebook": {
+        "title": "image-facebook", 
+        "props": {
+          "src": "assets/img/facebook.svg", 
+          "blockClass": "image-social-networks",
+          "link": {
+            "url": "https://www.facebook.com/kanupets/", 
+            "newTab": true      
+          }
+        }
+      },
+      "image#social__networks--instagram": {
+        "title": "image-instagram", 
+        "props": {
+          "src": "assets/img/instagram.svg", 
+          "blockClass": "image-social-networks",
+          "link": {
+            "url": "https://www.instagram.com/kanumascotas/", 
+            "newTab": true      
+          }
+        }
+      },
+      "image#social__networks--youtube" : {
+        "title": "image-youtube", 
+        "props": {
+          "src": "assets/img/youtube.png", 
+          "blockClass": "image-social-networks",
+          "link": {
+            "url": "https://www.youtube.com/channel/UCAkGoOl6XDSK7NbguP60U_g", 
+            "newTab": true      
+          }
+        }
+      },
+      "image#social__networks--tiktok" : {
+        "title": "image-tiktok", 
+        "props": {
+          "src": "assets/img/tiktok.svg", 
+          "blockClass": "image-social-networks",
+          "link": {
+            "url": "https://www.tiktok.com/@kanupets", 
+            "newTab": true      
+          }
+        }
+      },
+    "rich-text#footer__middle--store": {
+      "title": "title-find-your-place", 
+      "props": {
+        "blockClass": "footer__middle--col-one-text",
+        "text": "Encuentra tu local"
+      }
+    }, 
+    "flex-layout.row#footer__middle--select-store": {
+      "title": "main-container-select-your-store",
+      "children": ["disclosure-layout#footer__middle--select-store"], 
+      "props": {
+        "blockClass": "footer__middle--select-store"
+      }
+    },
+      "disclosure-layout#footer__middle--select-store": {
+        "title": "container-stores", 
+        "children": ["disclosure-trigger#select-store", "disclosure-content#select-store"]
+      }, 
+      "disclosure-trigger#select-store": {
+        "title": "title-container-stores", 
+        "children": ["rich-text#select-store"], 
+        "props": {"blockClass": "trigger__select--store"}
+      }, 
+      "rich-text#select-store": {
+        "title": "title-select-store", 
+        "props": {
+          "blockClass": "select-store-title",
+          "text": "Selecciona tu tienda"
+        }
+      }, 
+      "disclosure-content#select-store": {
+        "title": "store-options-container",
+        "children": ["menu#select-store"],
+        "props": {"blockClass": "content__select--store"}
+      }, 
+      "menu#select-store": {
+        "children": [
+          "rich-text#select__store--items"
+        ], 
+        "props": {
+          "orientation": "vertical"
+        }
+      }, 
+        "rich-text#select__store--items":{
+          "title": "select-store-items", 
+          "props": {
+            "blockClass": "select__store--items", 
+            "text": "[MED - VIVA LAS PALMAS](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - SAN LUCAS](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - TESORO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - SANTA FE](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - EXITO POBLADO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - PALMA GRANDE](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - LA VILLA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - UNICENTRO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - LAURELES](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - NUEVO MUNDO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - FLORIDA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [BOG - COUNTRY](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [BOG - LA CABRERA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [BOG - SANTA BARBARA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n"
+          }
+        },
+  "flex-layout.col#footer__middle--col-two": {
+    "title": "footer__middle--column-two", 
+    "children": ["menu#about-us"],
+    "props": {"blockClass":"footer__middle--menu"}
+  },
+  "menu#about-us": {
+    "title": "menu-about-us", 
+    "children": [
+      "menu-item#about-us", 
+      "link#category__about--us-item-one",
+      "link#category__about--us-item-two"
+    ], 
+    "props": {
+      "orientation": "vertical"
+    }
+  }, 
+  "menu-item#about-us": {
+    "title": "title-menu-about-us", 
+    "props": {
+      "id": "menu-about-us", 
+      "type": "custom", 
+      "itemProps": {
+        "type": "internal", 
+        // "href": "/", 
+        "tagTitle": "Acerca de Kanú", 
+        "text": "Acerca de Kanú"
+      }
+    }
+  }, 
+  "link#category__about--us-item-one": {
+    "title": "category-about--us-item-one", 
+    "props": {
+      "blockClass": "items__submenu", 
+      "href": "/",
+      "label": "Sobre Kanú"
+    }
+  },
+  "link#category__about--us-item-two": {
+    "title": "category-about--us-item-two", 
+    "props": {
+      "blockClass": "items__submenu", 
+      "href": "/",
+      "label": "Localizador de tiendas"
+    }
+  },
+  "flex-layout.col#footer__middle--col-three": {
+    "title": "footer__middle--column-three",
+    "children": ["menu#links-interest"],
+    "props": {"blockClass":"footer__middle--menu"}
+  },
+  "menu#links-interest": {
+    "title": "menu-links-interest",
+    "children": [
+      "menu-item#links-interest", 
+      "link#category__links--interest-item-one",
+      "link#category__links--interest-item-two",
+      "link#category__links--interest-item-three",
+      "link#category__links--interest-item-four",
+      "link#category__links--interest-item-five"
+    ], 
+    "props": {
+      "orientation": "vertical"
+    }
+  }, 
+  "menu-item#links-interest": {
+    "title": "title-menu-links-interest",
+    "props": {
+      "id": "menu-about-us", 
+      "type": "custom", 
+      "itemProps": {
+        "type": "internal", 
+        // "href": "/", 
+        "tagTitle": "Links de Interés", 
+        "text": "Links de Interés"
+      }
+    }
+  }, 
+  "link#category__links--interest-item-one": {
+    "title": "category-links--interest-item-one", 
+    "props": {
+      "blockClass": "items__submenu", 
+      "href": "/",
+      "label": "Preguntas frecuentes"
+    }
+  },
+  "link#category__links--interest-item-two": {
+    "title": "category-links--interest-item-two", 
+    "props": {
+      "blockClass": "items__submenu", 
+      "href": "/",
+      "label": "¿Cómo comprar en Kanú?"
+    }
+  },
+  "link#category__links--interest-item-three": {
+    "title": "category-links-interest-item-three", 
+    "props": {
+      "blockClass": "items__submenu", 
+      "href": "/",
+      "label": "Política de Entregas y Devoluciones"
+    }
+  },
+  "link#category__links--interest-item-four": {
+    "title": "category-links-interest-item-four", 
+    "props": {
+      "blockClass": "items__submenu", 
+      "href": "/",
+      "label": "Política de Privacidad"
+    }
+  },
+  "link#category__links--interest-item-five": {
+    "title": "category-links-interest-item-five",  
+    "props": {
+      "blockClass": "items__submenu", 
+      "href": "/",
+      "label": "Pedidos programados"
+    }
+  },
+  "flex-layout.col#footer__middle--col-four": {
+    "title": "footer__middle--column-four", 
+    "children": ["menu#customer-service"],
+    "props": {"blockClass":"footer__middle--menu"}
+  },
+  "menu#customer-service": {
+    "title": "menu-customer-service",
+    "children": [
+      "menu-item#customer-service", 
+      "rich-text#category__customer--service-item-one",
+      "link#category__customer--service-item-one",
+      "rich-text#category__customer--service-item-two",
+      "link#category__customer--service-item-two",
+      "rich-text#category__customer--service-item-three",
+      "rich-text#category__customer--service-item-four"
+    ], 
+    "props": {
+      "orientation": "vertical"
+    }
+  }, 
+  "menu-item#customer-service": {
+    "title": "title-menu-customer-service", 
+    "props": {
+      "id": "menu-about-us", 
+      "type": "custom", 
+      "itemProps": {
+        "type": "internal", 
+        // "href": "/", 
+        "tagTitle": "Servicio al cliente", 
+        "text": "Servicio al cliente"
+      }
+    }
+  }, 
+  "rich-text#category__customer--service-item-one": {
+    "title": "title-email", 
+    "props": {
+      "blockClass": "customer__service--subtittles", 
+      "font": "t-heading-2",
+      "text": "Email:"
+    }
+  },
+  "link#category__customer--service-item-one": {
+    "title": "email", 
+    "props": {
+      "blockClass": ["items__submenu", "customer__service--submenu"],
+      "href": "/",
+      "label": "servicioalcliente@kanu.pet"
+    }
+  },
+  "rich-text#category__customer--service-item-two": {
+    "title": "title-telephone-line",
+    "props": {
+      "blockClass": "customer__service--subtittles", 
+      "font": "t-heading-2",
+      "text": "Línea en Medellín"
+    }
+  },
+  "link#category__customer--service-item-two": {
+    "title": "telephone-line", 
+    "props": {
+      "blockClass": ["items__submenu", "customer__service--submenu"],
+      "href": "/",
+      "label": "(+604) 444 5268 Opción 2"
+    }
+  },
+  "rich-text#category__customer--service-item-three": {
+    "title": "title-office-hours",
+    "props": {
+      "blockClass": "customer__service--subtittles", 
+      "font": "t-heading-2",
+      "text": "Horario de Atención"
+    }
+  },
+  "rich-text#category__customer--service-item-four": {
+    "title": "office-hours",
+    "props": {
+      "blockClass": "customer__service--item", 
+      "text": "Lunes a Viernes de 8:00 am - 5:00 pm"
+    }
+  }
+}
