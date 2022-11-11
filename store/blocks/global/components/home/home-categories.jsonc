@@ -1,6 +1,6 @@
 {
-  "flex-layout.row#desktop__home--categories": {
-      "title": "Section-categories", 
+  "flex-layout.row#global__home--categories": {
+      "title": "section-categories", 
       "children": [
           "flex-layout.col#home__categories--item1",
           "flex-layout.col#home__categories--item2"
@@ -11,7 +11,7 @@
       }
   }, 
     "flex-layout.col#home__categories--item1": {
-        "title": "type-of-category", 
+        "title": "section-kind-of-pet", 
         "children": [
             "rich-text#home__categories--seccion1", 
             "flex-layout.col#home__categories--seccion1"
@@ -19,7 +19,7 @@
         "props": { "blockClass": "home__categories--item1"}
     },
       "rich-text#home__categories--seccion1": {
-          "title": "category-section-one", 
+          "title": "title-category-section-one", 
           "props": {
               "blockClass": "home__categories--seccion", 
               "text": "TIPO DE MASCOTA", 
@@ -36,7 +36,7 @@
               "link#home__categories--seccion1-item5"
           ], 
           "props": {
-              "blockClass": "desktop-home-categories"
+              "blockClass": "global-home-categories"
           }
       },
           "link#home__categories--seccion1-item1": {
@@ -49,6 +49,7 @@
               }
           },
             "icon#categories__seccion1--type-of-pet":{
+              "title": "icon-pet", 
               "props": {
                 "id": "category-pet",
                 "size": 60
@@ -82,6 +83,7 @@
               }
           },
             "icon#categories__seccion1--type-of-pet2":{
+              "title": "icon-pet-cat", 
               "props": {
                 "id": "submenu-cat",
                 "size": 60
@@ -97,7 +99,7 @@
               }
           },
     "flex-layout.col#home__categories--item2": {
-        "title": "type-of-product", 
+        "title": "section-type-of-product", 
         "children": [
             "rich-text#home__categories--seccion2", 
             "flex-layout.col#home__categories--seccion2"
@@ -105,7 +107,7 @@
         "props": { "blockClass": "home__categories--item2"}
     },
       "rich-text#home__categories--seccion2": {
-          "title": "category-seccion-two", 
+          "title": "title-category-seccion-two", 
           "props": {
               "blockClass": "home__categories--seccion", 
               "text": "TIPO DE PRODUCTO", 
@@ -123,7 +125,7 @@
               "link#home__categories--seccion2-item6"
           ], 
           "props": {
-              "blockClass": "desktop-home-categories"
+              "blockClass": "global-home-categories"
           }
       }, 
         "link#home__categories--seccion2-item1": {

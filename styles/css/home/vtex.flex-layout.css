@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 
-/************ Section search ***********/
+/************ Desktop section search ***********/
 .flexRow--desktop__home--section--search {
     background-color: #f8971d;
     padding: 1.5em 1em;
@@ -24,8 +24,14 @@
     margin: 10px 8px;
     height: 35px;
 }
+/* 
+.flexColChild--section--search-img
+:global(.vtex-store-components-3-x-imageElement--home__section--search-img)::after{
+    content: url("assets/img/mobile-menu-offers.png");
+    filter: invert(68%) sepia(12%) saturate(6543%) hue-rotate(347deg) brightness(103%) contrast(94%);
+} */
 
-/************ promotions banner *********/
+/************ desktop promotions banner *********/
 
 .flexColChild--home__section--one-image2
 :global(.vtex-store-components-3-x-imageElement--home__image2){
@@ -37,6 +43,7 @@
 .flexRowContent--home__section--services2{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2em;
 }
 
 .flexRow--home__section--one{
@@ -64,19 +71,26 @@
 }
 
 /********** Desktop categories **********/
+.flexRowContent--home__categories{
+    display: flex;
+    justify-content: center;
+}
 
 .flexCol--home__categories--item1{
     padding-right: 2px;
-    border-right: 1px solid #dfdfdf;
 }
 
-.flexCol--desktop-home-categories{
+.flexCol--home__categories--item2{
+    border-left: 1px solid #dfdfdf;
+}
+
+.flexCol--global-home-categories{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.flexCol--desktop-home-categories
+.flexCol--global-home-categories
 :global(.vtex-store-link-0-x-link--categories-items){
     display: flex;
     flex-direction: column-reverse;
@@ -90,7 +104,7 @@
     text-align: center;
 }
 
-.flexCol--desktop-home-categories
+.flexCol--global-home-categories
 :global(.vtex-store-link-0-x-link--categories-items):hover{
     color: #f8971d;
     box-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
@@ -109,26 +123,30 @@
     padding: 20.5px;
 }
 
-/************************************************* Mobile***********************************************/
-/********* Section promotions *********/
+/********* Section promotions mobile *********/
 
-.flexRowContent--mobile__home--section-promotions{
+.flexRowContent--phone__home--section-promotions{
     display: flex;
     flex-direction: column;
 }
 
-.flexCol--mobile__home--section-promotions
+.flexCol--phone__home--section-promotions
 :global(.vtex-store-components-3-x-imageElement){
     width: 96%;
     margin: 1px 10px;
 }
 
-/************* Section search ******************/
+
+.flexRowContent--home__section--search-item1
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+    width: 70% !important;
+}
+
+/************* mobile Section search ******************/
 .flexRow--mobile__home--section--search{
     background-color: #f8971d;
     padding: 1.5em 1em;
     margin: 0.8rem;
-    height: 360px;
 }
 
 .flexRowContent--mobile__home--section--search{
@@ -138,16 +156,16 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 320px;
 }
 
 .flexRowContent--home__section--search-item1{
     display: flex;
+    align-items: center;
 }
 
 .flexRowContent--mobile__home--section--search
 :global(.vtex-rich-text-0-x-paragraph--home__section--search-msg){
-   font-size: 16px;
+   font-size: 1.5em;
    line-height: 1em;
    margin-right: 4em;
 }
@@ -155,7 +173,6 @@
 .flexRowContent--mobile__home--section--search
 :global(.vtex-store-components-3-x-imageElement){
     margin-right: 6em;
-    max-width: 60px;
 }
 
 .flexColChild--mobile__section--search-form{
@@ -165,14 +182,13 @@
 }
 
 .flexCol--mobile__section--search-form{
-    /* height: 12em; */
     margin-top: 1em;
 }
 
 /******************** categories **************/
 
-.flexRowContent--mobile-home-categories
-:global(.vtex-store-link-0-x-link--categories-items-mobile){
+.flexRowContent--phone-home-categories
+:global(.vtex-store-link-0-x-link--categories-items-phone){
     display: flex;
     flex-direction: column-reverse;
     text-decoration: none;
@@ -182,8 +198,8 @@
     border: 4px solid transparent;
 }
 
-.flexRowContent--mobile-home-categories
-:global(.vtex-store-link-0-x-link--categories-items-mobile):hover{
+.flexRowContent--phone-home-categories
+:global(.vtex-store-link-0-x-link--categories-items-phone):hover{
     color: #f8971d;
     box-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
     border: 1px solid #f2f2f2;
@@ -191,7 +207,7 @@
     filter: invert(59%) sepia(96%) saturate(844%) hue-rotate(347deg) brightness(100%) contrast(94%);
 }
 
-.flexRowContent--mobile-home-categories{
+.flexRowContent--phone-home-categories{
     display:flex;
     padding: 1rem;
 }
@@ -202,12 +218,12 @@
 
 /********* services *******/
 
-.flexRowContent--mobile__home--section-services1{
+.flexRowContent--phone__home--section-services1{
     display: flex;
     padding: 0 1rem;
 }
 
-.flexRowContent--mobile__home--section-services1
+.flexRowContent--phone__home--section-services1
 :global(.vtex-store-link-0-x-link--home__section--services){
     display: flex;
     flex-direction: column-reverse;
@@ -225,16 +241,62 @@
     margin-top: 20px;
 }
 
-.flexRow--mobile__home--section-services1{
+.flexRow--phone__home--section-services1{
     margin-top: 30px;
 }
 
-.flexRowContent--mobile__home--section-services2{
+.flexRowContent--phone__home--section-services2{
     display: flex;
     padding: 0 1rem;
 }
 
-.flexRowContent--mobile__home--section-services2
+.flexRowContent--phone__home--section-services2
 :global(.vtex-store-components-3-x-imageElement--section-services-part2){
     margin-right: 1em;
+}
+
+.flexRowContent--tablet__home--main{
+    padding: 0 1rem;
+}
+
+@media (min-width: 640px) and (max-width: 1024px){
+    .flexRowContent--home__categories{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flexCol--home__categories--item1{
+        border-bottom: 1px solid rgb(223, 223, 223);;
+    }
+    .flexCol--home__categories--item2{
+        border-left: none;
+    }
+
+    .flexColChild--home__section--one-image2 
+    :global(.vtex-store-components-3-x-imageElement--home__image2){
+        padding: 0;
+    }
+
+    .flexRowContent--home__section--search-item1
+    :global(.vtex-rich-text-0-x-paragraph--home__section--search-msg){
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px){
+    .flexRowContent--home__section--, 
+    .flexRowContent--home__section--services2{
+        padding: 0 1rem;
+    }
+
+    .flexCol--global-home-categories 
+    :global(.vtex-store-link-0-x-link--categories-items){
+        padding: 1em;
+    }
+
+    .flexCol--home__categories--item2
+    :global(.vtex-store-link-0-x-link--categories-items){
+        padding: 0.8em;
+    }
 }

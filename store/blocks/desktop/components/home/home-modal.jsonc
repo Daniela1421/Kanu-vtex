@@ -1,55 +1,56 @@
 {
-    "modal-trigger#desktop__home--modal-children": {
-        "title": "home-modal-terms",
-        "children": [
-            "rich-text#home__modal--trigger", 
-            "modal-layout#home__modal--layout"
-        ]
-    }, 
-    "rich-text#home__modal--trigger": {
-        "title": "text-modal-terms",
-        "props": {
-            "text": "Términos y condiciones"
-        }
-    }, 
-    "modal-layout#home__modal--layout": {
-        "title": "body-modal-terms",
-        "children": [
-            "rich-text#home__modal--content"
-        ]
-    }, 
-    "rich-text#home__modal--content": {
-        "title": "text-body-modal-terms",
-        "props": {
-            "text": "# Términos y condiciones \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut mauris quis erat interdum auctor a quis nulla. Nullam hendrerit scelerisque dignissim. Sed vel facilisis magna. Nam arcu orci, finibus eget justo ac, luctus varius massa. Morbi tincidunt nibh dignissim, luctus augue non, sollicitudin tellus. Mauris pulvinar justo at auctor volutpat. Sed sed tempus sem, ut venenatis augue."
-        }
-    }, 
-    "modal-trigger#desktop__home--modal-event": {
-        "title": "modal-event-pageview",
-        "children": [
-            "modal-layout#home__modal--event"
-        ], 
-        "props": {
-            "trigger": "event", 
-            "customPixelEventName": "pageView"
-        }
-    }, 
-    "modal-layout#home__modal--event": {
-        "title": "modal-event-items",
-        "children": [
-            "modal-header#home__modal--event",
-            "image#home__modal--pageView"
-        ]
-    },
-    "modal-header#home__modal--event": {
-        "props": {
-            "showCloseButton": true
-        }
-    }, 
-    "image#home__modal--pageView": {
-        "title": "Modal de apertura de pagina", 
-        "props": {
-            "src": "assets/img/home__modal--pageView.png"
-        }
+  "modal-trigger#desktop__home--modal-children": {
+    "title": "home-modal-terms",
+    "children": [
+        "rich-text#home__modal--trigger", 
+        "modal-layout#home__modal--layout"
+    ]
+  }, 
+  "rich-text#home__modal--trigger": {
+    "title": "text-modal-terms",
+    "props": {
+        "text": "Términos y condiciones"
     }
+  }, 
+  "modal-layout#home__modal--layout": {
+    "title": "body-modal-terms",
+    "children": [
+        "rich-text#home__modal--content"
+    ]
+  }, 
+  "rich-text#home__modal--content": {
+    "title": "text-body-modal-terms",
+    "props": {
+        "text": "# Términos y condiciones \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut mauris quis erat interdum auctor a quis nulla. Nullam hendrerit scelerisque dignissim. Sed vel facilisis magna. Nam arcu orci, finibus eget justo ac, luctus varius massa. Morbi tincidunt nibh dignissim, luctus augue non, sollicitudin tellus. Mauris pulvinar justo at auctor volutpat. Sed sed tempus sem, ut venenatis augue."
+    }
+  }, 
+  "modal-trigger#desktop__home--modal-event": {
+    "title": "modal-event-pageview",
+    "children": [
+        "modal-layout#home__modal--event"
+    ], 
+    "props": {
+        "trigger": "event", 
+        "customPixelEventName": "pageView"
+    }
+  }, 
+  "modal-layout#home__modal--event": {
+    "title": "modal-event-items",
+    "children": [
+        "modal-header#home__modal--event",
+        "image#home__modal--pageView"
+    ]
+  },
+  "modal-header#home__modal--event": {
+    "title": "modal-closure",
+    "props": {
+        "showCloseButton": true
+    }
+  }, 
+  "image#home__modal--pageView": {
+    "title": "image-modal", 
+    "props": {
+        "src": "assets/img/home__modal--pageView.png"
+    }
+  }
 }

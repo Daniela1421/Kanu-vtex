@@ -3,7 +3,9 @@
     "title": "Home", 
     "blocks": [
       "responsive-layout.mobile",
-      "responsive-layout.desktop"
+      "responsive-layout.desktop", 
+      "responsive-layout.phone",
+      "responsive-layout.tablet"
     ]
   }
 }

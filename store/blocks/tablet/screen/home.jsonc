@@ -1,0 +1,8 @@
+{
+  "responsive-layout.tablet": {
+    "title": "tablet component",
+    "children": [
+      "flex-layout.row#tablet__home--main"
+    ]
+  }
+}

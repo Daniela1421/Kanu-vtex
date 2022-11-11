@@ -1,11 +1,12 @@
 {
-  "list-context.product-list#global__home--products-favorites": {
-    "title": "Section-products-favorites",
+  "list-context.product-list#desktop__home--products-favorites": {
+    "title": "section-products-favorites",
     "blocks": ["product-summary.shelf#home__products--recommended"],
     "children": ["slider-layout#home__products--favorites"], 
     "props": {"blockClass": "global__home--products-favorites"}
   },
   "slider-layout#home__products--favorites":{
+    "title": "favorite-products-slider", 
     "props": {
       "itemsPerPage":{
         "desktop": 4

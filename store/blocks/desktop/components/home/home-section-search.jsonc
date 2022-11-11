@@ -62,22 +62,24 @@
     ]
   },
     "flex-layout.row#section__search--form1":{
+      "title": "container-form-row1", 
       "children": ["rich-text#section__search--form-especie", "rich-text#section__search--form-Edad"],
       "props": {"blockClass": "section__search--form1"}
     },
     "flex-layout.row#section__search--form2":{
+      "title": "container-form-row2", 
       "children": ["rich-text#section__search--form-Edad", "rich-text#section__search--form-especie"],
       "props": {"blockClass": "section__search--form1"}
     },
       "rich-text#section__search--form-especie" : {
-        "title": "Formulario Especie", 
+        "title": "species-form", 
         "props": {
             "text": "Especie", 
             "blockClass": "text-section-search"
         }
       },
       "rich-text#section__search--form-Edad" : {
-        "title": "Formulario Edad", 
+        "title": "age-form", 
         "props": {
             "text": "Edad", 
             "blockClass": "text-section-search"
