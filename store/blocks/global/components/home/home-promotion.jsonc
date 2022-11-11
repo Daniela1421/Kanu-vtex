@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#desktop__home--section-one": {
+  "flex-layout.row#global__home--section-promotion": {
       "title": "section-promotion-one", 
       "children": [
         "flex-layout.col#home__section--one-image",
@@ -14,18 +14,14 @@
   },
     "flex-layout.col#home__section--one-image": {
       "title": "image-promotion-section1",
-      "children": [
-        "image#home__image1"
-      ], 
+      "children": ["image#home__image1"], 
       "props": {
         "blockClass": "home__section--one-image"
       }
     },
     "flex-layout.col#home__section--one-image2": {
       "title": "image-prmotion-section2",
-      "children": [
-        "image#home__image2"
-      ],
+      "children": ["image#home__image2"],
       "props": {
         "blockClass": "home__section--one-image2"
       }

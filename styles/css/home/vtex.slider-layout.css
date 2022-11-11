@@ -98,5 +98,17 @@
 
 .slideChildrenContainer--home__products--recommended
 :global(.vtex-product-summary-2-x-brandName){
-  font-size: 13px;
+    font-size: 13px;
+}
+
+.slideChildrenContainer--home__products--recommended
+:global(.vtex-product-price-1-x-currencyContainer){
+    color: #ffab00;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.slideChildrenContainer--home__products--recommended
+:global(.vtex-product-price-1-x-sellingPrice){
+    margin-bottom: 13px;
 }
