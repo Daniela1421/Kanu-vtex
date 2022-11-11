@@ -1,6 +1,6 @@
-.logoImage{
+/* .logoImage{
     width: 150px;
-}
+} */
 .imageElement--home__service1 {
     width: 94%;
 }
@@ -17,19 +17,20 @@
     width: 28%;
 }
 
-.imageElement--header__menu--animals{
+/* .imageElement--header__menu--animals{
     width: 80%;
-}
+} */
 
-.imageElement--header__menu--animals2,
+/* .imageElement--header__menu--animals2, */
 .imageElement--footer__bottom--icon-jump{
     width: 70%;
 }
 
 .imageElement--mobile__header--menu-dog, 
 .imageElement--mobile__header--menu-cat {
-    width: 30%;
-    padding: 1em 0;
+    /* width: 30%;
+    padding: 1em 0; */
+    width: 3em;
 }
 
 .container{
@@ -104,4 +105,16 @@
     max-height: 30px;
 }
 
+@media (min-width: 640px) and (max-width: 1024px){
+    .imageElement--mobile__header--menu-dog, 
+    .imageElement--mobile__header--menu-cat {
+        filter: invert(1);
+    }
+}
 
+@media (max-width: 640px){
+    .imageElement--mobile__header--menu-dog, 
+    .imageElement--mobile__header--menu-cat {
+        width: 2.5em;
+    }
+}
