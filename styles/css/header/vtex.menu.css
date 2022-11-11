@@ -1,6 +1,6 @@
 /*********** Desktop menu ************/
 
-.menuContainerNav--desktop__header--menu{
+/* .menuContainerNav--desktop__header--menu{
   background-color: #fff;
   position: absolute;
   top: 0;
@@ -8,10 +8,10 @@
   box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
   width: 100%;
   height: auto;
-}
-.menuContainer--desktop__header--menu{
+} */
+/* .menuContainer--desktop__header--menu{
   margin: 0 9em 0 9.1em;
-}
+} */
 
 .menuItem--department-main:hover{
   cursor: pointer;
@@ -28,7 +28,7 @@
 
 .styledLinkContainer--department-main{
   margin: 0;
-  padding: 1em 1.7em;
+  padding: 1em 1.9em;
 }
 
 .styledLinkContent{
@@ -127,8 +127,13 @@
   visibility: hidden;
 }
 
-.accordionIcon--department-main-mobile::before{
+.accordionIcon--department-main-mobile--isClosed::before{
   content: url("assets/img/mobile__menu--icon.svg");
+  visibility: visible;
+}
+
+.accordionIcon--department-main-mobile--isOpen::before{
+  content: url("assets/img/mobile__header--menu-icon.svg");
   visibility: visible;
 }
 
@@ -139,4 +144,11 @@
 
 .submenuAccordion--department__one{
   padding-left: 20px;
+}
+
+@media (min-width:1024px) and (max-width: 1280px){
+  .styledLinkContainer--department-main{
+    padding: 1em 0.8em;
+  }
+  
 }

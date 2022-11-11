@@ -3,7 +3,9 @@
     "title": "Header middle", 
     "children": [
         "logo#mobile__header--logo",
-        "flex-layout.row#mobile__header--middle-animals",
+        // "flex-layout.row#mobile__header--middle-animals",
+        "image#mobile__header--menu-dog",
+        "image#mobile__header--menu-cat",
         "login#mobile__header--login",
         "minicart.v2",
         "drawer#mobile__header--menu"
@@ -21,21 +23,22 @@
       "href": "/"
     }
   },
-  "flex-layout.row#mobile__header--middle-animals": {
-    "title": "animals menu section", 
-    "children": [
-        "image#mobile__header--menu-dog", 
-        "image#mobile__header--menu-cat" 
-    ],
-    "props": {
-        "blockClass":"mobile__header--middle-animals", 
-        "horizontalAlign": "center"
-    }
-  },
+  // "flex-layout.row#mobile__header--middle-animals": {
+  //   "title": "animals menu section", 
+  //   "children": [
+  //       "image#mobile__header--menu-dog", 
+  //       "image#mobile__header--menu-cat" 
+  //   ],
+  //   "props": {
+  //       "blockClass":"mobile__header--middle-animals", 
+  //       "horizontalAlign": "center"
+  //   }
+  // },
     "image#mobile__header--menu-dog": {
         "title": "Cat image - Mobile menu",
         "props": {
           "blockClass": "mobile__header--menu-dog",
+          // "maxWidth": "50",
           "src": "assets/img/header__menu--mobile-dog.png"
         }
     }, 

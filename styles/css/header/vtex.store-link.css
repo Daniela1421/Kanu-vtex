@@ -19,6 +19,18 @@
     padding: 0 5px 0 10px;
 }
 
+.link--header__menu--kind-pet{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #050505;
+}
+
+.childrenContainer--header__menu--kind-pet{
+    width: 34%;
+}
 .childrenContainer--desktop__header--menu-offers{
     padding-right: 10px;
 }

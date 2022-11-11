@@ -1,12 +1,11 @@
 {
   "header-row#desktop__header--middle": {
-    "title": "Header superior", 
+    "title": "desktop-header-middle", 
     "children": [
       "logo#desktop__header--logo",
-      "search-bar#header--search",
+      "flex-layout.row#desktop__header--search",
       "overlay-trigger#desktop__header--pqrs",
-      "icon#desktop__header--icon-repurchase",
-      "login#desktop__header--login",
+      "flex-layout.row#desktop__header--login-repurchase",
       "minicart.v2"
     ],
     "props": {
@@ -15,17 +14,33 @@
     }
   },
   "logo#desktop__header--logo": {
-    "title": "Logo", 
+    "title": "logo", 
     "props": {
-        "url": "assets/img/header__logo-kanu.png", 
-        // "width": 150, 
+        "url": "assets/img/header__logo-kanu2.png", 
         "href": "/"
+    }
+  },
+  "flex-layout.row#desktop__header--search": {
+    "title": "header-search-bar", 
+    "children": ["search-bar#header--search"], 
+    "props": {"blockClass": "desktop__header--search"}
+  },
+  "flex-layout.row#desktop__header--login-repurchase": {
+    "title": "header-login-and-repurchase", 
+    "children": [
+      "icon#desktop__header--icon-repurchase",
+      "login#desktop__header--login"
+    ], 
+    "props": {
+      "blockClass": "desktop__header--login-repurchase", 
+      "colSizing": "auto"
     }
   },
   "icon#desktop__header--icon-repurchase": {
     "props": {
       "id": "header-repurchase", 
-      "size": 20
+      "size": 20, 
+      "activeClassName": "header__icon-repurchase"
     }
   },
   "login#desktop__header--login": {
