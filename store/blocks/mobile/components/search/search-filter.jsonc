@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#mobile__category--filter": {
+    "title": "search-results-mobile-filter", 
+    "children": [
+      "filter-navigator.v3",
+      "order-by.v2"
+    ], 
+    "props": {"blockClass": "mobile__category--filter"}
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "flex-layout.row#tablet__category--content": {
+    "title": "search-content-tablet", 
+    "children": [
+      "search-content#global__search--content-products"
+    ]
+  }
+}

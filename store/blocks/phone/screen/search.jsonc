@@ -1,0 +1,12 @@
+{
+  "responsive-layout.phone#phone__department": {
+    "title": "search-result-layout-phone", 
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#mobile__category--filter", 
+      "rich-text#global__home--title-products",
+      "list-context.product-list#global__home--products-recommended",
+      "flex-layout.row#phone__category--content"
+    ]
+  }
+}

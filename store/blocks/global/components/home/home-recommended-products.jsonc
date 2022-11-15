@@ -39,7 +39,7 @@
     ]
   }, 
   "gallery": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": ["product-summary.shelf#home__products--recommended"]
   },
   "list-context.product-list#global__home--products-recommended": {
     "title": "Section-products-recommended",

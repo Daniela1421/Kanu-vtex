@@ -1,0 +1,123 @@
+{
+  "search-content#global__search--content-products": {
+    "title": "search-content-products", 
+    "blocks": [
+      "gallery#global__search--content-department", 
+      "not-found"
+    ]
+  },
+    "gallery#global__search--content-department": {
+      "title": "gallery-search-results", 
+      "props": {
+        "layouts": [
+          {
+            "name": "general-grid", 
+            "component": "GeneralGrid", 
+            "itemsPerRow": {
+              "desktop": 4,
+              "tablet": 3, 
+              "phone": 1
+            }
+          }
+        ],
+        "GeneralGrid": "product-summary.shelf#global__search--content-department"
+      }
+    }, 
+      "product-summary.shelf#global__search--content-department": {
+        "title": "search-content-product-summary",
+        "children": [
+          "flex-layout.col#global__search-content-info",
+          "flex-layout.row#search__content--quantity-buy"
+          // "modal-trigger#global__quick-view"
+        ]
+      }, 
+      "flex-layout.col#global__search-content-info": {
+        "title": "search-content-product-summary", 
+        "children": [
+          "flex-layout.col#search__content--image",
+          "flex-layout.col#search__content--info"
+        ],
+        "props": {"blockClass": "search__content--info"}
+      },
+        "flex-layout.col#search__content--image": {
+          "title": "search-content-image", 
+          "children": [
+            "product-summary-image"
+          ]
+        },
+        "flex-layout.col#search__content--info": {
+          "title": "search-content-information-product", 
+          "children": [
+            "product-summary-brand",
+            "product-summary-name", 
+            "product-summary-sku-selector", 
+            "product-selling-price"
+          ], 
+          "props": {"blockClass": "search__content--brand-name-sku"}
+        },
+        "flex-layout.row#search__content--quantity-buy": {
+          "title": "search-content-quantity-buy", 
+          "children":[
+            "product-summary-quantity", 
+            "add-to-cart-button"
+          ], 
+          "props": {"blockClass": "search__content--quantity-buy"}
+        },
+        "product-summary-quantity": {
+          "title": "product-quantity", 
+          "props": {
+            "showLabel": false
+          }
+        }, 
+        "add-to-cart-button":{
+          "title": "btn-add-to-cart-button", 
+          "props": {
+            "text": "COMPRAR"
+          }
+        },
+        "modal-trigger#global__quick-view": {
+          "title": "quick-view-product", 
+          "children": [
+            "rich-text#global__quick-view--trigger", 
+            "modal-layout#global__quick-view--modal"
+          ]
+        },
+        "rich-text#global__quick-view--trigger": {
+          "title": "Title-quick-view", 
+          "props": {
+            "text": "Vista rápida", 
+            "blockClass": "quick-view__trigger"
+          }
+        }, 
+        "modal-layout#global__quick-view--modal": {
+          "title": "main-container-quick-view-modal", 
+          "children": [
+            "flex-layout.row#quick-view__modal" 
+          ]
+        },
+          "flex-layout.row#quick-view__modal": {
+            "title": "structure-quick-view-modal", 
+            "children": [
+              "flex-layout.col#quick-view__modal--image", 
+              "flex-layout.col#quick-view__modal--info"
+            ]
+          }, 
+          "flex-layout.col#quick-view__modal--image": {
+            "title": "image-quick-view", 
+            "children": [
+              "product-summary-image"
+            ]
+          }, 
+          "flex-layout.col#quick-view__modal--info": {
+            "title": "information-product-quick-view", 
+            "children": [
+              "add-to-list-btn",
+              "product-summary-name", 
+              "product-summary-brand", 
+              "product-selling-price", 
+              "share", 
+              "product-quantity", 
+              "add-to-cart-button"
+            ]
+          }
+}

@@ -1,0 +1,12 @@
+{
+  "responsive-layout.tablet#tablet__department": {
+    "title": "search-result-layout-tablet", 
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#mobile__category--filter", 
+      "rich-text#global__home--title-products",
+      "list-context.product-list#global__home--products-recommended",
+      "flex-layout.row#tablet__category--content"
+    ]
+  }
+}
