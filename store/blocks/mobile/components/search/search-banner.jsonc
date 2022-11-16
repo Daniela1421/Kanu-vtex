@@ -1,0 +1,9 @@
+{
+  "image#mobile__search--results-banner": {
+    "title": "image-data-security", 
+    "props": {
+      "src": "assets/img/mobile__search--results-banner.svg", 
+      "blockClass": ""
+    }
+  }
+}

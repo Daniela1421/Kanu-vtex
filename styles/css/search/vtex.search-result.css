@@ -1,8 +1,3 @@
-.searchResultContainer--desktop__search--results-department{
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
 :global(.vtex-breadcrumb-1-x-homeIcon){
     display: none;
 }

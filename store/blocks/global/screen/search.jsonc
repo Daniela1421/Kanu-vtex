@@ -21,7 +21,7 @@
   },
   "store.search#category": {
     "title": "search-category", 
-    "blocks": ["search-result-layout"], 
+    "blocks": ["search-result-layout#category"], 
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
@@ -50,6 +50,14 @@
     }
   },
   "search-result-layout#department": {
+    "title": "search-resuls-layout-department", 
+    "blocks": [
+      "search-result-layout.desktop#desktop__search--results-department",
+      "search-result-layout.mobile#mobile__search--results-department", 
+      "search-not-found-layout"
+    ] 
+  }, 
+  "search-result-layout#category": {
     "title": "search-resuls-layout-department", 
     "blocks": [
       "search-result-layout.desktop#desktop__search--results-department",

@@ -2,10 +2,11 @@
   "responsive-layout.phone#phone__department": {
     "title": "search-result-layout-phone", 
     "children": [
+      "image#mobile__search--results-banner",
       "breadcrumb.search",
       "flex-layout.row#mobile__category--filter", 
       "rich-text#global__home--title-products",
-      "list-context.product-list#global__home--products-recommended",
+      "list-context.product-list#global__search--content-department",
       "flex-layout.row#phone__category--content"
     ]
   }

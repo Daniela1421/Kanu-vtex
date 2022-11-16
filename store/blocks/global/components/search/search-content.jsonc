@@ -2,10 +2,28 @@
   "search-content#global__search--content-products": {
     "title": "search-content-products", 
     "blocks": [
+      "gallery#global__search--content-slider",
       "gallery#global__search--content-department", 
       "not-found"
     ]
   },
+    "gallery#global__search--content-slider": {
+      "title": "gallery-search-results-slider", 
+      "props": {
+        "layouts": [
+          {
+            "name": "slider-grid", 
+            "component": "SliderGrid", 
+            "itemsPerRow": {
+              "desktop": 5,
+              "tablet": 3, 
+              "phone": 1
+            }
+          }
+        ],
+        "SliderGrid": "product-summary.shelf#global__search--content-slider"
+      }
+    },
     "gallery#global__search--content-department": {
       "title": "gallery-search-results", 
       "props": {
@@ -22,7 +40,7 @@
         ],
         "GeneralGrid": "product-summary.shelf#global__search--content-department"
       }
-    }, 
+    },  
       "product-summary.shelf#global__search--content-department": {
         "title": "search-content-product-summary",
         "children": [
