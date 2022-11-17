@@ -1,56 +1,33 @@
-{ 
-  "search-content#global__search--content-products-slider": {
-    "title": "search-content-products-slider", 
-    "blocks": [
-      "gallery#global__search--content-slider", 
-      "not-found"
+{   
+  "list-context.product-list#global__search--content-slider": {
+    "title": "section-product-shelf-search-content",
+    "blocks": ["product-summary.shelf#global__search--content-slider"],
+    "children": ["slider-layout#global__search--content-slider"], 
+    "props": {
+      "collection": "146"
+    }
+  },
+  "product-summary.shelf#global__search--content-slider": {
+    "title": "product-summary-container",
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-sku-selector",
+      "product-selling-price",
+      "add-to-cart-button"
     ]
   },
-    "gallery#global__search--content-slider": {
-      "title": "gallery-search-results", 
-      "props": {
-        "layouts": [
-          {
-            "name": "slider-grid", 
-            "component": "SliderGrid", 
-            "itemsPerRow": {
-              "desktop": 5,
-              "tablet": 3, 
-              "phone": 1
-            }
-          }
-        ],
-        "SliderGrid": "product-summary.shelf#global__search--content-slider"
-      }
-    },  
-    
-    "list-context.product-list#global__search--content-slider": {
-      "title": "section-product-shelf-search-content",
-      "blocks": ["product-summary.shelf#global__search--content-slider"],
-      "children": ["slider-layout#global__search--content-slider"], 
-      "props": {/*"blockClass": "global__home--products-recommended"*/}
-    },
-    "product-summary.shelf#global__search--content-slider": {
-      "title": "product-summary-container",
-      "children": [
-        "product-summary-image",
-        "product-summary-name",
-        "product-summary-sku-selector",
-        "product-selling-price",
-        "add-to-cart-button"
-      ]
-    },
-    "slider-layout#global__search--content-slider": {
-      "title": "slider-search-content-slider", 
-      "props": {
-      //   "itemsPerPage":{
-      //     "desktop": 5, 
-      //     "tablet": 3,
-      //     "phone": 1
-      //   }, 
-      //   "infinite": true,
-      //   "showPaginationDots": "never",
-        "blockClass": "home__products--recommended"
-      }
+  "slider-layout#global__search--content-slider": {
+    "title": "slider-search-content-slider", 
+    "props": {
+      "itemsPerPage":{
+        "desktop": 5, 
+        "tablet": 3,
+        "phone": 1
+      }, 
+      "infinite": true,
+      "showPaginationDots": "never",
+      "blockClass": "home__products--recommended"
     }
+  }
 }
