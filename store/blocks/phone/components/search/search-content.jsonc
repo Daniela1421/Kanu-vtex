@@ -1,0 +1,8 @@
+{
+  "flex-layout.row#phone__category--content": {
+    "title": "search-content-phone", 
+    "children": [
+      "search-content#global__search--content-products"
+    ]
+  }
+}

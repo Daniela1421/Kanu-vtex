@@ -1,0 +1,94 @@
+{
+  "flex-layout.row#global__about-us--main-container": {
+    "title": "about-us-main-container", 
+    "children": [
+      "flex-layout.row#about__us--kanu-details",
+      "flex-layout.row#global__home--section-services2" 
+    ], 
+    "props": {
+      "blockClass": "custom__page--main-container", 
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#about__us--kanu-details": {
+    "title": "about-us-kanu-details", 
+    "children": [
+      "flex-layout.col#custom__page--container-links", 
+      "flex-layout.col#custom__page--about-kanu"
+    ], 
+    "props": {
+      "blockClass": "custom__page--info-kanu", 
+      "marginTop": 6
+    }
+  },
+    "flex-layout.col#custom__page--container-links": {
+      "title": "about-us-container-links", 
+      "children": [
+        "rich-text#container__links--title", 
+        "rich-text#container__links--menu"
+      ], 
+      "props": {
+        "blockClass": "custom__page--container-links",
+        "paddingRight": 5,
+        "width": "20%"
+      }
+    }, 
+      "rich-text#container__links--title": {
+        "title": "title-container-links", 
+        "props": {
+          "blockClass": "container__links--title",
+          "text": "Más información", 
+          "textPosition": "CENTER"
+        }
+      }, 
+      "rich-text#container__links--menu": {
+        "title": "menu-container-links", 
+        "props": {
+          "blockClass": "container__links--menu", 
+          "text": "[¿Cómo comprar en Kanú?](/prueba-daniela-ducuara) [Preguntas Frecuentes](/prueba-daniela-ducuara) [Sobre Kanú](/prueba-daniela-ducuara) [Política de entregas y devoluciones](/prueba-daniela-ducuara) [Política de privacidad](/prueba-daniela-ducuara) [Términos y Condiciones](/prueba-daniela-ducuara) [Pedidos programados](/prueba-daniela-ducuara)"
+        }
+      },
+    "flex-layout.col#custom__page--about-kanu": {
+      "title": "about-us-kanu", 
+      "children": [
+        "rich-text#about__kanu--title",
+        "rich-text#about__kanu--section-one", 
+        "rich-text#about__kanu--section-two", 
+        "rich-text#about__kanu--section-three"
+      ], 
+      "props": {
+        "blockClass": "custom__page--about-kanu",
+        "width": "80%"
+      }
+    },
+      "rich-text#about__kanu--title": {
+        "title": "title-about-kanu", 
+        "props": {
+          "blockClass": "home__title",
+          "font": "t-heading-2",
+          "text": "SOBRE KANÚ", 
+          "textPosition": "CENTER"
+        }
+      },
+      "rich-text#about__kanu--section-one": {
+        "title": "about-kanu-section-one", 
+        "props": {
+          "blockClass": "about__kanu--section",
+          "text": "Kanú nace en el año 1999 cuando sus fundadores decidieron hacer parte de un mercado en este entonces incipiente. Gracias a los estudios académicos y a la pasión de sus fundadores por las mascotas y un mundo divertido y con bienestar para ellas y sus responsables, se dio vida a Kanú, un alegre, juguetón y amable perrito que ofrece a sus clientes los mejores productos y servicios para el bienestar y diversión de sus mascotas.\n ![Experiencia Kanú](https://www.kanu.pet/arquivos/quienes-somos.png?v=636280745203430000) \n Kanú entra al mercado de manera novedosa con colores divertidos que no hacían parte de la categoría en ese entonces.\n Aprendiendo por el mundo y de los mejores: Diversos países del mundo han sido visitados en nuestro recorrido, buscando los mejores ejemplos de la categoría, para llevar a Kanú a ser una empresa líder e innovadora. \n Medicina veterinaria: Nuestros médicos veterinarios velan por las vacunaciones, desparasitaciones, castraciones, esterilizaciones y demás procedimientos que necesiten los perritos y gatitos para su salud.\n ![Kanú fashion](https://www.kanu.pet/arquivos/kanu-fashion-title.png?v=636280745168700000)\n **¡EL KANUFASHIÓN ES UN DESFILE ESPECIAL Y DIVERTIDO, NO HAY OTRO IGUAL!**\n Los protagonistas: las mascotas y tú.\n En una pasarela de moda al mejor estilo Kanú, convergen nuestra mascota Kanú, el presentador, los participantes y claro, sus mascotas. Es una fiesta para disfrutar en familia llena de color, confeti, concursos y regalos.\n **En este evento hay premios para las más especiales pintas fashion caninas y felinas.**\n Algunas de las categorías que hemos premiado son:\n - La mascota más parecida a su acompañante.\n - La mascota más obediente.\n - La mascota más fashion."
+        }
+      }, 
+      "rich-text#about__kanu--section-two": {
+        "title": "about-kanu-section-two", 
+        "props": {
+          "blockClass": "about__kanu--section",
+          "text": " Entre otros...\n ![Pet friendly](https://www.kanu.pet/arquivos/pet-friendly.png?v=636280745190070000)\n Cada vez son más los lugares públicos que se suman a la tendencia 'pet friendly'. Lugares que ofrecen a todos los responsables de perros y gatos, la posibilidad de disfrutar de su establecimiento en compañía de sus amigos de cuatro patas.\n **Kanú apoya esta iniciativa, acá te mecionamos algunos lugares donde podrás asistir con tu mascota.**\n - Parque Comercial El Tesoro \n - Mall Viva Palmas\n - Florida Parque Comercial\n - Mall San Lucas\n - Puerta del Norte\n - Milkytree\n - Fionna\n - La Bottega Verde\n - Tiki Bar\n - Cocina La Maga\n - Bistro de Paris\n - Me Late Chocolate\n - MANO Calamita\n - Natúrika\n - Glacée\n - Santafé Centro Comercial\n - Complex Llanogrande\n - Abracadabra\n - Café Vallejo\n - Tea Market\n - Primer nivel de Contenedores Food Place\n - Restaurante Chilaquiles\n - Amarillo Chocolate\n - Arigato Panadería Artesanal\n - La Cacerola de Carola\n - La Pizarra\n - Lenteja Express\n - Cosechas La 33"
+        }
+      },
+      "rich-text#about__kanu--section-three":{
+        "title": "about-kanu-section-three", 
+        "props": {
+          "blockClass": "about__kanu--section",
+          "text": "Recuerda que debes tener a tu mascota con bozal si es necesario, mantenerla hidratada, con correa y botar sus desechos."
+        }
+      }
+}

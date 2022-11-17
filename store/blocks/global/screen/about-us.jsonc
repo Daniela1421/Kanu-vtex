@@ -1,0 +1,10 @@
+{
+  "store.custom#about-us": {
+    "title": "about-us", 
+    "blocks": [  
+      "responsive-layout.desktop#about-us", 
+      "responsive-layout.phone#about-us",
+      "responsive-layout.tablet#about-us"
+    ]
+  }
+}

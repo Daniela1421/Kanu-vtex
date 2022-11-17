@@ -1,0 +1,46 @@
+.container--container__links--title{
+    width: 100%;
+    background-color: #f8971d;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container--container__links--menu{
+    width: 100%;
+    border: 1px solid #dedede;
+    margin-top: 20px;
+}
+
+.paragraph--container__links--menu{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.link--container__links--menu{
+    transition: .2s;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+    line-height: 26px;
+    padding: 8px 15px;
+    color: #262626;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.paragraph--about__kanu--section, 
+.listItem--about__kanu--section{
+    text-align: justify;
+    font-size: 14px;
+    color: #262626;
+}
+
+.image--about__kanu--section{
+    display: block;
+    margin: 0 auto;
+}
+
+.listItem--about__kanu--section{
+    margin-bottom: 5px;
+}

@@ -1,0 +1,33 @@
+{   
+  "list-context.product-list#global__search--content-slider": {
+    "title": "section-product-shelf-search-content",
+    "blocks": ["product-summary.shelf#global__search--content-slider"],
+    "children": ["slider-layout#global__search--content-slider"], 
+    "props": {
+      "collection": "146"
+    }
+  },
+  "product-summary.shelf#global__search--content-slider": {
+    "title": "product-summary-container",
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-sku-selector",
+      "product-selling-price",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#global__search--content-slider": {
+    "title": "slider-search-content-slider", 
+    "props": {
+      "itemsPerPage":{
+        "desktop": 5, 
+        "tablet": 3,
+        "phone": 1
+      }, 
+      "infinite": true,
+      "showPaginationDots": "never",
+      "blockClass": "home__products--recommended"
+    }
+  }
+}

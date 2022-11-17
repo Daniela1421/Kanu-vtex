@@ -1,0 +1,8 @@
+{
+  "responsive-layout.desktop#desktop__search--results": {
+    "title": "search-results-responsive-layout-desktop", 
+    "children": [
+      "flex-layout.row#desktop__search--results-container"
+    ]
+  }
+}

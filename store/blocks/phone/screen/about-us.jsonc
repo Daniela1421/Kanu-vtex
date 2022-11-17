@@ -1,0 +1,8 @@
+{
+  "responsive-layout.phone#about-us": {
+    "title": "about-us-phone", 
+    "children": [
+      "flex-layout.row#phone__about-us--main-container"
+    ]
+  }
+}

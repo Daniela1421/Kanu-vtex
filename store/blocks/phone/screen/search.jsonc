@@ -1,0 +1,23 @@
+{
+  "responsive-layout.phone#phone__department": {
+    "title": "search-result-department-layout-phone", 
+    "children": [
+      "image#mobile__search--results-banner",
+      "breadcrumb.search",
+      "flex-layout.row#mobile__category--filter", 
+      "rich-text#global__home--title-products",
+      "list-context.product-list#global__search--content-slider",
+      "flex-layout.row#phone__category--content"
+    ]
+  }, 
+  "responsive-layout.phone#phone__search--results": {
+    "title": "search-results-layout-phone", 
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#mobile__category--filter", 
+      "rich-text#global__home--title-products",
+      "list-context.product-list#global__search--content-slider",
+      "flex-layout.row#phone__category--content"
+    ]
+  }
+}
