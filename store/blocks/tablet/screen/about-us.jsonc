@@ -1,0 +1,8 @@
+{
+  "responsive-layout.tablet#about-us":{
+    "title": "about-us-tablet", 
+    "children": [
+      "flex-layout.row#global__about-us--main-container"
+    ]
+  }
+}

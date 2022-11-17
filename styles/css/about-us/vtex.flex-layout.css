@@ -1,0 +1,57 @@
+.flexRowContent--custom__page--main-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flexColChild--custom__page--about-kanu
+:global(.vtex-rich-text-0-x-container--home__title){
+    margin: 0;
+}
+
+.flexColChild--custom__page--about-kanu
+:global(.vtex-rich-text-0-x-paragraph--home__title){
+    border: 1px solid #aaa;
+}
+
+.flexColChild--custom__page--about-kanu
+:global(.vtex-rich-text-0-x-paragraph--home__title)::before{
+    border-top: 2px solid #dfdfdf;
+}
+
+.flexColChild--custom__page--container-links{
+    height: auto !important;
+}
+
+@media (max-width: 1280px){
+    .flexRowContent--custom__page--info-kanu{
+        margin: 0;
+    }
+
+    .flexRowContent--custom__page--main-container{
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 768px){
+    .flexRowContent--custom__page--info-kanu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--custom__page--info-kanu
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: 100% !important;
+    }
+
+    .flexCol--custom__page--container-links{
+        padding: 0;
+    }
+
+    .flexRowContent--custom__page--main-container
+    :global(.vtex-flex-layout-0-x-flexRowContent--phone__home--section-services2){
+        margin: 0;
+        padding: 0;
+    }
+}

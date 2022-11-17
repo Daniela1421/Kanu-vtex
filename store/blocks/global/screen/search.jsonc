@@ -1,7 +1,87 @@
 {
   "store.search": {
+    "title": "store-search", 
+    "blocks": ["search-result-layout"], 
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  }, 
+  "store.search#department": {
+    "title": "search-department", 
+    "blocks": ["search-result-layout#department"], 
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#category": {
+    "title": "search-category", 
+    "blocks": ["search-result-layout#category"], 
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "title": "search-subcategory", 
+    "blocks": ["search-result-layout#subcategory"], 
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand": {
+    "title": "search-brand", 
+    "blocks": ["search-result-layout#brand"], 
+    "props": {
+      "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 10,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout#department": {
+    "title": "search-resuls-layout-department", 
     "blocks": [
-      
-    ]
+      "search-result-layout.desktop#desktop__search--results-department",
+      "search-result-layout.mobile#mobile__search--results-department", 
+      "search-not-found-layout"
+    ] 
+  }, 
+  "search-result-layout#category": {
+    "title": "search-resuls-layout-category", 
+    "blocks": [
+      "search-result-layout.desktop#desktop__search--results",
+      "search-result-layout.mobile#mobile__search--results", 
+      "search-not-found-layout"
+    ] 
+  },
+  "search-result-layout#subcategory": {
+    "title": "search-resuls-layout-subcategory", 
+    "blocks": [
+      "search-result-layout.desktop#desktop__search--results",
+      "search-result-layout.mobile#mobile__search--results", 
+      "search-not-found-layout"
+    ] 
+  },
+  "search-result-layout#brand": {
+    "title": "search-resuls-layout-brand", 
+    "blocks": [
+      "search-result-layout.desktop#desktop__search--results",
+      "search-result-layout.mobile#mobile__search--results", 
+      "search-not-found-layout"
+    ] 
   }
 }

@@ -130,7 +130,7 @@
           "title": "select-store-items", 
           "props": {
             "blockClass": "select__store--items", 
-            "text": "[MED - VIVA LAS PALMAS](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - SAN LUCAS](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - TESORO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - SANTA FE](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - EXITO POBLADO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - PALMA GRANDE](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - LA VILLA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - UNICENTRO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - LAURELES](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - NUEVO MUNDO](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [MED - FLORIDA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [BOG - COUNTRY](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [BOG - LA CABRERA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n [BOG - SANTA BARBARA](https://danieladucuara--itgloberspartnercl.myvtex.com/prueba-daniela-ducuara)\n"
+            "text": "[MED - VIVA LAS PALMAS](/prueba-daniela-ducuara)\n [MED - SAN LUCAS](/prueba-daniela-ducuara)\n [MED - TESORO](/prueba-daniela-ducuara)\n [MED - SANTA FE](/prueba-daniela-ducuara)\n [MED - EXITO POBLADO](/prueba-daniela-ducuara)\n [MED - PALMA GRANDE](/prueba-daniela-ducuara)\n [MED - LA VILLA](/prueba-daniela-ducuara)\n [MED - UNICENTRO](/prueba-daniela-ducuara)\n [MED - LAURELES](/prueba-daniela-ducuara)\n [MED - NUEVO MUNDO](/prueba-daniela-ducuara)\n [MED - FLORIDA](/prueba-daniela-ducuara)\n [BOG - COUNTRY](/prueba-daniela-ducuara)\n [BOG - LA CABRERA](/prueba-daniela-ducuara)\n [BOG - SANTA BARBARA](/prueba-daniela-ducuara)\n"
           }
         },
   "flex-layout.col#footer__middle--col-two": {
@@ -166,7 +166,7 @@
     "title": "category-about--us-item-one", 
     "props": {
       "blockClass": "items__submenu", 
-      "href": "/",
+      "href": "/prueba-daniela-ducuara",
       "label": "Sobre Kanú"
     }
   },
@@ -214,7 +214,7 @@
     "title": "category-links--interest-item-one", 
     "props": {
       "blockClass": "items__submenu", 
-      "href": "/",
+      "href": "/prueba-daniela-ducuara",
       "label": "Preguntas frecuentes"
     }
   },
@@ -222,7 +222,7 @@
     "title": "category-links--interest-item-two", 
     "props": {
       "blockClass": "items__submenu", 
-      "href": "/",
+      "href": "/prueba-daniela-ducuara",
       "label": "¿Cómo comprar en Kanú?"
     }
   },
@@ -230,7 +230,7 @@
     "title": "category-links-interest-item-three", 
     "props": {
       "blockClass": "items__submenu", 
-      "href": "/",
+      "href": "/prueba-daniela-ducuara",
       "label": "Política de Entregas y Devoluciones"
     }
   },
@@ -238,7 +238,7 @@
     "title": "category-links-interest-item-four", 
     "props": {
       "blockClass": "items__submenu", 
-      "href": "/",
+      "href": "/prueba-daniela-ducuara",
       "label": "Política de Privacidad"
     }
   },
@@ -246,7 +246,7 @@
     "title": "category-links-interest-item-five",  
     "props": {
       "blockClass": "items__submenu", 
-      "href": "/",
+      "href": "/prueba-daniela-ducuara",
       "label": "Pedidos programados"
     }
   },
