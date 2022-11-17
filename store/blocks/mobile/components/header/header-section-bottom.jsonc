@@ -1,6 +1,6 @@
 {
   "header-row#mobile__header--bottom": {
-    "title": "Header medio",
+    "title": "header-bottom",
     "children": ["search-bar#header--search"], 
     "props": {
         "blockClass": "header__bottom", 
@@ -8,6 +8,7 @@
     }
   },
   "search-bar#header--search":{
+    "title": "search-bar",
     "blocks": ["autocomplete-result-list.v2"], 
     "props": {
         "containerMode": "overlay",
@@ -15,6 +16,7 @@
     }
   }, 
   "autocomplete-result-list.v2": {
+    "title": "autocomplete-search-bar",
     "blocks": ["product-summary"]
   }
 }

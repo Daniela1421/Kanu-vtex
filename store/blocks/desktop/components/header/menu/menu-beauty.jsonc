@@ -37,11 +37,12 @@
     },
 /*************************** Category cleanliness *******************************/
       "flex-layout.row#menu__category--cleanliness": {
+        "title": "menu__category--cleanliness",
         "children": ["flex-layout.col#category__cleanliness--container--items"], 
         "props": {"blockClass":"main-blocks"}
       }, 
       "flex-layout.col#category__cleanliness--container--items": {
-        "title": "menu-category-cleanliness", 
+        "title": "menu-category-cleanliness-container-items", 
         "children": [
           "flex-layout.row#category__cleanliness--title", 
           "link#category__cleanliness--item-one",
@@ -85,11 +86,12 @@
           },
 /****************************** Category sand **********************************/
       "flex-layout.row#menu__category--sand": {
+        "title": "menu__category--sand",
         "children": ["flex-layout.col#category__sand--container--items"],
         "props": {"blockClass":"main-blocks"}
       }, 
       "flex-layout.col#category__sand--container--items": {
-        "title": "menu-category-sand",
+        "title": "menu-category-sand-container-items",
         "children": [
           "flex-layout.row#category__sand--title", 
           "flex-layout.row#category__sand--title2", 
@@ -170,11 +172,12 @@
         },
 /******************************** Category education *********************************/
       "flex-layout.row#menu__category--education": {
+        "title": "menu__category--education", 
         "children": ["flex-layout.col#category__education--container--items"],
         "props": {"blockClass":"main-blocks"}
       }, 
       "flex-layout.col#category__education--container--items": {
-        "title": "menu-category-education",
+        "title": "menu-category-education-container-items",
         "children": [
           "flex-layout.row#category__education--title", 
           "link#category__education--item-one",
@@ -227,11 +230,12 @@
         },
 /*************************** Category all 3 *******************************/
       "flex-layout.row#menu__category--all-beauty":{
+        "title": "menu__category--all-beauty", 
         "children": ["flex-layout.col#category__allbeauty--container--items"], 
         "props": {"blockClass":"main-blocks"}
       },
       "flex-layout.col#category__allbeauty--container--items":{
-        "title": "menu-category-all-beauty",
+        "title": "menu-category-all-beauty-container-items",
         "children": [
           "flex-layout.row#category__kindpet--title", 
           "flex-layout.row#category__kindpet--dog", 

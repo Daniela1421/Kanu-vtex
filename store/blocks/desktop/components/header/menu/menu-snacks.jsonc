@@ -37,11 +37,12 @@
     },
 /*************************** Category snacks *******************************/
       "flex-layout.row#menu__category--snacks": {
+        "title": "menu__category--snacks", 
         "children": ["flex-layout.col#category__snacks--container--items"], 
         "props": {"blockClass":"main-blocks"}
       }, 
       "flex-layout.col#category__snacks--container--items": {
-        "title": "menu-category-snacks", 
+        "title": "menu-category-snacks-container-items", 
         "children": [
           "link#category__snacks--item-one",
           "link#category__snacks--item-two",
@@ -75,11 +76,12 @@
         },
 /*************************** Category others *******************************/
       "flex-layout.row#menu__category--others":{
+        "title": "menu__category--others",
         "children": ["flex-layout.col#category__others--container--items"], 
         "props": {"blockClass":"main-blocks"}
       },
       "flex-layout.col#category__others--container--items":{
-        "title": "menu-category-others",
+        "title": "menu-category-others-container-items",
         "children": [
           "flex-layout.row#category__kindpet--title", 
           "flex-layout.row#category__kindpet--dog", 
@@ -109,6 +111,7 @@
           },
 /******************************** Category *********************************/
       "flex-layout.row#menu__category":{
+        "title": "menu__category",
         "props": {"blockClass":"main-blocks"}
       }
 }

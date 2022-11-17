@@ -37,11 +37,12 @@
     },
 /*************************** Category toys section one *******************************/
 			"flex-layout.row#menu__category--toys": {
+        "title": "menu__category--toys",
         "children": ["flex-layout.col#category__toys--container--items"], 
         "props": {"blockClass":"main-blocks"}
       }, 
       "flex-layout.col#category__toys--container--items": {
-        "title": "menu-category-toys", 
+        "title": "menu-category-toys-container-items", 
         "children": [
           "link#category__toys--item-one",
           "link#category__toys--item-two",
@@ -93,11 +94,12 @@
         },
 /*************************** Category toys section two *******************************/
 			"flex-layout.row#menu__category--toys2": {
+        "title": "menu__category--toys2",
 				"children": ["flex-layout.col#category__toys2--container--items"], 
 				"props": {"blockClass":"main-blocks"}
 			}, 
 			"flex-layout.col#category__toys2--container--items": {
-				"title": "menu-category-toys2", 
+				"title": "menu-category-toys2-container-items", 
 				"children": [
 					"link#category__toys2--item-one",
 					"link#category__toys2--item-two",
@@ -140,11 +142,12 @@
 				},
 /*************************** Category all toys *******************************/
 			"flex-layout.row#menu__category--all-toys":{
+        "title": "menu__category--all-toys",
         "children": ["flex-layout.col#category__alltoys--container--items"], 
         "props": {"blockClass":"main-blocks"}
       },
       "flex-layout.col#category__alltoys--container--items":{
-        "title": "menu-category-all-toys",
+        "title": "menu-category-all-toys-container-items",
         "children": [
           "flex-layout.row#category__kindpet--title", 
           "flex-layout.row#category__kindpet--dog", 
