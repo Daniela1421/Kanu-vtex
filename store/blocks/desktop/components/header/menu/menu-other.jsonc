@@ -37,11 +37,12 @@
     },
 /*************************** Category for-you *******************************/
       "flex-layout.row#menu__category--for-you": {
+        "title": "menu__category--for-you",
         "children": ["flex-layout.col#category__foryou--container--items"], 
         "props": {"blockClass":"main-blocks"}
       }, 
       "flex-layout.col#category__foryou--container--items": {
-        "title": "menu-category-for-you", 
+        "title": "menu-category-for-you-container-items", 
         "children": [
           "link#category__foryou--item-one",
           "link#category__foryou--item-two",
@@ -75,6 +76,7 @@
         },
 /*************************** Category others2 *******************************/
       "flex-layout.row#menu__category--others2":{
+        "title": "menu__category--others2",
         "children": ["flex-layout.col#category__others2--container--items"], 
         "props": {"blockClass":"main-blocks"}
       },

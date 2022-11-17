@@ -1,5 +1,6 @@
 {
   "overlay-trigger#desktop__header--pqrs": {
+    "title": "desktop__header--pqrs", 
     "children": [
       "rich-text#desktop__header--pqr",
       "overlay-layout"    
@@ -7,22 +8,19 @@
     "props": {"trigger": "hover"}
   }, 
   "rich-text#desktop__header--pqr": {
-    "title": "PQRS Header",
+    "title": "title-pqrs",
     "props": {
       "text": "PQRS",
       "blockClass": "desktop__header--pqr"
     }
   },
   "overlay-layout": {
-    "props": {
-      "placement": "bottom"
-    },
-    "children": [
-      "rich-text#header__pqr--question"
-    ]
+    "title": "structure-pqr",
+    "props": {"placement": "bottom"},
+    "children": ["rich-text#header__pqr--question"]
   },
   "rich-text#header__pqr--question": {
-    "title": "PQRS question",
+    "title": "pqrs-question",
     "props": {
       "blockClass": "header__pqr--question",
       "text": "Resuelve tus preguntas"

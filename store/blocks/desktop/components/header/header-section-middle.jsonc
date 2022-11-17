@@ -37,6 +37,7 @@
     }
   },
   "icon#desktop__header--icon-repurchase": {
+    "title": "icon-header-repurchase",
     "props": {
       "id": "header-repurchase", 
       "size": 20, 

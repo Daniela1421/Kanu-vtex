@@ -37,11 +37,12 @@
     },
 /*************************** Category beds *******************************/
       "flex-layout.row#menu__category--beds": {
+        "title": "menu__category--beds",
         "children": ["flex-layout.col#category__beds--container--items"], 
         "props": {"blockClass":"main-blocks", "rowGap": 2}
       }, 
       "flex-layout.col#category__beds--container--items": {
-        "title": "menu-category-beds", 
+        "title": "menu-category-beds-container-items", 
         "children": [
           "flex-layout.row#category__beds--title", 
           "flex-layout.row#category__beds--title2", 
@@ -104,11 +105,12 @@
         },
 /****************************** Category collars **********************************/
       "flex-layout.row#menu__category--collars": {
+        "title": "menu__category--collars",
         "children": ["flex-layout.col#category__collars--container--items"],
         "props": {"blockClass":"main-blocks", "rowGap": 2}
       }, 
       "flex-layout.col#category__collars--container--items": {
-        "title": "menu-category-collars",
+        "title": "menu-category-collars-container-items",
         "children": [
           "flex-layout.row#category__collars--title", 
           "flex-layout.row#category__collars--title2", 
@@ -171,11 +173,12 @@
         },
 /******************************** Category trough *********************************/
       "flex-layout.row#menu__category--trough": {
+        "title": "menu__category--trough",
         "children": ["flex-layout.col#category__trough--container--items"],
         "props": {"blockClass":"main-blocks"}
       }, 
       "flex-layout.col#category__trough--container--items": {
-        "title": "menu-category-trough",
+        "title": "menu-category-trough-container-items",
         "children": [
           "flex-layout.row#category__trough--title", 
           "flex-layout.row#category__trough--title2",
@@ -239,11 +242,12 @@
           },
 /*************************** Category all accessories *******************************/
       "flex-layout.row#menu__category--all-accessories":{
+        "title": "menu__category--all-accessories", 
         "children": ["flex-layout.col#category__allaccessories--container--items"], 
         "props": {"blockClass":"main-blocks"}
       },
       "flex-layout.col#category__allaccessories--container--items":{
-        "title": "menu-category-all-accessories",
+        "title": "menu-category-all-accessories-container-items",
         "children": [
           "flex-layout.row#category__kindpet--title", 
           "flex-layout.row#category__kindpet--dog", 

@@ -1,6 +1,7 @@
-/* .logoImage{
-    width: 150px;
-} */
+.logoContainer{
+   padding: 0;
+}
+
 .imageElement--home__service1 {
     width: 94%;
 }
@@ -116,5 +117,9 @@
     .imageElement--mobile__header--menu-dog, 
     .imageElement--mobile__header--menu-cat {
         width: 2.5em;
+    }
+
+    .logoImage{
+        width: 23vmax;
     }
 }
