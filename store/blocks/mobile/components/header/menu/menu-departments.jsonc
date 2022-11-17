@@ -1,5 +1,6 @@
 {
     "menu-item#department__one": {
+      "title": "mobile-department-one",
       "props": {
         "blockClass": "department-main-mobile",
         "id": "department-one",
@@ -23,6 +24,7 @@
       "props": {"blockClass": "department__one"}
     },
     "menu#department__one": {
+      "title": "department-one-container-category",
       "children": [
         "flex-layout.row#menu__category--typefood-mobile", 
         "flex-layout.row#menu__category--medicatedfood-mobile",
@@ -36,11 +38,12 @@
     },
 /********************** category type food mobile ***************************/
     "flex-layout.row#menu__category--typefood-mobile": {
+      "title": "menu__category--typefood-mobile", 
       "children": ["flex-layout.col#category__typefood--container--items-mobile"], 
       "props": {"blockClass":"main-blocks-mobile"}
     }, 
     "flex-layout.col#category__typefood--container--items-mobile": {
-      "title": "menu-category-type-food-mobile", 
+      "title": "menu-category-type-food-mobile-container-items", 
       "children": [
         "link#category__typefood--title-mobile", 
         "link#category__food--item-one-mobile",
@@ -74,11 +77,12 @@
       },
 /*************************** Category medicated food *******************************/
     "flex-layout.row#menu__category--medicatedfood-mobile": {
+      "title": "menu__category--medicatedfood-mobile",
       "children": ["flex-layout.col#category__medicatedfood--container--items-mobile"],
       "props": {"blockClass":"main-blocks-mobile"}
     }, 
     "flex-layout.col#category__medicatedfood--container--items-mobile": {
-      "title": "menu-category-medicated-food-mobile",
+      "title": "menu-category-medicated-food-mobile-container-items",
       "children": [
         "link#category__medicatedfood--title-mobile", 
         "link#category__food--item-one-mobile",
@@ -96,11 +100,12 @@
       },
 /*************************** Category kind of pet *******************************/
     "flex-layout.row#menu__category--kindpet-mobile":{
+      "title": "menu__category--kindpet-mobile",
       "children": ["flex-layout.col#category__kindpet--container--items-mobile"], 
       "props": {"blockClass":"main-blocks-mobile"}
     },
     "flex-layout.col#category__kindpet--container--items-mobile":{
-      "title": "menu-category-kind-pet",
+      "title": "menu-category-kind-pet-container-items",
       "children": [
         "link#category__kindpet--title-mobile", 
         "flex-layout.row#category__kindpet--dog", 
@@ -118,11 +123,12 @@
       },
 /******************************** Category all *********************************/
     "flex-layout.row#menu__category--all-mobile":{
+      "title": "menu__category--all-mobile",
       "children": ["flex-layout.col#category__all--container--items-mobile"], 
       "props": {"blockClass":"main-blocks-mobile"}
     }, 
     "flex-layout.col#category__all--container--items-mobile":{
-      "title": "menu-category-all-food-mobile",
+      "title": "menu-category-all-food-mobile-container-items",
       "children": [
         "link#category__all--title1-mobile",
         "link#category__all--title2-mobile",
@@ -156,6 +162,7 @@
       },
 /********************************************************************************************************************/
     "menu-item#department__two": {
+      "title": "department-two",
       "props": {
         "blockClass": "department-main-mobile",
         "id": "department-two", 
@@ -173,6 +180,7 @@
       ]
     }, 
     "menu-item#department__three": {
+      "title": "department-three",
       "props": {
         "blockClass": "department-main-mobile",
         "id": "department-three", 
@@ -190,6 +198,7 @@
       ]
     }, 
     "menu-item#department__four": {
+      "title": "department-four",
       "props": {
         "blockClass": "department-main-mobile",
         "id": "department-four", 
@@ -207,6 +216,7 @@
       ]
     },
     "menu-item#department__five": {
+      "title": "department-five",
       "props": {
         "blockClass": "department-main-mobile",
         "id": "department-five", 
@@ -224,6 +234,7 @@
       ]
     }, 
     "menu-item#department__six": {
+      "title": "department-six",
       "props": {
         "blockClass": "department-main-mobile",
         "id": "department-six", 
@@ -241,6 +252,7 @@
       ]
     }, 
     "menu-item#department__seven": {
+      "title": "department-seven",
       "props": {
         "blockClass": "department-main-mobile",
         "id": "department-seven", 
@@ -258,6 +270,7 @@
       ]
     },
     "menu-item#department__eight": {
+      "title": "department-eight",
       "props": {
         "blockClass": ["department-main-mobile", "menu-offers"],
         "id": "department-seven", 

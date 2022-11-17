@@ -24,7 +24,6 @@
 
 .headerRowContainer--header__bottom
 :global(.vtex-store-components-3-x-searchBarContainer){
-    /* background-color: #f2f2f2;  */
     padding: 5px 20px;
     width: 100%;
 }
@@ -95,12 +94,3 @@
     background-color: #fff;
     box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
 } 
-
-/* .headerRowBackground--desktop__header--bottom{
-    background-color: #fff;
-    box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
-} */
-
-@media (min-width:1024px) and (max-width: 1280px){
-
-}

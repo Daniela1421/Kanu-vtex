@@ -1,6 +1,6 @@
 {
   "header-row#desktop__header--bottom": {
-    "title": "Header medio",
+    "title": "desktop-header-bottom",
     "children": [
       "menu#desktop__header--menu"
     ], 
@@ -10,6 +10,7 @@
     }
   },
     "menu#desktop__header--menu": {
+      "title": "desktop__header--menu", 
       "children": [
         "flex-layout.row#desktop__header--menu",
         "menu-item#desktop__menu--department-one",
@@ -26,20 +27,18 @@
       }
     }, 
     "flex-layout.row#desktop__header--menu": {
-      "title": "menu para escritorio", 
+      "title": "desktop-menu-animals", 
       "children": [
-        // "flex-layout.col#header__menu--animals"
         "link#header__menu--dog",
         "link#header__menu--cat"
       ], 
       "props": {
         "blockClass": "desktop__header--menu",
-        // "colsizing": "equal",
         "horizontalAlign": "around"
       }
     },
     "link#header__menu--dog": {
-      "title": "", 
+      "title": "header__menu--dog", 
       "children": ["image#header__menu--dog"],
       "props": {
         "blockClass": "header__menu--kind-pet", 
@@ -48,7 +47,7 @@
       }
     },
     "link#header__menu--cat": {
-      "title": "", 
+      "title": "header__menu--cat", 
       "children": ["image#header__menu--cat"],
       "props": {
         "blockClass":"header__menu--kind-pet", 
@@ -56,64 +55,22 @@
         "label": "GATOS"
       }
     },
-    // "flex-layout.col#header__menu--animals": {
-    //   "title": "Menu de animales",
-    //   "children": [
-    //     "flex-layout.col#header__menu--animals1", 
-    //     "flex-layout.col#header__menu--animals2"
-    //   ], 
-    //   "props": {"blockClass": "header__menu--animals"}
-    // },
-    // "flex-layout.col#header__menu--animals1": {
-    //   "title": "Menu perro",
-    //   "children": [
-    //     "image#header__menu--dog", 
-    //     "rich-text#header__menu--text-dog"
-    //   ], 
-    //   "props": {
-    //     "blockClass": "header__menu--animals1"
-    //   }
-    // }, 
       "image#header__menu--dog": {
-        "title": "Menu perro img",
+        "title": "image-menu-dog",
         "props": {
           "blockClass": "header__menu--animals",
           "src": "assets/img/header__menu-dog.png"
         }
       }, 
-    //   "rich-text#header__menu--text-dog": {
-    //     "title": "Menu perro texto",
-    //     "props": {
-    //       "blockClass": "header__menu--text",
-    //       "text": "PERROS",
-    //       "textPosition": "CENTER"
-    //     }
-    //   },
-    // "flex-layout.col#header__menu--animals2": {
-    //   "children": [
-    //     "image#header__menu--cat", 
-    //     "rich-text#header__menu--text-cat"
-    //   ],
-    //   "props": {
-    //     "blockClass": "header__menu--animals1"
-    //   }
-    // },
       "image#header__menu--cat": {
-        "title": "Menu gato img",
+        "title": "image-menu-cat",
         "props": {
           "blockClass": "header__menu--animals2",
           "src": "assets/img/header__menu-cat.png"
         }
       }, 
-    //   "rich-text#header__menu--text-cat": {
-    //     "title": "Menu gato texto",
-    //     "props": {
-    //       "blockClass": "header__menu--text",
-    //       "text": "GATOS", 
-    //       "textPosition": "CENTER"
-    //     }
-    //   },
     "link#desktop__header--menu-offers": {
+      "title": "esktop__header--menu-offers", 
       "children": ["icon#desktop__header--footprint"],
       "props": {
         "blockClass": "desktop__header--menu-offers",
@@ -123,6 +80,7 @@
       }
     },
     "icon#desktop__header--footprint":{
+      "title": "icon-header-footprint",
       "props": {
         "id": "footprint"
       }

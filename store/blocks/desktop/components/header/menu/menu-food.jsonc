@@ -37,11 +37,12 @@
     },
 /*************************** Category type of food *******************************/
       "flex-layout.row#menu__category--typefood": {
+        "title": "menu__category--typefood",
         "children": ["flex-layout.col#category__typefood--container--items"], 
         "props": {"blockClass":"main-blocks"}
       }, 
       "flex-layout.col#category__typefood--container--items": {
-        "title": "menu-category-type-food", 
+        "title": "menu-category-type-food-container-items", 
         "children": [
           "flex-layout.row#category__typefood--title", 
           "link#category__food--item-one",
@@ -70,6 +71,7 @@
             }
           },
           "icon#desktop__header--submenu": {
+            "title": "icon-header-submenu", 
             "props": {
               "id": "submenu-icon",
               "activeClassName": "submenuIcon"
@@ -101,11 +103,12 @@
         },
 /*************************** Category medicated food *******************************/
       "flex-layout.row#menu__category--medicatedfood": {
+        "title": "menu__category--medicatedfood", 
         "children": ["flex-layout.col#category__medicatedfood--container--items"],
         "props": {"blockClass":"main-blocks"}
       }, 
       "flex-layout.col#category__medicatedfood--container--items": {
-        "title": "menu-category-medicated-food",
+        "title": "menu-category-medicated-food-container-items",
         "children": [
           "flex-layout.row#category__medicatedfood--title", 
           "link#category__food--item-one",
@@ -133,11 +136,12 @@
           },
 /*************************** Category kind of pet *******************************/
       "flex-layout.row#menu__category--kindpet":{
+        "title": "menu__category--kindpet", 
         "children": ["flex-layout.col#category__kindpet--container--items"], 
         "props": {"blockClass":"main-blocks"}
       },
       "flex-layout.col#category__kindpet--container--items":{
-        "title": "menu-category-kind-pet",
+        "title": "menu-category-kind-pet-container-items",
         "children": [
           "flex-layout.row#category__kindpet--title", 
           "flex-layout.row#category__kindpet--dog", 
@@ -183,6 +187,7 @@
             }
           },
           "icon#desktop__header--submenu-dog": {
+            "title": "icon-header-submenu-dog",
             "props": {
               "id": "submenu-dog",
               "size": 22
@@ -208,6 +213,7 @@
             }
           },
           "icon#desktop__header--submenu-cat": {
+            "title": "icon-header-submenu-cat",
             "props": {
               "id": "submenu-cat",
               "size": 22
@@ -215,11 +221,12 @@
           },
 /******************************** Category all *********************************/
       "flex-layout.row#menu__category--all":{
+        "title": "menu__category--all", 
         "children": ["flex-layout.col#category__all--container--items"], 
         "props": {"blockClass":"main-blocks"}
       }, 
       "flex-layout.col#category__all--container--items":{
-        "title": "menu-category-kind-pet",
+        "title": "menu-category-all-contianer-items",
         "children": [
           "flex-layout.row#category__all--title1", 
           "flex-layout.row#category__all--title2", 
