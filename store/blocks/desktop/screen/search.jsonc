@@ -3,7 +3,12 @@
     "title": "desktop__search--results-department", 
     "children": [
       "responsive-layout.desktop#desktop__department"
-    ], 
-    "props": {"blockClass": "desktop__search--results-department"}
+    ]
+  }, 
+  "search-result-layout.desktop#desktop__search--results": {
+    "title": "desktop__search--results", 
+    "children": [
+      "responsive-layout.desktop#desktop__search--results"
+    ]
   }
 }

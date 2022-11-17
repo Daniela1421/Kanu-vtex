@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#phone__about-us--main-container": {
+    "title": "about-us-phone-main-container", 
+    "children": [
+      "flex-layout.row#about__us--kanu-details",
+      "flex-layout.row#phone__home--section-services2",
+      "flex-layout.row#phone__home--section-services2-part-two"
+    ], 
+    "props": {
+      "blockClass": "custom__page--main-container", 
+      "colSizing": "auto"
+    }
+  }
+}

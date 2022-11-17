@@ -1,9 +1,16 @@
 {
   "search-result-layout.mobile#mobile__search--results-department": {
-    "title": "search-results-mobile", 
+    "title": "search-results-mobile-deparment", 
     "children": [
       "responsive-layout.tablet#tablet__department", 
       "responsive-layout.phone#phone__department"
     ]  
+  }, 
+  "search-result-layout.mobile#mobile__search--results": {
+    "title": "search-results-mobile", 
+    "children": [
+      "responsive-layout.tablet#tablet__search--results", 
+      "responsive-layout.phone#phone__search--results"
+    ] 
   }
 }

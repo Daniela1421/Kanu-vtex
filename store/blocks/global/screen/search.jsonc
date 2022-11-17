@@ -24,27 +24,30 @@
     "blocks": ["search-result-layout#category"], 
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
   },
   "store.search#subcategory": {
     "title": "search-subcategory", 
-    "blocks": ["search-result-layout"], 
+    "blocks": ["search-result-layout#subcategory"], 
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
   },
   "store.search#brand": {
     "title": "search-brand", 
-    "blocks": ["search-result-layout"], 
+    "blocks": ["search-result-layout#brand"], 
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 10,
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
@@ -58,10 +61,26 @@
     ] 
   }, 
   "search-result-layout#category": {
-    "title": "search-resuls-layout-department", 
+    "title": "search-resuls-layout-category", 
     "blocks": [
-      "search-result-layout.desktop#desktop__search--results-department",
-      "search-result-layout.mobile#mobile__search--results-department", 
+      "search-result-layout.desktop#desktop__search--results",
+      "search-result-layout.mobile#mobile__search--results", 
+      "search-not-found-layout"
+    ] 
+  },
+  "search-result-layout#subcategory": {
+    "title": "search-resuls-layout-subcategory", 
+    "blocks": [
+      "search-result-layout.desktop#desktop__search--results",
+      "search-result-layout.mobile#mobile__search--results", 
+      "search-not-found-layout"
+    ] 
+  },
+  "search-result-layout#brand": {
+    "title": "search-resuls-layout-brand", 
+    "blocks": [
+      "search-result-layout.desktop#desktop__search--results",
+      "search-result-layout.mobile#mobile__search--results", 
       "search-not-found-layout"
     ] 
   }

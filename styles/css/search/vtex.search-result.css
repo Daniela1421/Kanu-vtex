@@ -24,12 +24,6 @@
     font-size: 12px;
 }
 
-.searchResultContainer--desktop__search--results-department
-:global(.vtex-flex-layout-0-x-flexRowContent--home__section--services2){
-    margin: 1em 0;
-    padding: 0 3em;
-}
-
 .caretIcon{
     color: #050505;
 }

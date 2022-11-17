@@ -1,12 +1,22 @@
 {
   "responsive-layout.tablet#tablet__department": {
-    "title": "search-result-layout-tablet", 
+    "title": "search-result-deparment-layout-tablet", 
     "children": [
       "image#mobile__search--results-banner",
       "breadcrumb.search",
       "flex-layout.row#mobile__category--filter", 
       "rich-text#global__home--title-products",
-      "list-context.product-list#global__search--content-department",
+      "list-context.product-list#global__search--content-slider",
+      "flex-layout.row#tablet__category--content"
+    ]
+  }, 
+  "responsive-layout.tablet#tablet__search--results": {
+    "title": "search-result-category-layout-tablet", 
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#mobile__category--filter", 
+      "rich-text#global__home--title-products",
+      "list-context.product-list#global__search--content-slider",
       "flex-layout.row#tablet__category--content"
     ]
   }

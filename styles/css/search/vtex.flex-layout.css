@@ -5,6 +5,12 @@
     margin: 0 auto;
 }
 
+.flexRowContent--desktop__search--results-container
+:global(.vtex-flex-layout-0-x-flexRowContent--home__section--services2){
+    margin: 1em 0;
+    padding: 0 3em;
+}
+
 .flexCol--search__content--brand-name-sku{
     align-items: flex-start;
 }
@@ -131,5 +137,9 @@
     .flexColChild--search__content--brand-name-sku
     :global(.vtex-product-price-1-x-sellingPrice){
         margin-left: 0;
+    }
+
+    .flexCol--search__content--brand-name-sku{
+        margin-left: 2em;
     }
 }
