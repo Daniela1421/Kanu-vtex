@@ -21,7 +21,7 @@
   },
   "store.search#category": {
     "title": "search-category", 
-    "blocks": ["search-result-layout#category"], 
+    "blocks": ["search-result-layout"], 
     "props": {
       "context": {
         "skusFilter": "ALL_AVAILABLE",
@@ -31,7 +31,7 @@
   },
   "store.search#subcategory": {
     "title": "search-subcategory", 
-    "blocks": ["search-result-layout#subcategory"], 
+    "blocks": ["search-result-layout"], 
     "props": {
       "context": {
         "skusFilter": "ALL_AVAILABLE",
@@ -41,7 +41,7 @@
   },
   "store.search#brand": {
     "title": "search-brand", 
-    "blocks": ["search-result-layout#brand"], 
+    "blocks": ["search-result-layout"], 
     "props": {
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
@@ -60,24 +60,8 @@
       "search-not-found-layout"
     ] 
   }, 
-  "search-result-layout#category": {
+  "search-result-layout": {
     "title": "search-resuls-layout-category", 
-    "blocks": [
-      "search-result-layout.desktop#desktop__search--results",
-      "search-result-layout.mobile#mobile__search--results", 
-      "search-not-found-layout"
-    ] 
-  },
-  "search-result-layout#subcategory": {
-    "title": "search-resuls-layout-subcategory", 
-    "blocks": [
-      "search-result-layout.desktop#desktop__search--results",
-      "search-result-layout.mobile#mobile__search--results", 
-      "search-not-found-layout"
-    ] 
-  },
-  "search-result-layout#brand": {
-    "title": "search-resuls-layout-brand", 
     "blocks": [
       "search-result-layout.desktop#desktop__search--results",
       "search-result-layout.mobile#mobile__search--results", 
