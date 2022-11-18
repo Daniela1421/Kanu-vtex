@@ -2,6 +2,11 @@
    padding: 0;
 }
 
+.imageElement--home__image1, 
+.imageElement--home__image2{
+    width: 101vmin;
+}
+
 .imageElement--home__service1 {
     width: 94%;
 }
