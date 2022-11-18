@@ -299,4 +299,15 @@
     :global(.vtex-store-link-0-x-link--categories-items){
         padding: 0.8em;
     }
+
+    
+    .flexRowContent--home__section--one{
+        padding: 0 1em;
+    }
+
+    .flexColChild--home__section--one-image2 
+    :global(.vtex-store-components-3-x-imageElement--home__image2){
+        padding-left: 0;
+    }
+    
 }
