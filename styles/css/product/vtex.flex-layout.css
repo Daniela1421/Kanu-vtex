@@ -1,0 +1,66 @@
+.flexRowContent--desktop__product--main-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flexColChild--product__details--info
+:global(.vtex-store-components-3-x-productBrand){
+    font-size: 24px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.flexColChild--product__details--info
+:global(.vtex-store-components-3-x-productBrandName){
+    color: #ee262a;
+    margin: 5px 0;
+    display: block;
+    font-size: 14px;
+}
+
+.flexColChild--product__details--info
+:global(.vtex-reviews-and-ratings-3-x-inlineContainer){
+    position: relative;
+    top: 5px;
+    padding-bottom: 10px;
+}
+
+.flexRowContent--product__details--label-price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.flexCol--product__details--buy-share{
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    padding: 0 10px 10px;
+    height: fit-content;
+    position: sticky;
+    top: 180px;
+}
+
+.flexCol--product__details--buy-share
+:global(.vtex-flex-layout-0-x-flexRowContent--product__details--label-price){
+    border-top: none;
+}
+
+.flexCol--product__details--buy-share
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+    margin-top: 10px;
+    font-size: 18px;
+    color: #050505;
+}
+
+.flexCol--product__details--buy-share
+:global(.vtex-numeric-stepper__input), 
+:global(.vtex-numeric-stepper__plus-button), 
+:global(.vtex-numeric-stepper__minus-button){
+    width: 40px!important;
+    border-color: #050505;
+    border-width: 1px;
+}

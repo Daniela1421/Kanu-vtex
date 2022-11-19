@@ -273,7 +273,7 @@
     }
 }
 
-@media (max-width: 640px){
+@media (max-width: 639px){
     .flexCol--mobile__footer--middle-col-one{
         margin: 0 0 16px 22px
     }
