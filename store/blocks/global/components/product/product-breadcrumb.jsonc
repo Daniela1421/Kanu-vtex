@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#global__product--breadcrumb": {
+    "title": "global-breadcrumb-product", 
+    "children": [
+      "flex-layout.col#product__breadcrumb"
+    ]
+  },
+  "flex-layout.col#product__breadcrumb": {
+    "title": "breadcrumb-product", 
+    "children": [
+      "breadcrumb"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "responsive-layout.mobile#mobile__product--details": {
+    "title": "mobile-product-details", 
+    "children": [
+      "flex-layout.row#mobile__product--main-container"
+    ]
+  }
+}
