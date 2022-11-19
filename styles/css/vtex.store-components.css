@@ -111,6 +111,13 @@
     max-height: 30px;
 }
 
+/************************* pdp **************************/
+.price_sellingPrice{
+    color: #ee562a;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 @media (min-width: 640px) and (max-width: 1024px){
     .imageElement--mobile__header--menu-dog, 
     .imageElement--mobile__header--menu-cat {

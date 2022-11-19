@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#mobile__product--main-container": {
+    "title": "mobile-product-main-container", 
+    "children": [
+      // "flex-layout.row#mobile__product--breadcrumb",
+      // "flex-layout.row#product__info"
+      // "flex-layout.row#reviews"
+    ]
+  }
+  // "flex-layout.row#mobile__product--breadcrumb": {
+  //   "title": "mobile-breadcrumb-product", 
+  //   "children": [
+  //     "flex-layout.col#product__breadcrumb"
+  //     // "breadcrumb"
+  //   ]
+  // },
+  //   "flex-layout.col#product__breadcrumb": {
+  //     "title": "breadcrumb-product", 
+  //     "children": [
+  //       "breadcrumb"
+  //     ]
+  //   }
+}
