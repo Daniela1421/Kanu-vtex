@@ -1,0 +1,9 @@
+{
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png", 
+      "phone": "3214696491", 
+      "message": "Hola Kanu Pet"
+    }
+  }
+}
