@@ -6,8 +6,8 @@
       "flex-layout.row#desktop__product--details", 
       "rich-text#global__home--title-products",
       "list-context.product-list#global__search--content-slider", 
-      "flex-layout.row#desktop__product--description", 
-      "flex-layout.row#desktop__product--specification", 
+      "flex-layout.row#global__product--description", 
+      "flex-layout.row#global__product--specification", 
       "product-reviews"
     ], 
     "props": {
@@ -35,16 +35,12 @@
       }
     },
     "product-images#product__details": {
+      "title": "product-images-desktop", 
       "props": {
         "thumbnailAspectRatio": "1:1",
         "thumbnailsOrientation": "horizontal"
       }
     },
-      // "product-images": {
-      //   "props": {
-      //     "thumbnailsOrientation": "horizontal"
-      //   }
-      // },
     "flex-layout.col#product__details--info": {
       "title": "product-details", 
       "children": [
@@ -63,9 +59,9 @@
       }
     },
       "flex-layout.row#product__details--label-price": {
-        "title": "", 
+        "title": "container-product-price", 
         "children": [
-          "rich-text#roduct__details--label-price", 
+          "rich-text#product__details--label-price", 
           "product-price"
         ],
         "props": {
@@ -73,21 +69,20 @@
           "colSizing": "auto"
         }
       },
-        "rich-text#roduct__details--label-price": {
-          "title": "", 
+        "rich-text#product__details--label-price": {
+          "title": "label-product-price", 
           "props": {
             "text": "Precio: "
           }
         }, 
     "flex-layout.col#product__details--buy-share": {
-      "title": "", 
+      "title": "add-to-cart-and-share-product", 
       "children": [
         "flex-layout.row#product__details--label-price",
         "product-quantity", 
         "buy-button",
         "add-to-list-btn",
-        // "product-add-to-list-button",
-        "share"
+        "share#product__details"
       ], 
       "props": {
         "blockClass": "product__details--buy-share",
@@ -95,17 +90,15 @@
         "width": "20%"
       }
     }, 
-  "flex-layout.row#desktop__product--description": {
-    "title": "", 
-    "children": [
-      "product-description"
-    ]
-  }, 
-  "flex-layout.row#desktop__product--specification": {
-    "title": "", 
-    "children": [
-      "product-specifications"
-    ]
-  }
-  
+      "share#product__details": {
+        "title": "share-product",
+        "props": {
+          "social": {
+            "Facebook": true,
+            "WhatsApp": true,
+            "Twitter": true,
+            "Pinterest": false
+          }
+        }
+      }
 }

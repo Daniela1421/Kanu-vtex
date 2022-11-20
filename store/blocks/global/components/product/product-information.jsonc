@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#global__product--description": {
+    "title": "product-description", 
+    "children": [
+      "product-description"
+    ], 
+    "props": {
+      "blockClass": "global__product--description"
+    }
+  }, 
+  "flex-layout.row#global__product--specification": {
+    "title": "product-specification", 
+    "children": [
+      "product-specifications"
+    ], 
+    "props": {
+      "blockClass": "global__product--specification",
+      "marginTop": 7, 
+      "colSizing": "auto", 
+      "preventHorizontalStretch": true
+    }
+  }
+}
