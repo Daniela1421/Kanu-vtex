@@ -10,5 +10,11 @@
     "children": [
       "breadcrumb"
     ]
-  }
+  }, 
+    "breadcrumb": {
+      "title": "breadcrumb",
+      "props": {
+        "showOnMobile": true
+      }
+    }
 }

@@ -2,22 +2,52 @@
   "flex-layout.row#mobile__product--main-container": {
     "title": "mobile-product-main-container", 
     "children": [
-      // "flex-layout.row#mobile__product--breadcrumb",
-      // "flex-layout.row#product__info"
-      // "flex-layout.row#reviews"
-    ]
-  }
-  // "flex-layout.row#mobile__product--breadcrumb": {
-  //   "title": "mobile-breadcrumb-product", 
-  //   "children": [
-  //     "flex-layout.col#product__breadcrumb"
-  //     // "breadcrumb"
-  //   ]
-  // },
-  //   "flex-layout.col#product__breadcrumb": {
-  //     "title": "breadcrumb-product", 
-  //     "children": [
-  //       "breadcrumb"
-  //     ]
-  //   }
+      "flex-layout.row#global__product--breadcrumb", 
+      "flex-layout.row#mobile__product--brand-rating", 
+      "flex-layout.row##mobile__product--details", 
+      "rich-text#global__home--title-products",
+      "list-context.product-list#global__search--content-slider", 
+      "flex-layout.row#global__product--description",
+      "flex-layout.row#global__product--specification"
+    ], 
+    "props": {
+      "blockClass": "mobile-product-main-container", 
+      "colSizing": "auto"
+    }
+  }, 
+  "flex-layout.row#mobile__product--brand-rating": {
+    "title": "product-brand-and-rating", 
+    "children": [
+      "vtex.store-components:product-brand", 
+      "product-rating-inline"
+    ], 
+    "props": {
+      "blockClass": "mobile__product--brand-rating", 
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row##mobile__product--details": {
+    "title": "product-details", 
+    "children": [
+      "vtex.store-components:product-name",
+      "product-images#mobile__product--image", 
+      "sku-selector", 
+      "product-price", 
+      "product-quantity", 
+      "buy-button",
+      "add-to-list-btn",
+      "share#product__details"
+    ], 
+    "props": {
+      "blockClass": "mobile__product--details", 
+      "colSizing": "auto"
+    }
+  },
+  "product-images#mobile__product--image":{
+    "title": "product-images-mobile",
+    "props": {
+      "thumbnailVisibility": "hidden",
+      "aspectRatio": "1:1"
+    }
+  } 
 }
