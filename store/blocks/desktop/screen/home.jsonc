@@ -3,6 +3,7 @@
     "title": "desktop component",
     "children": [
       "list-context.image-list#desktop__home--slider-list",
+      "whatsapp-button",
       "flex-layout.row#desktop__home--main"
     ]
   }
