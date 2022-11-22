@@ -1,0 +1,111 @@
+{
+  "flex-layout.row#global__home--bullets": {
+    "title": "container-bullets-diagramation", 
+    "children": ["list-context.bullet-group"], 
+    "props": {"blockClass": "global__home--bullets"}
+  },
+  "list-context.bullet-group": {
+    "title": "Mi contexto de lista",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/bullet__group--alimento.png", 
+          "titleBullet": "alimento", 
+          "link": {
+            "url": "/"
+          }
+        }, 
+        {
+          "image": "assets/img/bullet__group--snacks.png", 
+          "titleBullet": "snacks", 
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet__group--alimento.png", 
+          "titleBullet": "alimento", 
+          "link": {
+            "url": "/"
+          }
+        }, 
+        {
+          "image": "assets/img/bullet__group--snacks.png", 
+          "titleBullet": "snacks", 
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet__group--alimento.png", 
+          "titleBullet": "alimento", 
+          "link": {
+            "url": "/"
+          }
+        }, 
+        {
+          "image": "assets/img/bullet__group--snacks.png", 
+          "titleBullet": "snacks", 
+          "link": {
+            "url": "/"
+          }
+        }, 
+        {
+          "image": "assets/img/bullet__group--alimento.png", 
+          "titleBullet": "alimento", 
+          "link": {
+            "url": "/"
+          }
+        }, 
+        {
+          "image": "assets/img/bullet__group--snacks.png", 
+          "titleBullet": "snacks", 
+          "link": {
+            "url": "/"
+          }
+        }, 
+        {
+          "image": "assets/img/bullet__group--alimento.png", 
+          "titleBullet": "alimento", 
+          "link": {
+            "url": "/"
+          }
+        }, 
+        {
+          "image": "assets/img/bullet__group--snacks.png", 
+          "titleBullet": "snacks", 
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet__group--alimento.png", 
+          "titleBullet": "alimento", 
+          "link": {
+            "url": "/"
+          }
+        }, 
+        {
+          "image": "assets/img/bullet__group--snacks.png", 
+          "titleBullet": "snacks", 
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  }, 
+  "slider-layout#bullet-group": {
+    "title": "slider-bullet-group",
+    "props": {
+      "blockClass": "bullet-group",
+      "itemsPerPage": {
+        "desktop": 5, 
+        "tablet": 5, 
+        "mobile": 5
+      }, 
+      "infinite": true
+    }
+  }
+}
