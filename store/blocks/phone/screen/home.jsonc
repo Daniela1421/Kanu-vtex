@@ -3,6 +3,8 @@
     "title": "phone component",
     "children": [
       "whatsapp-button",
+      // "list-context.bullet-group",
+      // "flex-layout.row#global__home--bullets",
       "rich-text#global__home--title-categories",
       "flex-layout.row#phone__home--categories",
       "flex-layout.row#phone__home--section-promotions",

@@ -3,6 +3,7 @@
     "title": "mobile component",
     "children": [
       "list-context.image-list#mobile__home--slider-list",
+      "flex-layout.row#global__home--bullets",
       "flex-layout.row#mobile__home--section-search"
     ]
   }
