@@ -1,0 +1,16 @@
+.bullet__item--link{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.sliderLayoutContainer--bullet-group{
+    margin-bottom: 1.5em;
+}
+
+.caretIcon--bullet-group{
+   color: #f8971d;
+}
