@@ -34,7 +34,8 @@
       "sku-selector", 
       "product-price", 
       "product-quantity", 
-      "buy-button",
+      "add-to-cart-button#product__details--btn-buy",
+      "modal-trigger#global__add-to-cart-info",
       "add-to-list-btn",
       "share#product__details"
     ], 
