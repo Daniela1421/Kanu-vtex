@@ -1,0 +1,12 @@
+.paper--modal__add-to-cart-info{
+    border-radius: 2em;
+}
+
+.headerContainer--modal__headder--add-to-cart-info{
+    border: none;
+}
+
+.closeButtonContainer--modal__headder--add-to-cart-info{
+    position: absolute;
+    right: 0;
+}
