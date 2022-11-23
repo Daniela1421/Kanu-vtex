@@ -91,7 +91,7 @@
     padding-left: 4.5em;
 } */
 
-.slideChildrenContainer--home__products--recommended
+/* .slideChildrenContainer--home__products--recommended */
 :global(.vtex-button__label):hover{
     color: #000;
 }
