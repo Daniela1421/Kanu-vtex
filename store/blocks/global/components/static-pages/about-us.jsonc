@@ -13,7 +13,7 @@
   "flex-layout.row#about__us--kanu-details": {
     "title": "about-us-kanu-details", 
     "children": [
-      "flex-layout.col#custom__page--container-links", 
+      "flex-layout.col#menu__static--pages",
       "flex-layout.col#custom__page--about-kanu"
     ], 
     "props": {
@@ -21,33 +21,6 @@
       "marginTop": 6
     }
   },
-    "flex-layout.col#custom__page--container-links": {
-      "title": "about-us-container-links", 
-      "children": [
-        "rich-text#container__links--title", 
-        "rich-text#container__links--menu"
-      ], 
-      "props": {
-        "blockClass": "custom__page--container-links",
-        "paddingRight": 5,
-        "width": "20%"
-      }
-    }, 
-      "rich-text#container__links--title": {
-        "title": "title-container-links", 
-        "props": {
-          "blockClass": "container__links--title",
-          "text": "Más información", 
-          "textPosition": "CENTER"
-        }
-      }, 
-      "rich-text#container__links--menu": {
-        "title": "menu-container-links", 
-        "props": {
-          "blockClass": "container__links--menu", 
-          "text": "[¿Cómo comprar en Kanú?](/prueba-daniela-ducuara) [Preguntas Frecuentes](/prueba-daniela-ducuara) [Sobre Kanú](/prueba-daniela-ducuara) [Política de entregas y devoluciones](/prueba-daniela-ducuara) [Política de privacidad](/prueba-daniela-ducuara) [Términos y Condiciones](/prueba-daniela-ducuara) [Pedidos programados](/prueba-daniela-ducuara)"
-        }
-      },
     "flex-layout.col#custom__page--about-kanu": {
       "title": "about-us-kanu", 
       "children": [

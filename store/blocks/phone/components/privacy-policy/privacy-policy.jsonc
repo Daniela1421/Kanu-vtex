@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#phone__privacy-policy--main-container": {
+    "title": "privacy-policy-main-container-phone", 
+    "children": [
+      "flex-layout.row#privacy-policy",
+      "flex-layout.row#phone__home--section-services2",
+      "flex-layout.row#phone__home--section-services2-part-two"
+    ], 
+    "props": {
+      "blockClass": "custom__page--main-container", 
+      "colSizing": "auto"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-.container--container__links--title{
+.container--menu__static--pages-title{
     width: 100%;
     background-color: #f8971d;
     color: #fff;
@@ -6,19 +6,20 @@
     font-size: 16px;
 }
 
-.container--container__links--menu{
+.container--menu__static--pages-items{
     width: 100%;
     border: 1px solid #dedede;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-.paragraph--container__links--menu{
+.paragraph--menu__static--pages-items{
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
-.link--container__links--menu{
+.link--menu__static--pages-items{
     transition: .2s;
     border-bottom: 1px solid #efefef;
     position: relative;

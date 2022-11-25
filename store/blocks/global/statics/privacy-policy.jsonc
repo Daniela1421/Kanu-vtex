@@ -1,0 +1,10 @@
+{
+  "store.custom#privacy-policy": {
+    "title": "privacy-policy", 
+    "blocks": [  
+      "responsive-layout.desktop#privacy-policy",
+      "responsive-layout.phone#privacy-policy",
+      "responsive-layout.tablet#privacy-policy"
+    ]
+  }
+}

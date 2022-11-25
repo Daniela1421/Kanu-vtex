@@ -20,7 +20,7 @@
     border-top: 2px solid #dfdfdf;
 }
 
-.flexColChild--custom__page--container-links{
+.flexColChild--menu__static--pages{
     height: auto !important;
 }
 
@@ -45,7 +45,7 @@
         width: 100% !important;
     }
 
-    .flexCol--custom__page--container-links{
+    .flexCol--menu__static--pages{
         padding: 0;
     }
 
