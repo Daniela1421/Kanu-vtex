@@ -1,7 +1,10 @@
 {
   "header-row#mobile__header--bottom": {
     "title": "header-bottom",
-    "children": ["search-bar#header--search"], 
+    "children": [
+      "search-bar#header--search", 
+      "department-search"
+    ], 
     "props": {
         "blockClass": "header__bottom", 
         "sticky": true
