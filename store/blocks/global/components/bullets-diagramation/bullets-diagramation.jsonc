@@ -13,84 +13,84 @@
           "image": "assets/img/bullet__group--alimento.png", 
           "titleBullet": "alimento", 
           "link": {
-            "url": "/"
+            "url": "/madera"
           }
         }, 
         {
           "image": "assets/img/bullet__group--snacks.png", 
           "titleBullet": "snacks", 
           "link": {
-            "url": "/"
+            "url": "/electrodomesticos"
           }
         },
         {
-          "image": "assets/img/bullet__group--alimento.png", 
-          "titleBullet": "alimento", 
+          "image": "assets/img/bullet__group--belleza.png", 
+          "titleBullet": "Belleza e higiene", 
           "link": {
-            "url": "/"
+            "url": "/mujer"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--snacks.png", 
-          "titleBullet": "snacks", 
+          "image": "assets/img/bullet__group--accesorios.png", 
+          "titleBullet": "complementos", 
           "link": {
-            "url": "/"
+            "url": "/queso"
           }
         },
         {
-          "image": "assets/img/bullet__group--alimento.png", 
-          "titleBullet": "alimento", 
+          "image": "assets/img/bullet__group--juguetes.png", 
+          "titleBullet": "juguetes", 
           "link": {
-            "url": "/"
+            "url": "/madera"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--snacks.png", 
-          "titleBullet": "snacks", 
+          "image": "assets/img/bullet__group--medicamentos.png", 
+          "titleBullet": "medicamentos", 
           "link": {
-            "url": "/"
+            "url": "/electrodomesticos"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--alimento.png", 
-          "titleBullet": "alimento", 
+          "image": "assets/img/bullet__group--para-ti.png", 
+          "titleBullet": "para ti", 
           "link": {
-            "url": "/"
-          }
-        }, 
-        {
-          "image": "assets/img/bullet__group--snacks.png", 
-          "titleBullet": "snacks", 
-          "link": {
-            "url": "/"
+            "url": "/mujer"
           }
         }, 
         {
           "image": "assets/img/bullet__group--alimento.png", 
           "titleBullet": "alimento", 
           "link": {
-            "url": "/"
+            "url": "/queso"
           }
         }, 
         {
           "image": "assets/img/bullet__group--snacks.png", 
           "titleBullet": "snacks", 
           "link": {
-            "url": "/"
+            "url": "/madera"
+          }
+        }, 
+        {
+          "image": "assets/img/bullet__group--belleza.png", 
+          "titleBullet": "Belleza e higiene", 
+          "link": {
+            "url": "/electrodomesticos"
           }
         },
         {
-          "image": "assets/img/bullet__group--alimento.png", 
-          "titleBullet": "alimento", 
+          "image": "assets/img/bullet__group--accesorios.png", 
+          "titleBullet": "complementos", 
           "link": {
-            "url": "/"
+            "url": "/mujer"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--snacks.png", 
-          "titleBullet": "snacks", 
+          "image": "assets/img/bullet__group--juguetes.png", 
+          "titleBullet": "juguetes", 
           "link": {
-            "url": "/"
+            "url": "/queso"
           }
         }
       ]
@@ -101,11 +101,12 @@
     "props": {
       "blockClass": "bullet-group",
       "itemsPerPage": {
-        "desktop": 5, 
+        "desktop": 7, 
         "tablet": 5, 
         "mobile": 5
       }, 
-      "infinite": true
+      "infinite": true, 
+      "showPaginationDots": "never"
     }
   }
 }
