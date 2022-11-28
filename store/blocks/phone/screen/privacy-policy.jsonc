@@ -1,0 +1,8 @@
+{
+  "responsive-layout.phone#privacy-policy":{
+    "title": "privacy-policy-phone", 
+    "children": [
+      "flex-layout.row#phone__privacy-policy--main-container"
+    ]
+  }
+}

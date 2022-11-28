@@ -1,5 +1,8 @@
 {
-    "store.custom#about-us": {
+  "store.custom#about-us": {
     "path": "/prueba-daniela-ducuara"
-    }
+  }, 
+  "store.custom#privacy-policy": {
+    "path": "/prueba-daniela-ducuara/politica-de-privacidad"
+  }
 }
