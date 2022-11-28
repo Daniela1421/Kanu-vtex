@@ -2,8 +2,7 @@
   "header-row#mobile__header--bottom": {
     "title": "header-bottom",
     "children": [
-      "search-bar#header--search", 
-      "department-search"
+      "search-bar#header--search"
     ], 
     "props": {
         "blockClass": "header__bottom", 
