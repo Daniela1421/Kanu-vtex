@@ -8,6 +8,8 @@
       "flex-layout.row#phone__home--section-promotions",
       "rich-text#global__home--title-products",
       "list-context.product-list#global__home--products-recommended",
+      "rich-text#global__home--title-brands",
+      "flex-layout.row#global__home--bullets",
       "rich-text#global__home--title-favorites",
       "list-context.product-list#global__home--products-recommended",
       "rich-text#global__home--title-services",

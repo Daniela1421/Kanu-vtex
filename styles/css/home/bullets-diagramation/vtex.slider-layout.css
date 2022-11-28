@@ -1,3 +1,12 @@
+.bullet__item--bullet-group{
+    display: flex;
+}
+
+.bullet__item--image{
+    max-width: 80%;
+    max-height: 80px;
+}
+
 .bullet__item--link{
     text-decoration: none;
     text-align: center;
@@ -14,3 +23,4 @@
 .caretIcon--bullet-group{
    color: #f8971d;
 }
+
