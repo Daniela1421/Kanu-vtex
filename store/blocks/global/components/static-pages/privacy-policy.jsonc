@@ -22,7 +22,7 @@
       }
     }, 
     "flex-layout.col#privacy-policy-pdf": {
-      "title": "", 
+      "title": "container-privacy-policy-pdf", 
       "children": [
         "pdf-reader"
       ]
@@ -31,7 +31,7 @@
         "title": "pdf-reader", 
         "props": {
           "pdfUrl": "assets/docs/privacidad.pdf", 
-          "width": 500, 
+          "width": 600, 
           "height": 700
         }
       }
