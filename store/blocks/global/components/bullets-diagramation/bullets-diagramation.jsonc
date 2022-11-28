@@ -10,85 +10,85 @@
     "props": {
       "bullets": [
         {
-          "image": "assets/img/bullet__group--alimento.png", 
-          "titleBullet": "alimento", 
+          "image": "assets/img/bullet__group--agility.png", 
+          "titleBullet": "Agility Gold", 
           "link": {
             "url": "/madera"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--snacks.png", 
-          "titleBullet": "snacks", 
+          "image": "assets/img/bullet__group--royal.png", 
+          "titleBullet": "Royal Canin", 
           "link": {
             "url": "/electrodomesticos"
           }
         },
         {
-          "image": "assets/img/bullet__group--belleza.png", 
-          "titleBullet": "Belleza e higiene", 
+          "image": "assets/img/bullet__group--equilibrio.png", 
+          "titleBullet": "Equilíbrio", 
           "link": {
             "url": "/mujer"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--accesorios.png", 
-          "titleBullet": "complementos", 
+          "image": "assets/img/bullet__group--nutraforz.png", 
+          "titleBullet": "NutraForz", 
           "link": {
             "url": "/queso"
           }
         },
         {
-          "image": "assets/img/bullet__group--juguetes.png", 
-          "titleBullet": "juguetes", 
+          "image": "assets/img/bullet__group--natural.png", 
+          "titleBullet": "Natural Freshly", 
           "link": {
             "url": "/madera"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--medicamentos.png", 
-          "titleBullet": "medicamentos", 
+          "image": "assets/img/bullet__group--hills.png", 
+          "titleBullet": "Hill's", 
           "link": {
             "url": "/electrodomesticos"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--para-ti.png", 
-          "titleBullet": "para ti", 
+          "image": "assets/img/bullet__group--mypet.png", 
+          "titleBullet": "My Pet", 
           "link": {
             "url": "/mujer"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--alimento.png", 
-          "titleBullet": "alimento", 
+          "image": "assets/img/bullet__group--kanu.png", 
+          "titleBullet": "Kanú", 
           "link": {
             "url": "/queso"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--snacks.png", 
-          "titleBullet": "snacks", 
+          "image": "assets/img/bullet__group--agility.png", 
+          "titleBullet": "Agility Gold", 
           "link": {
             "url": "/madera"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--belleza.png", 
-          "titleBullet": "Belleza e higiene", 
+          "image": "assets/img/bullet__group--royal.png", 
+          "titleBullet": "Royal Canin", 
           "link": {
             "url": "/electrodomesticos"
           }
         },
         {
-          "image": "assets/img/bullet__group--accesorios.png", 
-          "titleBullet": "complementos", 
+          "image": "assets/img/bullet__group--equilibrio.png", 
+          "titleBullet": "Equilíbrio", 
           "link": {
             "url": "/mujer"
           }
         }, 
         {
-          "image": "assets/img/bullet__group--juguetes.png", 
-          "titleBullet": "juguetes", 
+          "image": "assets/img/bullet__group--nutraforz.png", 
+          "titleBullet": "NutraForz", 
           "link": {
             "url": "/queso"
           }
@@ -101,7 +101,7 @@
     "props": {
       "blockClass": "bullet-group",
       "itemsPerPage": {
-        "desktop": 7, 
+        "desktop": 5, 
         "tablet": 5, 
         "mobile": 5
       }, 

@@ -9,13 +9,14 @@
   "flex-layout.col#desktop__home--main":{
     "title": "desktop-home-main", 
     "children": [
-      "flex-layout.row#global__home--bullets",
       "flex-layout.row#desktop__home--section-search",
       "rich-text#global__home--title-categories",
       "flex-layout.row#global__home--categories",
       "flex-layout.row#global__home--section-promotion",
       "rich-text#global__home--title-products",
       "list-context.product-list#global__home--products-recommended",
+      "rich-text#global__home--title-brands",
+      "flex-layout.row#global__home--bullets",
       "rich-text#global__home--title-favorites",
       "list-context.product-list#desktop__home--products-favorites",
       "rich-text#global__home--title-services",
