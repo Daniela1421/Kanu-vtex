@@ -1,0 +1,29 @@
+{
+  "flex-layout.col#menu__static--pages": {
+    "title": "menu-static-pages", 
+    "children": [
+      "rich-text#menu__static--pages-title", 
+      "rich-text#menu__static--pages-items"
+    ], 
+    "props": {
+      "blockClass": "menu__static--pages",
+      "paddingRight": 5,
+      "width": "20%"
+    }
+  }, 
+    "rich-text#menu__static--pages-title": {
+      "title": "menu-static-title", 
+      "props": {
+        "blockClass": "menu__static--pages-title",
+        "text": "Más información", 
+        "textPosition": "CENTER"
+      }
+    }, 
+    "rich-text#menu__static--pages-items": {
+      "title": "menu-static-items", 
+      "props": {
+        "blockClass": "menu__static--pages-items", 
+        "text": "[¿Cómo comprar en Kanú?](/prueba-daniela-ducuara) [Preguntas Frecuentes](/prueba-daniela-ducuara) [Sobre Kanú](/prueba-daniela-ducuara) [Política de entregas y devoluciones](/prueba-daniela-ducuara) [Política de privacidad](/prueba-daniela-ducuara/politica-de-privacidad) [Términos y Condiciones](/prueba-daniela-ducuara) [Pedidos programados](/prueba-daniela-ducuara)"
+      }
+    }
+}

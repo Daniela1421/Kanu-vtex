@@ -23,7 +23,6 @@
       "flex-layout.row#global__home--section-services2",
       "modal-trigger#desktop__home--modal-children"
       // "modal-trigger#desktop__home--modal-event"
-      // "search-result-layout.customQuery#home__search"
     ]
   }
 }

@@ -1,0 +1,8 @@
+{
+  "responsive-layout.tablet#privacy-policy":{
+    "title": "privacy-policy-tablet", 
+    "children": [
+      "flex-layout.row#global__privacy-policy--main-container"
+    ]
+  }
+}

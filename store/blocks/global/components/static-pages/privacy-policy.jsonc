@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#global__privacy-policy--main-container": {
+    "title": "privacy-policy-main-container", 
+    "children": [
+      "flex-layout.row#privacy-policy",
+      "flex-layout.row#global__home--section-services2" 
+    ], 
+    "props": {
+      "blockClass": "custom__page--main-container", 
+      "colSizing": "auto"
+    }
+  },
+    "flex-layout.row#privacy-policy": {
+      "title": "privacy-policy", 
+      "children": [
+        "flex-layout.col#menu__static--pages",
+        "flex-layout.col#privacy-policy-pdf"
+      ], 
+      "props": {
+        "blockClass": "custom__page--info-kanu", 
+        "marginTop": 6
+      }
+    }, 
+    "flex-layout.col#privacy-policy-pdf": {
+      "title": "container-privacy-policy-pdf", 
+      "children": [
+        "pdf-reader"
+      ]
+    }, 
+      "pdf-reader": {
+        "title": "pdf-reader", 
+        "props": {
+          "pdfUrl": "assets/docs/privacidad.pdf", 
+          "width": 600, 
+          "height": 700
+        }
+      }
+}
