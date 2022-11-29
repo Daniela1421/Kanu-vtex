@@ -121,7 +121,6 @@
 .flexRowContent--desktop__footer--middle{
     max-width: 1280px;
     margin: 0 auto;
-    /* padding: 1.5rem 1em; */
     padding: 1.5rem 0 1.5rem 1em;
 }
 
@@ -164,8 +163,6 @@
     margin-bottom: 10px;
     width: fit-content;
     font-size: 14px;
-    /* transition: .4s;
-    cursor: default; */
 }
 
 .flexColChild--footer__middle--menu
@@ -225,10 +222,6 @@
         margin: 10px 0;
     }
 
-    /* .flexCol--newsletter__politics--data{
-        margin: 20px 34px;
-    } */
-
     .flexRowContent--mobile__newsletter--pets{
         display: flex;
     }
@@ -245,8 +238,6 @@
         padding: 0 0.5em;
     }
     .flexRowContent--footer__bottom--terms-policy-links{
-        /* margin-top: 1.5em; */
-        /* width: 39em; */
         text-align: center;
     }
 
@@ -329,7 +320,6 @@
 
     .flexColChild--newsletter__politics--data{
         padding-left: 0vmin;
-        /* padding-right: 4vmax; */
         width: 84vmin;
     }
 
