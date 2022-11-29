@@ -269,7 +269,7 @@
     }
     
     .flexRowContent--desktop__footer--middle{
-        padding: 1.5rem 17px 1.5rem 0;
+        padding: 1.5rem 36px 1.5rem 0;
     }
 }
 
@@ -329,11 +329,13 @@
 
     .flexColChild--newsletter__politics--data{
         padding-left: 0vmin;
-        padding-right: 4vmax;
+        /* padding-right: 4vmax; */
+        width: 84vmin;
     }
 
     .flexCol--newsletter__politics--data{
         margin: 20px; 
+        width: 84vmin;
     }
 
     .flexRowContent--desktop__footer--middle{
