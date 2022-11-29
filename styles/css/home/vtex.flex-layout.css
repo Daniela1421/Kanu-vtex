@@ -24,12 +24,6 @@
     margin: 10px 8px;
     height: 35px;
 }
-/* 
-.flexColChild--section--search-img
-:global(.vtex-store-components-3-x-imageElement--home__section--search-img)::after{
-    content: url("assets/img/mobile-menu-offers.png");
-    filter: invert(68%) sepia(12%) saturate(6543%) hue-rotate(347deg) brightness(103%) contrast(94%);
-} */
 
 /************ desktop promotions banner *********/
 

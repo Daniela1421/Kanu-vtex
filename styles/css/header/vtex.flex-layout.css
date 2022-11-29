@@ -1,15 +1,3 @@
-/************** Header mobile ************/
-
-/* .flexRowContent--mobile__header--middle-animals{
-    display: flex;
-    flex-direction: row; 
-} */
-
-   
-/* .flexRow--mobile__header--middle-animals{
-    width: 30%;
-} */
-
 /********* Header desktop *************/
 
 .flexRowContent--desktop__header--search{
@@ -36,8 +24,6 @@
 
 .flexRowContent--desktop__header--login-repurchase
 :global(.vtex-button__label):hover{
-    /* background: #fff; */
-    /* filter: grayscale(1); */
     color: #fff;
 }
 
@@ -50,7 +36,6 @@
     background: #f7f7f7;
     border: 1px solid #050505;
     margin: 0.5em 0;
-    /* padding: 2px 14px; */
     border-radius: 10px;
     width: 18.5em;
 }

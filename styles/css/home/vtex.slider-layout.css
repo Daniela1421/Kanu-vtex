@@ -1,6 +1,5 @@
 .sliderLayoutContainer--home_slider{
     max-width: 100%;
-    /* margin: 4em 0 1em 0; */
     margin-bottom: 1em;
 }
 .paginationDotsContainer--home_slider{
@@ -50,7 +49,6 @@
     padding-right: 0.5rem;
 }
 
-/* .slideChildrenContainer--home__products--recommended  */
 :global(.vtex-product-summary-2-x-imageNormal){
     width: 90px;
     height: 100%;
@@ -66,32 +64,11 @@
     width: 100%;
 }
 
-/* .slideChildrenContainer--home__products--recommended */
-/* :global(.vtex-add-to-cart-button-0-x-buttonText){
-    visibility: hidden;
-} */
-
-/* .slideChildrenContainer--home__products--recommended */
-/* :global(.vtex-add-to-cart-button-0-x-buttonText)::before{
-    visibility: visible;
-    content: "COMPRAR";
-    font-size: 12px;
-    align-items: center;
-} */
-
 .slideChildrenContainer--home__products--recommended
 :global(.vtex-button){
     min-height: 29px;
 }
 
-/* .slideChildrenContainer--home__products--recommended
-:global(.vtex-add-to-cart-button-0-x-buttonDataContainer){
-    height: 18px;
-    width: 300px;
-    padding-left: 4.5em;
-} */
-
-/* .slideChildrenContainer--home__products--recommended */
 :global(.vtex-button__label):hover{
     color: #000;
 }
@@ -102,7 +79,6 @@
     font-size: 13px;
 }
 
-/* .slideChildrenContainer--home__products--recommended */
 :global(.vtex-product-price-1-x-currencyContainer){
     color: #ffab00;
     font-size: 14px;
