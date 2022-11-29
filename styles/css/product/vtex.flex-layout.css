@@ -6,14 +6,12 @@
     padding-bottom: 1.5em;
 }
 
-/* .flexColChild--product__details--info */
 :global(.vtex-store-components-3-x-productBrand){
     font-size: 24px;
     font-weight: 700;
     margin: 5px 0;
 }
 
-/* .flexColChild--product__details--info */
 :global(.vtex-store-components-3-x-productBrandName){
     color: #ee262a;
     margin: 5px 0;
@@ -50,7 +48,6 @@
     border-top: none;
 }
 
-/* .flexCol--product__details--buy-share */
 :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
     margin-top: 10px;
     font-size: 18px;
