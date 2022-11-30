@@ -19,6 +19,8 @@
       "flex-layout.row#global__home--bullets",
       "rich-text#global__home--title-favorites",
       "list-context.product-list#desktop__home--products-favorites",
+      "rich-text#global__home--title-best-sellers", 
+      "custom-grid#global__home--custom-grid",
       "rich-text#global__home--title-services",
       "flex-layout.row#global__home--section-services1",
       "flex-layout.row#global__home--section-services2"

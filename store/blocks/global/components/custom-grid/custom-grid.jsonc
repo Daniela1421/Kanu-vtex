@@ -1,0 +1,68 @@
+{
+  "custom-grid#global__home--custom-grid": {
+    "children": [
+      "list-context.product-list#custom__grid",
+      "image#custom__grid--item1", 
+      "image#custom__grid--item2",
+      "image#custom__grid--item3",
+      "image#custom__grid--item4"
+    ]
+  }, 
+    "list-context.product-list#custom__grid": {
+      "title": "product-shelf-custom-grid",
+      "blocks": ["product-summary.shelf#custom__grid"],
+      "children": ["slider-layout#custom__grid"], 
+      "props": {"blockClass": "global__home--products-recommended"}
+    }, 
+      "product-summary.shelf#custom__grid": {
+        "title": "product-summary-custom-grid",
+        "children": [
+          "product-summary-image",
+          "product-summary-name",
+          "product-summary-sku-selector",
+          "product-selling-price",
+          "add-to-cart-button"
+        ]
+      },
+      "slider-layout#custom__grid": {
+        "title": "product-slider-custom-grid", 
+        "props": {
+          "itemsPerPage":{
+            "desktop": 2, 
+            "tablet": 1,
+            "phone": 1
+          }, 
+          "infinite": true,
+          "showPaginationDots": "never", 
+          "blockClass": "home__products--recommended"
+        }
+      },
+    "image#custom__grid--item1": {
+      "title": "image-menu-dog",
+      "props": {
+        "blockClass": "custom__grid--items",
+        "src": "assets/img/custom__grid--item1.png"
+      }
+    }, 
+    "image#custom__grid--item2": {
+      "title": "image-menu-dog",
+      "props": {
+        "blockClass": "custom__grid--items",
+        "src": "assets/img/custom__grid--item2.png"
+      }
+    }, 
+    "image#custom__grid--item3": {
+      "title": "image-menu-dog",
+      "props": {
+        "blockClass": "custom__grid--items",
+        "src": "assets/img/custom__grid--item3.png"
+      }
+    }, 
+    "image#custom__grid--item4": {
+      "title": "image-menu-dog",
+      "props": {
+        "blockClass": "custom__grid--items",
+        "src": "assets/img/custom__grid--item4.png"
+      }
+    }
+}
