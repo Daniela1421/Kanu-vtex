@@ -47,17 +47,21 @@
       "flex-layout.col#search__results--content": {
         "title": "search-result-content", 
         "children": [
-          "flex-layout.row#desktop__department--search-custom",
+          "flex-layout.row#desktop__department-search--quick-order",
           "rich-text#global__home--title-products",
           "list-context.product-list#global__search--content-slider",
           "order-by.v2", 
           "search-content#global__search--content-products"
+
         ],
         "props": {"width": "80%"}
       }, 
-      "flex-layout.row#desktop__department--search-custom": {
-        "title": "", 
-        "children": ["department-search"], 
+      "flex-layout.row#desktop__department-search--quick-order": {
+        "title": "container-custom-components-department-search-and-quick-order", 
+        "children": [
+          "department-search", 
+          "quick-order"
+        ], 
         "props": {"blockClass": "desktop__department--search-custom"}
       }
 }
