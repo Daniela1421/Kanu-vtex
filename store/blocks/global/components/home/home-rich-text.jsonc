@@ -38,5 +38,13 @@
         "text": "NUESTRAS MARCAS", 
         "textPosition": "CENTER"
     }
+  }, 
+  "rich-text#global__home--title-best-sellers": {
+    "title": "Title-best-sellers", 
+    "props": {
+        "blockClass": "home__title", 
+        "text": "PRODUCTOS MÁS VENDIDOS", 
+        "textPosition": "CENTER"
+    }
   }
 }
