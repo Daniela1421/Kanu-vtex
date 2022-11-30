@@ -21,8 +21,8 @@
       "list-context.product-list#desktop__home--products-favorites",
       "rich-text#global__home--title-services",
       "flex-layout.row#global__home--section-services1",
-      "flex-layout.row#global__home--section-services2",
-      "modal-trigger#desktop__home--modal-children"
+      "flex-layout.row#global__home--section-services2"
+      // "modal-trigger#desktop__home--modal-children"
       // "modal-trigger#desktop__home--modal-event"
     ]
   }
